@@ -42,11 +42,17 @@ Proje **Conatus** takımında yayında:
 - **Canlı site:** https://conatus-website-omega.vercel.app
 - **Panel:** https://vercel.com/conatuscomtr/conatus-website
 
-**Environment Variables** (Vercel → Settings → Environment Variables, `.env.example`):
+**Environment Variables** (Vercel → conatus-website → Settings → Environment Variables):
 
-- `RESEND_API_KEY` — iletişim formu için (henüz eklenmediyse form çalışmaz)
-- `CONTACT_TO_EMAIL` (opsiyonel)
-- `RESEND_FROM_EMAIL` (opsiyonel)
+| Değişken | Durum |
+|----------|--------|
+| `CONTACT_TO_EMAIL` | `murat.sen@conatus.com.tr` ✅ (domain doğrulanınca `info@conatus.com.tr` yapın) |
+| `RESEND_FROM_EMAIL` | `CONATUS Website <onboarding@resend.dev>` ✅ |
+| `RESEND_API_KEY` | ✅ Vercel’de tanımlı |
+
+**Resend domain:** [resend.com/domains](https://resend.com/domains) → `conatus.com.tr` doğrulayın → sonra Vercel’de `CONTACT_TO_EMAIL=info@conatus.com.tr` ve `RESEND_FROM_EMAIL=CONATUS Website <noreply@conatus.com.tr>` + redeploy.
+
+Anahtar güncelleme: `./scripts/add-resend-key.sh re_YOUR_KEY`
 
 **GitHub otomatik deploy:** `main` branch’e her push Vercel’de production deploy tetikler (GitHub ↔ Vercel bağlı).
 
