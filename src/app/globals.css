@@ -1,0 +1,737 @@
+@import "tailwindcss";
+
+@theme {
+  /* Marka mavisi — tüm vurgu renkleri bu değere bağlı */
+  --color-brand: #0066cc;
+  --color-brand-50: #e8f2fc;
+  --color-brand-100: #cce5f9;
+  --color-brand-200: #99cbf3;
+  --color-brand-300: #66b1ed;
+  --color-brand-400: #3385d6;
+  --color-brand-500: #0066cc;
+  --color-brand-600: #0066cc;
+  --color-brand-700: #0052a3;
+  --color-brand-800: #003d7a;
+  --color-brand-900: #002952;
+  --color-brand-950: #001429;
+
+  --color-surface: #ffffff;
+  --color-surface-muted: #f8fafc;
+  --color-surface-elevated: #ffffff;
+  --color-border: #e2e8f0;
+  --color-border-strong: #cbd5e1;
+
+  --color-foreground: #0f172a;
+  --color-foreground-muted: #64748b;
+  --color-foreground-subtle: #94a3b8;
+
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface text-foreground antialiased;
+  }
+}
+
+@layer utilities {
+  .container-wide {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  /** İlk bölüm — eğitim sayfası PageHero ile aynı üst/alt boşluk */
+  .page-start-padding {
+    @apply pt-10 pb-12 sm:pt-12 sm:pb-14 lg:pt-14 lg:pb-16;
+  }
+
+  /** Anasayfa / eğitim kahramanı medya kutusu (carousel ile aynı oran) */
+  .hero-media-aspect {
+    @apply aspect-[4/3] sm:aspect-[5/4];
+  }
+
+  .text-accent {
+    color: var(--color-brand);
+  }
+
+  .border-accent {
+    border-color: var(--color-brand);
+  }
+
+  .bg-accent {
+    background-color: var(--color-brand);
+  }
+
+  .references-marquee-track {
+    animation: references-marquee 35s linear infinite;
+  }
+
+  .references-marquee:hover .references-marquee-track {
+    animation-play-state: paused;
+  }
+
+  .testimonials-marquee-track {
+    animation: references-marquee 52s linear infinite;
+  }
+
+  .testimonials-marquee:hover .testimonials-marquee-track {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes references-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes training-card-gradient-shift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes training-card-grid-shift {
+  from {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  to {
+    background-position: 32px 32px, 32px 32px, 32px 32px;
+  }
+}
+
+@keyframes training-card-orb-drift {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(10px, -12px) scale(1.06);
+  }
+}
+
+@keyframes training-card-shimmer {
+  0%,
+  100% {
+    background-position: 130% 0;
+  }
+  50% {
+    background-position: -30% 0;
+  }
+}
+
+@keyframes cta-section-gradient-shift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes cta-section-grid-shift {
+  from {
+    background-position: 0 0, 0 0, 0 0;
+  }
+  to {
+    background-position: 48px 48px, 48px 48px, 48px 48px;
+  }
+}
+
+@keyframes cta-section-orb-drift {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(14px, -16px) scale(1.05);
+  }
+}
+
+@keyframes cta-section-path-pulse {
+  0%,
+  100% {
+    stroke-dashoffset: 100;
+    opacity: 0.5;
+  }
+  50% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes cta-section-shimmer {
+  0%,
+  100% {
+    background-position: 125% 0;
+  }
+  50% {
+    background-position: -25% 0;
+  }
+}
+
+/* İletişim formu — soyut görsel animasyonları */
+@keyframes contact-orb-drift {
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(12px, -18px) scale(1.06);
+  }
+  66% {
+    transform: translate(-10px, 14px) scale(0.94);
+  }
+}
+
+@keyframes contact-ring-spin {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes contact-ring-spin-reverse {
+  from {
+    rotate: 360deg;
+  }
+  to {
+    rotate: 0deg;
+  }
+}
+
+@keyframes contact-path-pulse {
+  0%,
+  100% {
+    stroke-dashoffset: 120;
+    opacity: 0.35;
+  }
+  50% {
+    stroke-dashoffset: 0;
+    opacity: 0.85;
+  }
+}
+
+@keyframes contact-node-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.85;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+@keyframes contact-chip-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes contact-grid-shift {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 48px 48px;
+  }
+}
+
+@keyframes contact-cycle-spin {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -220;
+  }
+}
+
+@keyframes contact-step-glow {
+  0%,
+  100% {
+    box-shadow: 0 4px 14px rgb(0 102 204 / 0.08);
+    border-color: rgb(255 255 255 / 0.8);
+  }
+  50% {
+    box-shadow: 0 8px 24px rgb(0 102 204 / 0.18);
+    border-color: rgb(0 102 204 / 0.35);
+  }
+}
+
+@layer utilities {
+  .contact-visual-grid {
+    background-image: radial-gradient(
+        circle at 1px 1px,
+        rgb(0 102 204 / 0.12) 1px,
+        transparent 0
+      ),
+      linear-gradient(rgb(0 102 204 / 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(0 102 204 / 0.04) 1px, transparent 1px);
+    background-size: 24px 24px, 48px 48px, 48px 48px;
+    animation: contact-grid-shift 24s linear infinite;
+  }
+
+  .contact-visual-orb-a {
+    animation: contact-orb-drift 14s ease-in-out infinite;
+  }
+
+  .contact-visual-orb-b {
+    animation: contact-orb-drift 18s ease-in-out infinite reverse;
+  }
+
+  .contact-visual-orb-c {
+    animation: contact-orb-drift 11s ease-in-out infinite;
+    animation-delay: -4s;
+  }
+
+  .contact-visual-ring {
+    animation: contact-ring-spin 48s linear infinite;
+  }
+
+  .contact-visual-ring-inner {
+    animation: contact-ring-spin-reverse 32s linear infinite;
+  }
+
+  .contact-visual-path {
+    stroke-dasharray: 120 400;
+    animation: contact-path-pulse 8s ease-in-out infinite;
+  }
+
+  .contact-visual-path-delayed {
+    animation-delay: -3s;
+  }
+
+  .contact-process-cycle {
+    animation: contact-cycle-spin 28s linear infinite;
+    transform-origin: 200px 230px;
+  }
+
+  .contact-process-step-card {
+    animation: contact-step-glow 5s ease-in-out infinite;
+  }
+
+  .contact-process-step-1 {
+    animation-delay: 0s;
+  }
+
+  .contact-process-step-2 {
+    animation-delay: -1.6s;
+  }
+
+  .contact-process-step-3 {
+    animation-delay: -3.2s;
+  }
+
+  .contact-visual-node-1 {
+    animation: contact-node-pulse 4s ease-in-out infinite;
+  }
+
+  .contact-visual-node-2 {
+    animation: contact-node-pulse 4.5s ease-in-out infinite;
+    animation-delay: -1s;
+  }
+
+  .contact-visual-node-3 {
+    animation: contact-node-pulse 5s ease-in-out infinite;
+    animation-delay: -2s;
+  }
+
+  /* Eğitim kartı görsel alanı */
+  .training-card-media-gradient {
+    background: linear-gradient(
+      135deg,
+      var(--color-brand-50) 0%,
+      var(--color-brand-100) 35%,
+      var(--color-brand-200) 55%,
+      var(--color-brand-50) 100%
+    );
+    background-size: 180% 180%;
+    animation: training-card-gradient-shift 14s ease-in-out infinite;
+  }
+
+  .training-card-media-grid {
+    background-image: radial-gradient(
+        circle at 1px 1px,
+        rgb(0 102 204 / 0.14) 1px,
+        transparent 0
+      ),
+      linear-gradient(rgb(0 102 204 / 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(0 102 204 / 0.05) 1px, transparent 1px);
+    background-size: 20px 20px, 32px 32px, 32px 32px;
+    animation: training-card-grid-shift 28s linear infinite;
+  }
+
+  .training-card-media-orb-a {
+    animation: training-card-orb-drift 12s ease-in-out infinite;
+  }
+
+  .training-card-media-orb-b {
+    animation: training-card-orb-drift 16s ease-in-out infinite reverse;
+  }
+
+  .training-card-media-shimmer {
+    background: linear-gradient(
+      100deg,
+      transparent 40%,
+      rgb(255 255 255 / 0.35) 50%,
+      transparent 60%
+    );
+    background-size: 200% 100%;
+    animation: training-card-shimmer 8s ease-in-out infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .training-card-media-gradient,
+    .training-card-media-grid,
+    .training-card-media-orb-a,
+    .training-card-media-orb-b,
+    .training-card-media-shimmer {
+      animation: none;
+    }
+  }
+
+  /* CTA — mevcut renk paleti, hareketli arka plan */
+  .cta-section-light-gradient {
+    background: linear-gradient(
+      to bottom right,
+      var(--color-brand-50) 0%,
+      var(--color-brand-100) 50%,
+      var(--color-brand-50) 100%
+    );
+    background-size: 200% 200%;
+    animation: cta-section-gradient-shift 16s ease-in-out infinite;
+  }
+
+  .cta-section-dark-gradient {
+    background: linear-gradient(
+      125deg,
+      var(--color-brand-950) 0%,
+      var(--color-brand-900) 45%,
+      var(--color-brand-950) 100%
+    );
+    background-size: 200% 200%;
+    animation: cta-section-gradient-shift 18s ease-in-out infinite;
+  }
+
+  .cta-section-grid {
+    background-image: radial-gradient(
+        circle at 1px 1px,
+        rgb(0 102 204 / 0.1) 1px,
+        transparent 0
+      ),
+      linear-gradient(rgb(0 102 204 / 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(0 102 204 / 0.04) 1px, transparent 1px);
+    background-size: 24px 24px, 48px 48px, 48px 48px;
+    animation: cta-section-grid-shift 30s linear infinite;
+  }
+
+  .cta-section-grid-dark {
+    background-image: radial-gradient(
+        circle at 1px 1px,
+        rgb(255 255 255 / 0.1) 1px,
+        transparent 0
+      ),
+      linear-gradient(rgb(255 255 255 / 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(255 255 255 / 0.04) 1px, transparent 1px);
+    background-size: 24px 24px, 48px 48px, 48px 48px;
+    animation: cta-section-grid-shift 30s linear infinite;
+  }
+
+  .cta-section-orb-a {
+    animation: cta-section-orb-drift 14s ease-in-out infinite;
+  }
+
+  .cta-section-orb-b {
+    animation: cta-section-orb-drift 20s ease-in-out infinite reverse;
+  }
+
+  .cta-section-path {
+    stroke-dasharray: 100 400;
+    animation: cta-section-path-pulse 9s ease-in-out infinite;
+  }
+
+  .cta-section-path-delayed {
+    animation-delay: -3s;
+  }
+
+  .cta-section-shimmer {
+    background: linear-gradient(
+      100deg,
+      transparent 42%,
+      rgb(255 255 255 / 0.45) 50%,
+      transparent 58%
+    );
+    background-size: 200% 100%;
+    animation: cta-section-shimmer 10s ease-in-out infinite;
+  }
+
+  /* Lisanslama — karar bölümü arka plan ve kartlar */
+  .licensing-section-mesh {
+    background:
+      radial-gradient(ellipse 70% 55% at 8% 0%, rgb(0 102 204 / 0.12), transparent 55%),
+      radial-gradient(ellipse 60% 50% at 92% 100%, rgb(0 102 204 / 0.1), transparent 50%),
+      linear-gradient(180deg, var(--color-surface-muted) 0%, var(--color-brand-50) 45%, var(--color-surface-muted) 100%);
+  }
+
+  .licensing-section-grid {
+    background-image:
+      linear-gradient(rgb(0 102 204 / 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(0 102 204 / 0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    mask-image: linear-gradient(180deg, black 0%, transparent 92%);
+  }
+
+  .licensing-card-shine {
+    background: linear-gradient(
+      105deg,
+      transparent 40%,
+      rgb(255 255 255 / 0.55) 50%,
+      transparent 60%
+    );
+    background-size: 200% 100%;
+    animation: licensing-card-shine 7s ease-in-out infinite;
+  }
+
+  .licensing-tier-glow {
+    box-shadow:
+      0 0 0 1px rgb(0 102 204 / 0.15),
+      0 20px 50px -20px rgb(0 102 204 / 0.35);
+  }
+
+  @keyframes licensing-card-shine {
+    0%,
+    100% {
+      background-position: 200% 0;
+    }
+    50% {
+      background-position: -100% 0;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .licensing-card-shine {
+      animation: none;
+    }
+
+    .cta-section-light-gradient,
+    .cta-section-dark-gradient,
+    .cta-section-grid,
+    .cta-section-grid-dark,
+    .cta-section-orb-a,
+    .cta-section-orb-b,
+    .cta-section-path,
+    .cta-section-shimmer {
+      animation: none;
+    }
+  }
+
+  /* CIP demo — SVG viewBox koordinatları (160×100), ~4.5s döngü */
+  @keyframes cip-demo-cursor-move {
+    0% {
+      transform: translate(22px, 62px);
+      opacity: 1;
+    }
+    28% {
+      transform: translate(106px, 47px);
+      opacity: 1;
+    }
+    32% {
+      transform: translate(106px, 47px) scale(0.82);
+    }
+    36% {
+      transform: translate(106px, 47px) scale(1);
+    }
+    68% {
+      transform: translate(106px, 47px);
+      opacity: 1;
+    }
+    82% {
+      transform: translate(106px, 47px);
+      opacity: 0;
+    }
+    83%,
+    100% {
+      transform: translate(22px, 62px);
+      opacity: 0;
+    }
+  }
+
+  @keyframes cip-demo-target-pulse {
+    0%,
+    30% {
+      fill: transparent;
+      stroke: transparent;
+    }
+    34%,
+    66% {
+      fill: rgb(0 102 204 / 0.16);
+      stroke: rgb(0 102 204 / 0.55);
+      stroke-width: 1.5;
+    }
+    74%,
+    100% {
+      fill: transparent;
+      stroke: transparent;
+    }
+  }
+
+  @keyframes cip-demo-ripple {
+    0%,
+    31% {
+      opacity: 0;
+      transform: scale(0.35);
+    }
+    36% {
+      opacity: 0.9;
+      transform: scale(1);
+    }
+    48% {
+      opacity: 0;
+      transform: scale(1.6);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(0.35);
+    }
+  }
+
+  @keyframes cip-demo-tick-show {
+    0%,
+    32% {
+      opacity: 0;
+      transform: translate(108px, 49px) scale(0.4);
+    }
+    40%,
+    66% {
+      opacity: 1;
+      transform: translate(108px, 49px) scale(1);
+    }
+    76%,
+    100% {
+      opacity: 0;
+      transform: translate(108px, 49px) scale(0.85);
+    }
+  }
+
+  .cip-demo-svg .cip-demo-cursor {
+    transform-box: fill-box;
+    transform-origin: 0 0;
+    animation: cip-demo-cursor-move 4.5s ease-in-out infinite;
+  }
+
+  .cip-demo-svg .cip-demo-target {
+    animation: cip-demo-target-pulse 4.5s ease-in-out infinite;
+  }
+
+  .cip-demo-svg .cip-demo-ripple {
+    fill: none;
+    stroke: rgb(0 102 204);
+    stroke-width: 1.5;
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: cip-demo-ripple 4.5s ease-out infinite;
+  }
+
+  .cip-demo-svg .cip-demo-tick {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: cip-demo-tick-show 4.5s ease-out infinite;
+  }
+
+  /* Portföy kartı — donanım GIF ile uyumlu vurgu kalınlığı */
+  .cip-demo-svg--compact .cip-demo-ripple {
+    stroke-width: 2;
+  }
+
+  @keyframes cip-demo-target-pulse-compact {
+    0%,
+    30% {
+      fill: transparent;
+      stroke: transparent;
+    }
+    34%,
+    66% {
+      fill: rgb(0 102 204 / 0.16);
+      stroke: rgb(0 102 204 / 0.55);
+      stroke-width: 2;
+    }
+    74%,
+    100% {
+      fill: transparent;
+      stroke: transparent;
+    }
+  }
+
+  .cip-demo-svg--compact .cip-demo-target {
+    animation: cip-demo-target-pulse-compact 4.5s ease-in-out infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .cip-demo-svg .cip-demo-cursor {
+      animation: none;
+      transform: translate(106px, 47px);
+      opacity: 1;
+    }
+
+    .cip-demo-svg .cip-demo-target {
+      animation: none;
+      fill: rgb(0 102 204 / 0.14);
+      stroke: rgb(0 102 204 / 0.5);
+      stroke-width: 1.5;
+    }
+
+    .cip-demo-svg .cip-demo-ripple {
+      animation: none;
+      opacity: 0;
+    }
+
+    .cip-demo-svg .cip-demo-tick {
+      animation: none;
+      opacity: 1;
+      transform: translate(108px, 49px) scale(1);
+    }
+
+    .cip-demo-svg--compact .cip-demo-target {
+      animation: none;
+      fill: rgb(0 102 204 / 0.14);
+      stroke: rgb(0 102 204 / 0.5);
+      stroke-width: 2;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .contact-visual-root .contact-visual-orb,
+    .contact-visual-root .contact-visual-ring,
+    .contact-visual-root .contact-visual-ring-inner,
+    .contact-visual-root .contact-visual-path,
+    .contact-visual-root .contact-process-cycle,
+    .contact-visual-root .contact-visual-node,
+    .contact-visual-root .contact-process-step-card,
+    .contact-visual-root .contact-visual-grid {
+      animation: none !important;
+    }
+  }
+}

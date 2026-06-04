@@ -1,0 +1,1651 @@
+{
+  "metadata": {
+    "title": "CONATUS | Danışmanlık, Eğitim ve Teknoloji",
+    "description": "Danışmanlık, eğitim ve teknoloji çözümlerimizi bütünsel bir ekosistem altında sunarak işletmenizin sürdürülebilir başarıya ulaşmasını sağlıyoruz."
+  },
+  "nav": {
+    "home": "Anasayfa",
+    "corporate": "Kurumsal",
+    "consulting": "Danışmanlık",
+    "training": "Eğitim",
+    "technology": "Teknoloji",
+    "contact": "İletişim",
+    "menuOpen": "Menüyü aç",
+    "menuClose": "Menüyü kapat",
+    "ariaMain": "Ana menü",
+    "ariaMobile": "Mobil menü",
+    "localeNames": {
+      "tr": "Türkçe",
+      "en": "English"
+    }
+  },
+  "footer": {
+    "privacy": "KVKK ve Gizlilik",
+    "contact": "İletişim",
+    "corporate": "Kurumsal",
+    "rights": "Tüm hakları saklıdır.",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "instagram": "Instagram",
+    "ariaLabel": "Alt bilgi menüsü"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Conatus",
+      "title": "Var Olma Çabanızı Sürdürülebilir Başarıya Dönüştürün",
+      "description": "Danışmanlık, eğitim ve teknoloji çözümlerimizi bütünsel bir ekosistem altında sunarak işletmenizin verimliliğini artırıyor, karar süreçlerini güçlendiriyor ve uzun vadeli başarıya yön veriyoruz.",
+      "ctaPrimary": "Bize Ulaşın",
+      "slides": {
+        "matrix": "Etkinlik ve etkililik matrisi",
+        "consulting": "Danışmanlık — Problem, çözüm ve kazanım",
+        "training": "Eğitim — yalın düşünce ve saha uygulaması",
+        "technology": "Teknoloji — CIP platform ve modüller"
+      }
+    },
+    "deger": {
+      "title": "Conatus Çalışma Modeli",
+      "subtitle": "DEGER — Değerlendirme ve Gelişim Rehberi",
+      "descriptionIntro": "Conatus, danışmanlık, eğitim ve teknoloji hizmetlerini yalın yaklaşımı temel alan çalışma modeli ",
+      "descriptionAfterHighlight": " ile sunar. DEGER, mevcut durumu doğru anlamayı, hedeflenen gelişimi netleştirmeyi ve uygulamaya rehberlik ederek kalıcı sonuçlar üretmeyi amaçlar.",
+      "steps": {
+        "evaluation": {
+          "title": "DEĞERLENDİRME",
+          "heading": "Mevcut Durumu Gör",
+          "items": [
+            "Kaynak verimliliğini süreç etkinliğini ve sonuçların etkisini bütüncül olarak analiz ederiz.",
+            "Veriye dayalı mevcut durum fotoğrafını çıkarırız.",
+            "Gerçek problemleri ve gelişim alanlarını görünür hale getiririz."
+          ],
+          "quote": "Doğru problem tanımı, doğru çözümün temelidir."
+        },
+        "development": {
+          "title": "GELİŞİM",
+          "heading": "Geleceği Tasarla",
+          "items": [
+            "Net ve ölçülebilir gelişim hedefleri belirleriz.",
+            "Önceliklendirilmiş bir yol haritası oluştururuz.",
+            "Kısa, orta ve uzun vadeli aksiyonları planlarız."
+          ],
+          "quote": "Hedefi net olmayan gelişim, ilerleme üretmez."
+        },
+        "guidance": {
+          "title": "REHBERLİK",
+          "heading": "Uygulamaya Rehberlik Et",
+          "items": [
+            "Planlanan gelişime sahada rehberlik ederiz.",
+            "Ekipleri destekler, uygulamaları izleriz.",
+            "Kazanımların sürdürülebilirliğini sağlarız."
+          ],
+          "quote": "Gerçek değer, uygulandığında ortaya çıkar."
+        }
+      }
+    },
+    "services": {
+      "eyebrow": "Hizmetler",
+      "title": "İşletmenizi Geleceğe Taşıyın",
+      "description": "Danışmanlık, eğitim ve teknoloji alanlarında sunduğumuz bütünsel çözümlerle işletmenizi geleceğe taşıyın.",
+      "consulting": {
+        "title": "Danışmanlık",
+        "description": "Stratejik yol haritaları ve veriye dayalı önerilerle büyümenizi destekliyoruz."
+      },
+      "training": {
+        "title": "Eğitim",
+        "description": "Ekibinizin yetkinliklerini artıracak özel eğitim programları tasarlıyoruz."
+      },
+      "technology": {
+        "title": "Teknoloji",
+        "description": "CIP yazılım platformu ve ihtiyaca özel üretim donanımı ile operasyonlarınızı uçtan uca destekliyoruz."
+      },
+      "learnMore": "Detaylı İncele"
+    },
+    "whyUs": {
+      "eyebrow": "Neden Conatus",
+      "title": "Bizimle Çalışın",
+      "subtitle": "Başarınızı kendi başarımız olarak görüyor, işletmenize özel çözümlerle değer katıyoruz.",
+      "slides": {
+        "slide1": "Ekip çalışması ve iş birliği",
+        "slide2": "Kurumsal gelişim",
+        "slide3": "Stratejik planlama"
+      },
+      "items": {
+        "holistic": {
+          "title": "Bütüncül model",
+          "description": "Danışmanlık, eğitim ve teknoloji çözümlerini bütüncül bir model içerisinde ele alırız. Süreçleri parçalı değil, kurumun tamamını kapsayan sistematik bir yapı içinde kurgularız."
+        },
+        "field": {
+          "title": "Saha odaklılık",
+          "description": "Başarının ofislerde değil üretimin kalbinde kazanıldığına inanıyoruz. Sahada uygulanabilir, operasyonel gerçekliğe uyumlu ve sonuç üreten yapılar tasarlarız."
+        },
+        "measurable": {
+          "title": "Sürdürülebilir sonuç",
+          "description": "Her projede ölçülebilir iyileştirmeleri takip ediyor, dönüşümün kalıcı bir kültüre dönüşmesini sağlıyoruz."
+        }
+      }
+    },
+    "references": {
+      "eyebrow": "Referanslar",
+      "title": "Referans Müşterilerimiz",
+      "description": "Danışmanlık, eğitim ve teknoloji projelerinde birlikte çalıştığımız kurumlar. Sahada ürettiğimiz sonuçlar, Conatus'un güvenilirliğinin ve uzmanlığının referansıdır.",
+      "empty": "Referans logoları public/references/ klasörüne eklenecek."
+    },
+    "cta": {
+      "title": "Yaklaşımımızı şirketinizde uygulamak ister misiniz?",
+      "description": "İlk değerlendirme adımını birlikte planlamak için bizimle iletişime geçebilirsiniz.",
+      "button": "Bize Ulaşın"
+    }
+  },
+  "corporate": {
+    "metadata": {
+      "title": "CONATUS | Kurumsal",
+      "description": "Conatus hakkında, misyon ve vizyonumuz, değerlerimiz ve ekibimiz."
+    },
+    "about": {
+      "eyebrow": "Kurumsal",
+      "title": "Hakkımızda",
+      "paragraphs": [
+        "Conatus, bir varlığın kendi varlığını sürdürme ve geliştirme çabasını ifade eder. Biz de bu felsefeden ilham alarak, danışmanlık yaptığımız işletmelerin potansiyellerini en üst düzeye çıkarmalarını, karşılaştıkları zorlukları aşarak kendi varlıklarını güçlendirmelerini ve sürdürülebilir bir büyüme sağlamalarını hedefleriz.",
+        "Yaklaşımımız, işletmeyi parçalardan oluşan bir yapı olarak değil, birbiriyle etkileşim halinde olan sistemlerin oluşturduğu canlı bir bütün olarak görmektir."
+      ],
+      "videoLabel": "Yalın yönetim yaklaşımı tanıtım videosu"
+    },
+    "vision": {
+      "eyebrow": "Geleceğe bakış",
+      "title": "Yarın Nasıl Bir Dünya Hayal Ediyoruz?",
+      "description": "Misyonumuz ve geleceğe yönelik vizyonumuzla tanışın.",
+      "mission": {
+        "title": "Misyonumuz",
+        "description": "Yalın düşünce felsefesini merkeze alan sistematik bir yaklaşımla işletmelerin ve bireylerin potansiyelini açığa çıkarmak."
+      },
+      "visionCard": {
+        "title": "Vizyonumuz",
+        "description": "Yalın yaklaşımları yenilikçi teknolojilerle destekleyerek, global pazarda sürdürülebilir başarının mimarı olmak."
+      }
+    },
+    "values": {
+      "eyebrow": "Değerler ve yol gösterici ilkeler",
+      "title": "Kültürümüzün Temelleri",
+      "description": "Şirket kültürümüzü ve çalışma prensiplerimizi şekillendiren temel değerlerimiz ve yol gösterici ilkelerimiz.",
+      "tabs": {
+        "values": "DEĞERLER",
+        "principles": "YOL GÖSTERİCİ İLKELER"
+      },
+      "galleryLabel": "Değerler ve ilkeler görselleri"
+    },
+    "team": {
+      "eyebrow": "Organizasyon",
+      "title": "Ekibimizle Tanışın",
+      "description": "Başarımızın arkasındaki yetenekli profesyoneller.",
+      "viewProfile": "Profili görüntüle",
+      "backToCorporate": "Kurumsal sayfasına dön",
+      "members": {
+        "murat": {
+          "name": "Murat ŞEN",
+          "role": "Kurucu",
+          "bio": [
+            "Conatus'un kurucusu olarak yalın yönetim ve operasyonel mükemmellik alanlarında danışmanlık ve eğitim hizmetleri sunmaktadır.",
+            "İşletmelerin sürdürülebilir gelişim yolculuğunda değerlendirme, gelişim ve rehberlik adımlarında saha deneyimiyle destek olur."
+          ]
+        },
+        "tayfun": {
+          "name": "Tayfun YÖRÜ",
+          "role": "Kıdemli Danışman",
+          "bio": [
+            "Kıdemli danışman olarak üretim ve süreç iyileştirme projelerinde ekiplere saha odaklı rehberlik sağlar.",
+            "Yalın araçlar ve veriye dayalı yaklaşımlarla ölçülebilir sonuçlar elde edilmesine katkıda bulunur."
+          ]
+        }
+      }
+    },
+    "cta": {
+      "title": "Yaklaşımımızı şirketinizde uygulamak ister misiniz?",
+      "description": "İlk değerlendirme adımını birlikte planlamak için bizimle iletişime geçebilirsiniz.",
+      "contact": "Bize Ulaşın"
+    }
+  },
+  "contact": {
+    "metadata": {
+      "title": "CONATUS | İletişim",
+      "description": "Conatus ile iletişime geçin; danışmanlık, eğitim ve teknoloji çözümlerimiz hakkında bilgi alın."
+    },
+    "hero": {
+      "eyebrow": "İletişim",
+      "title": "Gelecek Sorularla Başlar",
+      "description": "İşletmenizin potansiyelini değerlendirmek, ihtiyaçlarınızı dinlemek ve size özel bir yol haritası sunmak için buradayız. Formu doldurun; ekibimiz en kısa sürede size dönüş yapsın."
+    },
+    "visual": {
+      "eyebrow": "Süreç",
+      "processTitle": "Sonraki adımlar",
+      "centerLabel": "Süreç",
+      "process": {
+        "submit": {
+          "title": "Formu gönderin",
+          "text": "Formu gönderin ve iletişim konusunu seçin."
+        },
+        "review": {
+          "title": "Talebi inceleyelim",
+          "text": "Ekibimiz talebinizi inceler ve ihtiyaçlarınızı netleştirir."
+        },
+        "followup": {
+          "title": "Sizinle iletişime geçelim",
+          "text": "Size e-posta veya telefon ile dönüş yaparak görüşme planlarız."
+        }
+      }
+    },
+    "info": {
+      "directEyebrow": "Doğrudan ulaşın",
+      "emailLabel": "E-posta",
+      "phoneLabel": "Telefon"
+    },
+    "form": {
+      "title": "Mesajınızı iletin",
+      "subtitle": "Zorunlu alanları doldurun; KVKK kapsamında açık rızanızı onaylayın.",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "company": "Şirket / Kurum",
+      "position": "Pozisyon",
+      "email": "E-posta",
+      "emailLocalPlaceholder": "ad.soyad",
+      "emailDomainPlaceholder": "sirket.com",
+      "emailHint": "Örnek: ad.soyad@sirket.com — tam adresi tek alana yapıştırabilirsiniz.",
+      "phone": "Telefon",
+      "phoneCountryLabel": "Ülke kodu",
+      "phonePlaceholder": "5XX XXX XX XX",
+      "phoneHint": "Ülke kodunu seçin, ardından numaranızı boşluksuz veya boşluklu yazın.",
+      "phoneCountries": {
+        "TR": "Türkiye",
+        "US": "ABD / Kanada",
+        "GB": "Birleşik Krallık",
+        "DE": "Almanya",
+        "FR": "Fransa",
+        "NL": "Hollanda",
+        "IT": "İtalya",
+        "ES": "İspanya",
+        "AE": "BAE",
+        "SA": "Suudi Arabistan",
+        "QA": "Katar",
+        "AZ": "Azerbaycan",
+        "RU": "Rusya",
+        "CN": "Çin",
+        "IN": "Hindistan"
+      },
+      "subject": "Konu",
+      "subjectPlaceholder": "Konu seçin",
+      "message": "Mesajınız",
+      "subjectOptions": {
+        "consulting": "Danışmanlık",
+        "training": "Eğitim",
+        "technology": "Teknoloji",
+        "other": "Diğer"
+      },
+      "kvkkPrefix": "Kişisel verilerimin",
+      "kvkkLink": "KVKK ve Gizlilik Politikası",
+      "kvkkSuffix": "kapsamında iletişim talebimin yanıtlanması amacıyla işlenmesini kabul ediyorum.",
+      "marketingConsent": "Ticari elektronik ileti ve bülten gönderilmesine onay veriyorum (isteğe bağlı).",
+      "requiredNote": "* işaretli alanlar zorunludur.",
+      "validationModalTitle": "Zorunlu alanları doldurun",
+      "validationModalMessage": "Mesajınız gönderilmedi. Lütfen işaretli zorunlu alanları kontrol edin, eksikleri tamamlayın ve KVKK onayını işaretleyin.",
+      "validationModalClose": "Tamam, kontrol edeceğim",
+      "errors": {
+        "firstName": "Ad alanı zorunludur.",
+        "lastName": "Soyad alanı zorunludur.",
+        "company": "Şirket / kurum alanı zorunludur.",
+        "position": "Pozisyon alanı zorunludur.",
+        "email": "E-posta alanı zorunludur.",
+        "emailInvalid": "Geçerli bir e-posta adresi girin.",
+        "phone": "Telefon alanı zorunludur.",
+        "phoneInvalid": "Geçerli bir telefon numarası girin (en az 7 hane).",
+        "kvkk": "Mesaj göndermek için KVKK onayını işaretlemeniz gerekir."
+      },
+      "submit": "Mesajı gönder",
+      "submitting": "Gönderiliyor…",
+      "successTitle": "Mesajınız alındı",
+      "success": "Teşekkür ederiz. Conatus ekibi talebinizi inceleyecek ve en kısa sürede size dönüş yapacaktır.",
+      "error": "Gönderim sırasında bir hata oluştu. Lütfen tekrar deneyin veya doğrudan e-posta ile ulaşın."
+    }
+  },
+  "legal": {
+    "privacy": {
+      "metadata": {
+        "title": "CONATUS | KVKK ve Gizlilik Politikası",
+        "description": "6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında Conatus kişisel veri işleme politikası."
+      },
+      "eyebrow": "Yasal",
+      "title": "KVKK ve Gizlilik Politikası",
+      "lastUpdated": "Son güncelleme: Mayıs 2026",
+      "backToContact": "İletişim sayfasına dön",
+      "intro": "Conatus olarak kişisel verilerinizin güvenliğine önem veriyoruz. Bu metin, web sitemiz ve iletişim kanallarımız üzerinden toplanan kişisel verilerin hangi amaçlarla, hangi hukuki sebeplerle ve hangi haklarınız çerçevesinde işlendiğini açıklar.",
+      "disclaimer": "Bu metin bilgilendirme amaçlıdır. Özel durumlarınız için info@conatus.com.tr adresinden bizimle iletişime geçebilirsiniz.",
+      "sections": [
+        {
+          "title": "Veri sorumlusu",
+          "paragraphs": [
+            "6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) uyarınca veri sorumlusu CONATUS’tur.",
+            "İletişim: info@conatus.com.tr"
+          ]
+        },
+        {
+          "title": "İşlenen kişisel veriler",
+          "paragraphs": [
+            "İletişim formu aracılığıyla: ad, soyad, e-posta, telefon, isteğe bağlı şirket/kurum bilgisi, mesaj içeriği ve seçilen konu.",
+            "İsteğe bağlı onay vermeniz halinde ticari elektronik ileti izni kaydı.",
+            "Teknik veriler: IP adresi, tarayıcı bilgisi ve form gönderim zamanı (güvenlik ve kayıt amaçlı, mümkün olduğunca sınırlı)."
+          ]
+        },
+        {
+          "title": "İşleme amaçları ve hukuki sebepler",
+          "paragraphs": [
+            "Talebinize dönüş yapmak, ön görüşme planlamak ve hizmet taleplerinizi değerlendirmek.",
+            "Yasal yükümlülüklerin yerine getirilmesi ve meşru menfaatlerimizin korunması.",
+            "Açık rızanızın bulunduğu hallerde ticari iletişim faaliyetleri (yalnızca onay vermeniz durumunda)."
+          ]
+        },
+        {
+          "title": "Aktarım ve saklama",
+          "paragraphs": [
+            "Verileriniz, yalnızca hizmetin sunulması için gerekli hizmet sağlayıcılarına (ör. e-posta altyapısı) ve kanunen zorunlu mercilere aktarılabilir.",
+            "İletişim kayıtları, talebin niteliğine göre makul süreler boyunca saklanır; gereksiz veriler silinir veya anonimleştirilir."
+          ]
+        },
+        {
+          "title": "KVKK kapsamındaki haklarınız",
+          "paragraphs": [
+            "KVKK md. 11 uyarınca; verilerinizin işlenip işlenmediğini öğrenme, düzeltilmesini veya silinmesini isteme, işlenme amacını öğrenme ve itiraz etme haklarına sahipsiniz.",
+            "Başvurularınızı info@conatus.com.tr adresine iletebilirsiniz; yasal süreler içinde yanıtlanacaktır."
+          ]
+        }
+      ]
+    }
+  },
+  "consulting": {
+    "metadata": {
+      "title": "CONATUS | Danışmanlık",
+      "description": "Karlılık ve verimlilik odaklı danışmanlık. Problem, çözüm ve kazanım perspektifiyle kapasite, maliyet, verimlilik ve kültür dönüşümü."
+    },
+    "hero": {
+      "eyebrow": "Danışmanlık",
+      "title": "Karlılık ve verimlilik odaklı danışmanlık çözümlerimizle tanışın",
+      "description": "Conatus çalışma modeli DEGER ile kurumsal ve operasyonel süreçlerinizi değerlendiriyor, size özel stratejilerle şirketinizin geleceğini şekillendiriyor ve dönüşüm yolculuğunun her anında rehberlik ediyoruz.",
+      "cta": "Bize Ulaşın",
+      "banner": {
+        "eyebrow": "DEGER — Değerlendirme ve Gelişim Rehberi",
+        "title": "Büyürken yavaşlamayın",
+        "description": "İşletmenizin görünmez frenlerini kaldırıyoruz. Mevcut durumu doğru anlamak, hedeflenen gelişimi netleştirmek ve uygulamaya rehberlik ederek kalıcı sonuçlar üretmek için yanınızdayız."
+      }
+    },
+    "cases": {
+      "eyebrow": "Operasyonel zorluklar",
+      "title": "Problem → Çözüm → Kazanım",
+      "description": "Kapasite, maliyet, verimlilik ve kültür dönüşümünde; probleminizi, Conatus çözüm yaklaşımını ve hedeflediğiniz kazanımları Problem → Çözüm → Kazanım çerçevesinde bir arada ele alıyoruz.",
+      "navLabel": "Danışmanlık konuları",
+      "tabsGroupLabel": "Problem, çözüm ve kazanım sekmeleri",
+      "carousel": {
+        "previous": "Önceki slayt",
+        "next": "Sonraki slayt",
+        "slide": "Slayt {number}"
+      },
+      "labels": {
+        "problem": "Sorun",
+        "solution": "Çözüm",
+        "outcome": "Kazanım"
+      },
+      "items": {
+        "deger": {
+          "nav": "DEGER yaklaşımı",
+          "title": "Büyürken yavaşlamayın — görünmez frenleri kaldırın",
+          "lead": "Conatus, danışmanlık, eğitim ve teknolojiyi yalın yaklaşımı temel alan DEGER — Değerlendirme ve Gelişim Rehberi ile sunar. Mevcut durumu doğru anlamak, hedeflenen gelişimi netleştirmek ve uygulamaya rehberlik ederek kalıcı sonuçlar üretir.",
+          "problems": [
+            "Mevcut durum net ve ölçülebilir biçimde tanımlanmıyor",
+            "İyileştirme girişimleri somut hedeflere bağlanmıyor",
+            "Strateji ile günlük operasyon arasında kopukluk",
+            "Parçalı projeler bütünsel performans artışı sağlamıyor",
+            "Uygulama sahada sürdürülemiyor, kazanımlar kalıcı olmuyor"
+          ],
+          "solution": {
+            "intro": "DEGER modeliyle değerlendirme, gelişim ve rehberlik adımlarını bütüncül bir dönüşüm yolculuğu olarak kurgularız.",
+            "blocks": [
+              {
+                "title": "Değerlendirme",
+                "items": [
+                  "Kaynak verimliliği, süreç etkinliği ve sonuç etkisini bütüncül analiz",
+                  "Veriye dayalı mevcut durum fotoğrafı",
+                  "Gerçek problemlerin ve gelişim alanlarının görünür kılınması"
+                ]
+              },
+              {
+                "title": "Gelişim",
+                "items": [
+                  "Net ve ölçülebilir gelişim hedefleri",
+                  "Önceliklendirilmiş yol haritası",
+                  "Kısa, orta ve uzun vadeli aksiyon planları"
+                ]
+              },
+              {
+                "title": "Rehberlik",
+                "items": [
+                  "Planlanan gelişime sahada eşlik",
+                  "Ekip desteği ve standartların pekiştirilmesi",
+                  "Kazanımların sürdürülebilirliğinin sağlanması"
+                ]
+              }
+            ],
+            "quote": "Doğru problem tanımı, doğru çözümün temelidir."
+          },
+          "outcomes": {
+            "items": [
+              "Kurumun tamamını kapsayan sistematik iyileştirme çerçevesi",
+              "Net öncelikler ve ölçülebilir performans göstergeleri",
+              "Saha odaklı uygulama disiplini",
+              "Danışmana bağımlılığı azaltan kurumsal yetkinlik",
+              "Kalıcı yalın kültürün temelleri"
+            ],
+            "quote": "Gerçek değer, uygulandığında ortaya çıkar."
+          }
+        },
+        "capacity": {
+          "nav": "Kapasite ve teslimat",
+          "title": "Kapasite yatırımlarına rağmen teslim süreleri kısalmıyor mu?",
+          "lead": "Conatus, problemi tek bir metrikle değil değer akışı perspektifiyle ele alır. Görünmeyen kapasiteyi ortaya çıkarır ve yatırımların etki edeceği noktaları netleştirir.",
+          "problems": [
+            "Kapasite yatırımlarına rağmen teslim süreleri kısalmıyor",
+            "Personel artışı çıktıya sınırlı katkı sağlıyor",
+            "WIP ve ara stoklar artıyor",
+            "Koordinasyon yükü ve karmaşıklık yükseliyor",
+            "Maliyet artışı kârlılığı baskılıyor"
+          ],
+          "solution": {
+            "intro": "Değer akışı ve kısıt analiziyle darboğazları görünür kılar, yatırım önceliklerini veriye dayalı olarak belirleriz.",
+            "blocks": [
+              {
+                "title": "VSM (Değer Akış Haritalama)",
+                "items": [
+                  "Takt zamanı ve çevrim süreleri",
+                  "WIP / stok seviyeleri",
+                  "Bilgi akışı ve süreç kabiliyeti",
+                  "Kaynak ve personel dağılımı"
+                ]
+              },
+              {
+                "title": "TOC (Kısıt Analizi)",
+                "items": [
+                  "Mevcut ve potansiyel darboğazların tespiti",
+                  "Kapasite kaybının kırılımı",
+                  "Yatırım senaryoları için veri altyapısı"
+                ]
+              }
+            ],
+            "quote": "Hedefi net olmayan gelişim, ilerleme üretmez."
+          },
+          "outcomes": {
+            "items": [
+              "Mevcut takt zamanı ve müşteri talebine göre darboğaz süreçlerin belirlenmesi",
+              "Gelecekteki potansiyel darboğazların öngörülmesi",
+              "Toplam kapasite kaybının üretim saatleri cinsinden analizi",
+              "WIP seviyelerinin analizi ve iyileştirme öncelikleri",
+              "Planlanan yatırımlar için ROI ve geri ödeme modelleri"
+            ],
+            "quote": "Gerçek değer, uygulandığında ortaya çıkar."
+          }
+        },
+        "cph": {
+          "nav": "Saatlik üretim maliyeti",
+          "title": "Saatlik üretim maliyetini iyileştirme pusulasına dönüştürün",
+          "lead": "Saatlik üretim maliyeti yalnızca muhasebe verisi değildir. Conatus, CPH artışını operasyonel sistemin verdiği bir sinyal olarak ele alır; kayıpları görünür kılar ve kök nedenleri ayrıştırır.",
+          "problems": [
+            "Hata, yeniden işleme ve müşteri şikayetlerinde artış",
+            "Fazla mesai ve geçici iş gücünün normalleşmesi",
+            "Stok, yedek parça ve malzeme israfının görünmez hale gelmesi",
+            "Hava kargo, demuraj ve acil lojistik giderleri",
+            "Enerji, utility ve taşıma maliyetlerinde kontrol kaybı"
+          ],
+          "solution": {
+            "intro": "Tüm kayıplar departman ve kayıp türüne göre kategorize edilir; finansal karşılıklarıyla birlikte nicel olarak ortaya konur.",
+            "blocks": [
+              {
+                "title": "Geçmiş veri analizi",
+                "items": [
+                  "Hata, duruş, fazla mesai, enerji ve lojistik verileri",
+                  "Departman ve süreç bazlı kırılım"
+                ]
+              },
+              {
+                "title": "Odaklı saha çalışmaları",
+                "items": [
+                  "Kayıp noktalarının yerinde tespiti",
+                  "Süreç içi israf türlerinin ayrıştırılması"
+                ]
+              },
+              {
+                "title": "Deney tasarımı (DoE)",
+                "items": [
+                  "Kayıplara etki eden değişkenlerin test edilmesi",
+                  "En yüksek etkiye sahip faktörlerin belirlenmesi"
+                ]
+              }
+            ]
+          },
+          "outcomes": {
+            "blocks": [
+              {
+                "title": "Operasyonel kazanımlar",
+                "items": [
+                  "Kayıp kaynaklarının net tanımlanması",
+                  "Hata, israf ve duruşların görünür hale gelmesi",
+                  "Süreçler arası zincirleme etkilerin anlaşılması",
+                  "Kaynak kullanımında denge ve kontrol"
+                ]
+              },
+              {
+                "title": "Finansal kazanımlar",
+                "items": [
+                  "Departman bazında gerçek maliyet yüklerinin hesaplanması",
+                  "Önlenebilir kayıpların finansal karşılığının netleşmesi",
+                  "Potansiyel kapasite ve maliyet tasarruflarının ortaya çıkması",
+                  "Yatırım ve iyileştirme önceliklerinin doğru belirlenmesi"
+                ]
+              },
+              {
+                "title": "Yönetimsel kazanımlar",
+                "items": [
+                  "Maliyet artışlarının neden–sonuç ilişkisiyle izlenmesi",
+                  "Bütçe sapmalarının erken aşamada fark edilmesi",
+                  "Departmanlar arası objektif karşılaştırma",
+                  "12 aylık CPH ve kârlılık projeksiyonları"
+                ]
+              }
+            ],
+            "footer": "Sonuç: CPH üzerindeki baskı azalır, kârlılık geri kazanılır. Yönetim maliyeti raporlayan değil yöneten konuma geçer."
+          }
+        },
+        "eph": {
+          "nav": "Kişi başı verimlilik",
+          "title": "Kişi başına düşen kazanç neden azalıyor?",
+          "lead": "Olgunlaşmış organizasyonlarda büyüme sonrası kârlılık düşüşü sıklıkla kişi başına üretkenliğin azalmasından kaynaklanır. İnsan gücü yapısı sezgisel değil, sistematik analizle ele alınır.",
+          "problems": [
+            "Süreçlerde artan genel gider (overhead) yükü",
+            "İş uygulamalarında standardizasyon ve rasyonelleştirme eksikliği",
+            "Çoklu beceri ve iş rotasyonu yetersizliği",
+            "İşe alım süreçlerinde net protokol ve kriter eksikliği",
+            "Artan iş gücüne rağmen sınırlı çıktı artışı",
+            "Zor dönemlerde verimsiz kadro yapısının baskı oluşturması"
+          ],
+          "solution": {
+            "intro": "İş unsurları ayrıştırılarak optimal kadro ihtiyacı veri temelli olarak belirlenir.",
+            "blocks": [
+              {
+                "title": "İş etüdü ve hat dengeleme",
+                "items": [
+                  "Her görev rolü için iş unsurları ve süre kırılımı",
+                  "Tekrarlayan, periyodik, atıl ve varyasyon sürelerinin belirlenmesi"
+                ]
+              },
+              {
+                "title": "Norm kadro ve standardizasyon",
+                "items": [
+                  "Doğrudan ve dolaylı çalışanların kapsamlı norm kadro değerlendirmesi",
+                  "Standartlaştırılmış iş tanımlamaları",
+                  "Geçmiş veri analizi ve istatistiksel modelleme",
+                  "Multiskilling ve iş rotasyonu önerileri"
+                ]
+              }
+            ]
+          },
+          "outcomes": {
+            "items": [
+              "Mevcut ve gerekli insan gücünün departman bazında analizi",
+              "İş standardizasyonu ile verimlilik artışı",
+              "Optimal kadro yapısına geçiş yol haritası",
+              "EPH ve kârlılık üzerinde ölçülebilir iyileşme"
+            ]
+          }
+        },
+        "culture": {
+          "nav": "Kültürel durgunluk",
+          "title": "Kültürel durgunluk rekabet gücünü zayıflatıyor",
+          "lead": "Organizasyonel kültür bilinçli tanımlanmadığında süreçler kişilere bağımlı hale gelir ve performans sürdürülebilirliğini kaybeder. Conatus, kültürel durgunluğu sistemsel bir problem olarak ele alır.",
+          "problems": [
+            "Departmanlar arasında farklı çalışma alışkanlıkları ve yöntemler",
+            "Kişiye bağlı süreçler ve karar mekanizmaları",
+            "Mükemmeliyet adacıkları ancak bütünsel performans düşüşü",
+            "Liderlik davranışları ile şirket değerleri arasında uyumsuzluk",
+            "Organizasyon içi politikalar ve güç dengesizlikleri",
+            "Vizyon ile günlük operasyon arasında kopukluk"
+          ],
+          "solution": {
+            "intro": "Kültürel ve süreç olgunluğunu ölçer, organizasyona özgü bir işletim sistemi tasarlarız.",
+            "blocks": [
+              {
+                "title": "Değerlendirme",
+                "items": [
+                  "Lean olgunluk endeksi değerlendirmesi",
+                  "Kültürel ve süreç olgunluk analizi",
+                  "Liderlik davranışı ve yönetim sistemi incelemesi",
+                  "Performans ve ödül sistemlerinin değerlendirilmesi"
+                ]
+              },
+              {
+                "title": "Tasarım ve yol haritası",
+                "items": [
+                  "Organizasyona özgü XOS (Company Operation System) tasarımı",
+                  "Aksiyon planı ve dönüşüm yol haritası"
+                ]
+              }
+            ]
+          },
+          "outcomes": {
+            "items": [
+              "Ortak operasyon dili ve standart çalışma kültürü",
+              "Süreç disiplininde artış",
+              "Kişiye bağlı uygulamaların azalması",
+              "Sürdürülebilir iyileştirme mekanizması",
+              "Stratejik hedeflerle hizalanmış organizasyon yapısı"
+            ]
+          }
+        }
+      }
+    },
+    "cta": {
+      "title": "Yaklaşımımızı şirketinizde uygulamak ister misiniz?",
+      "description": "İlk değerlendirme adımını birlikte planlamak için bizimle iletişime geçebilirsiniz.",
+      "contact": "Bize Ulaşın"
+    }
+  },
+  "training": {
+    "metadata": {
+      "title": "CONATUS | Eğitim",
+      "description": "Yalın yönetim, kalite ve operasyonel mükemmellik odaklı kurumsal eğitim programları. DEGER modeli ile ölçülebilir gelişim."
+    },
+    "hero": {
+      "eyebrow": "Eğitim",
+      "title": "Bilgiyi sahada uygulanabilir performansa dönüştürün",
+      "description": "Yalın düşünce ve sistem yaklaşımını operasyondan ofise taşıyan programlar — temelden uzmanlığa, bireysel eğitimden kurumsal gelişim yollarına. Öğrenilen her adım, işletmenizin günlük kararlarına ve sahaya yansır.",
+      "cta": "Bize Ulaşın"
+    },
+    "developmentPrograms": {
+      "eyebrow": "Gelişim programları",
+      "title": "Kurumsal Gelişim Programları",
+      "description": "Birden fazla tekil eğitimi bir araya getirerek tasarladığımız, ofis ve operasyon ekipleri için ayrı ayrı yapılandırılmış 10 gelişim programı.",
+      "courseCount": "{count} tekil eğitim",
+      "results": "Sonuçlar: {count}",
+      "filters": {
+        "audience": "Katılımcılar",
+        "category": "Program kategorisi",
+        "selectAll": "Tümünü Seç",
+        "close": "Kapat",
+        "clearGroup": "Temizle",
+        "clearAll": "Tüm filtreleri temizle",
+        "noResults": "Seçtiğiniz filtrelere uygun gelişim programı bulunamadı."
+      },
+      "pagination": {
+        "previous": "Önceki",
+        "next": "Sonraki",
+        "label": "Sayfalama"
+      },
+      "audiences": {
+        "ofis": "Ofis çalışanları için",
+        "operasyon": "Operasyon çalışanları için"
+      },
+      "categories": {
+        "yalin-101": "Yalın 101",
+        "sistem": "Sistem",
+        "teknik": "Teknik bilgi ve uzmanlık",
+        "liderlik": "Liderlik",
+        "kisisel-gelisim": "Kişisel gelişim"
+      },
+      "items": {
+        "ofis-yalin-101": {
+          "title": "Ofis — Yalın 101 Gelişim Programı",
+          "description": "Ofis ekipleri için yalın düşünce, sistemler, PUKÖ, A3 ve kaizen modüllerini kapsayan temel dönüşüm programı."
+        },
+        "operasyon-yalin-101": {
+          "title": "Operasyon — Yalın 101 Gelişim Programı",
+          "description": "Saha ekipleri için İSG, kalite, maliyet ve ekipman bakımı farkındalık eğitimlerinden oluşan giriş programı."
+        },
+        "ofis-sistem": {
+          "title": "Ofis — Sistem Gelişim Programı",
+          "description": "Ofis süreçlerinde yalın sistemleri, süreç yönetimini ve sürekli iyileştirmeyi bütüncül olarak ele alır."
+        },
+        "operasyon-sistem": {
+          "title": "Operasyon — Sistem Gelişim Programı",
+          "description": "Üretim ve operasyon akışında sistem düşüncesi, verimlilik ve sahiplenmeyi güçlendirir."
+        },
+        "ofis-teknik": {
+          "title": "Ofis — Teknik Bilgi ve Uzmanlık Programı",
+          "description": "Analitik raporlama, süreç yönetimi ve problem çözme araçlarında teknik derinlik kazandırır."
+        },
+        "operasyon-teknik": {
+          "title": "Operasyon — Teknik Bilgi ve Uzmanlık Programı",
+          "description": "Saha operasyonlarında teknik farkındalık, güvenlik ve ekipman disiplinini bir arada geliştirir."
+        },
+        "ofis-liderlik": {
+          "title": "Ofis — Liderlik Gelişim Programı",
+          "description": "Ofis liderleri için yalın zihniyet ve ekipçi problem çözme ile liderlik becerilerini pekiştirir."
+        },
+        "operasyon-liderlik": {
+          "title": "Operasyon — Liderlik Gelişim Programı",
+          "description": "Operasyon liderleri için üretim bilinci ve saha liderliği odaklı gelişim yolu."
+        },
+        "ofis-kisisel-gelisim": {
+          "title": "Ofis — Kişisel Gelişim Programı",
+          "description": "Ofis çalışanlarının bireysel etkinliğini ve analitik düşünme becerilerini destekler."
+        },
+        "operasyon-kisisel-gelisim": {
+          "title": "Operasyon — Kişisel Gelişim Programı",
+          "description": "Operasyon çalışanlarının öz farkındalık ve operasyonel sorumluluk bilincini güçlendirir."
+        }
+      },
+      "detail": {
+        "backToTraining": "Eğitime dön",
+        "outcomesTitle": "Program kazanımları",
+        "structureTitle": "Program yapısı",
+        "includedCoursesTitle": "Programdaki tekil eğitimler",
+        "includedCoursesDescription": "Bu gelişim programı aşağıdaki tekil eğitim modüllerinden oluşur. Her modülün detayına kartlara tıklayarak ulaşabilirsiniz.",
+        "relatedProgramsTitle": "{audience} — diğer programlar",
+        "ctaTitle": "Bu programı kurumunuza uyarlayalım",
+        "ctaDescription": "Ekip yapınıza ve hedeflerinize göre modül seçimi ve takvimi birlikte planlayalım.",
+        "ctaButton": "Bize Ulaşın",
+        "items": {
+          "ofis-yalin-101": {
+            "tagline": "Ofis ekiplerinde yalın dönüşümün temelini atan bütüncül program.",
+            "intro": "Yalın 101 Gelişim Programı, ofis çalışanlarının yalın düşünce felsefesinden kaizen uygulamalarına kadar tüm temel modülleri sıralı ve tutarlı bir yol haritasıyla tamamlamasını sağlar.",
+            "outcomes": [
+              "Yalın terminoloji ve değerlerde ortak dil",
+              "Süreçleri PUKÖ ve A3 ile yönetebilme",
+              "Ekip içi sürekli iyileştirme kültürünün başlatılması"
+            ],
+            "structure": [
+              "Modüller iş yüküne göre özelleştirilebilir sırayla planlanır",
+              "Teori ve uygulama oturumları dengelenir",
+              "Program sonunda kurum içi yol haritası çıkarılır"
+            ]
+          },
+          "operasyon-yalin-101": {
+            "tagline": "Saha ekiplerinde temel yalın ve operasyonel farkındalık programı.",
+            "intro": "Operasyon ekipleri için yapılandırılmış bu program; İSG, kalite, maliyet ve ekipman bakımı modülleriyle günlük operasyonda bilinçli davranışı hedefler.",
+            "outcomes": [
+              "Temel operasyonel farkındalık ve sahiplenme",
+              "İsraf ve riskleri erken fark etme",
+              "Standartlara uyum ve güvenli çalışma alışkanlığı"
+            ],
+            "structure": [
+              "Yarım günlük modüllerle esnek planlama",
+              "Saha örnekleri ve kısa uygulama alıştırmaları",
+              "Takım bazlı değerlendirme ve geri bildirim"
+            ]
+          },
+          "ofis-sistem": {
+            "tagline": "Ofis süreçlerinde sistem düşüncesi ve sürekli iyileştirme.",
+            "intro": "Sistem Gelişim Programı, ofis ekiplerinin yalın sistemleri ve süreç yönetim araçlarını birlikte kullanarak uçtan uca verimlilik sağlamasına odaklanır.",
+            "outcomes": [
+              "Süreçleri sistemsel olarak okuma",
+              "İyileştirme projelerini yapılandırma",
+              "Performans göstergeleriyle takip"
+            ],
+            "structure": [
+              "Modüller arası bağlantılar vurgulanır",
+              "Vaka ve masa başı uygulamalar",
+              "Kurumsal sistem haritasına katkı"
+            ]
+          },
+          "operasyon-sistem": {
+            "tagline": "Üretim hatlarında sistemsel verimlilik ve sahiplenme.",
+            "intro": "Operasyon ekipleri için sistem programı; üretim bilinci, kalite ve maliyet modüllerini operasyonel mükemmellik hedefiyle birleştirir.",
+            "outcomes": [
+              "Hat ve istasyon sorumluluğu",
+              "Kayıpsız operasyon hedeflerine hizalama",
+              "Çapraz fonksiyonel iş birliği"
+            ],
+            "structure": [
+              "Saha odaklı modül sıralaması",
+              "Görsel yönetim ve standart iş bağlantısı",
+              "Ölçülebilir saha hedefleri"
+            ]
+          },
+          "ofis-teknik": {
+            "tagline": "Ofis rollerinde analitik ve teknik uzmanlık gelişimi.",
+            "intro": "Teknik Bilgi ve Uzmanlık Programı; A3, PUKÖ ve kaizen araçlarında derinleşerek ofis çalışanlarının problem çözme kapasitesini artırır.",
+            "outcomes": [
+              "Yapılandırılmış problem çözme",
+              "Veriye dayalı raporlama",
+              "Teknik araçlarda yetkinlik"
+            ],
+            "structure": [
+              "Araç bazlı modül ilerlemesi",
+              "Gerçek iş problemleri üzerinden çalışma",
+              "Mentorluk ve geri bildirim oturumları"
+            ]
+          },
+          "operasyon-teknik": {
+            "tagline": "Sahada teknik disiplin ve operasyonel uzmanlık.",
+            "intro": "Operasyon teknik programı; güvenlik, ekipman ve kalite modüllerini sahadaki teknik gereksinimlerle ilişkilendirir.",
+            "outcomes": [
+              "Teknik standartlara uyum",
+              "Önleyici bakım ve güvenlik bilinci",
+              "Kalite sapmalarını erken müdahale"
+            ],
+            "structure": [
+              "Kısa ve yoğun saha modülleri",
+              "Uygulamalı kontrol listeleri",
+              "Takım lideri değerlendirmesi"
+            ]
+          },
+          "ofis-liderlik": {
+            "tagline": "Ofis liderleri için yalın liderlik ve ekip yönetimi.",
+            "intro": "Liderlik programı, ofis liderlerinin yalın değerlerle uyumlu liderlik davranışları ve ekipçi iyileştirme pratiği geliştirmesini destekler.",
+            "outcomes": [
+              "Liderlik ve yalın değerler uyumu",
+              "Ekip motivasyonu ve sorumluluk dağılımı",
+              "Koçluk ve geri bildirim becerisi"
+            ],
+            "structure": [
+              "Liderlik atölyeleri ve grup çalışmaları",
+              "Bireysel gelişim planı",
+              "360° geri bildirim (isteğe bağlı)"
+            ]
+          },
+          "operasyon-liderlik": {
+            "tagline": "Saha liderleri için üretim bilinci ve liderlik.",
+            "intro": "Operasyon liderlik programı, hat ve vardiya liderlerinin üretim bilinci ve saha liderliği becerilerini güçlendirmeye odaklanır.",
+            "outcomes": [
+              "Saha liderliği ve örnek olma",
+              "Performans takibi ve koçluk",
+              "Güvenli ve verimli ekip yönetimi"
+            ],
+            "structure": [
+              "Saha gözlemi ve liderlik uygulamaları",
+              "Kısa koçluk döngüleri",
+              "Liderlik aksiyon planı"
+            ]
+          },
+          "ofis-kisisel-gelisim": {
+            "tagline": "Ofis çalışanlarında bireysel etkinlik ve farkındalık.",
+            "intro": "Kişisel gelişim programı; yalın zihniyet ve analitik düşünce modülleriyle bireysel katkıyı ve iletişimi güçlendirir.",
+            "outcomes": [
+              "Öz farkındalık ve sorumluluk",
+              "Etkili iletişim ve iş birliği",
+              "Sürekli öğrenme alışkanlığı"
+            ],
+            "structure": [
+              "Bireysel ve grup aktiviteleri",
+              "Öz değerlendirme araçları",
+              "Gelişim hedefi takibi"
+            ]
+          },
+          "operasyon-kisisel-gelisim": {
+            "tagline": "Operasyon çalışanlarında kişisel ve operasyonel farkındalık.",
+            "intro": "Operasyon kişisel gelişim programı; İSG ve maliyet bilinci modülleriyle çalışanların günlük kararlarında sorumluluk almasını destekler.",
+            "outcomes": [
+              "Operasyonel öz farkındalık",
+              "Güvenli ve maliyet bilinçli davranış",
+              "Takım içi güven ve iş birliği"
+            ],
+            "structure": [
+              "Kısa farkındalık modülleri",
+              "Takım paylaşım oturumları",
+              "Davranış taahhütleri"
+            ]
+          }
+        }
+      }
+    },
+    "catalog": {
+      "section": {
+        "eyebrow": "Tekil Eğitimler ve Gelişim Programları",
+        "title": "Eğitim Programlarımız",
+        "description": "Tüm eğitimlerimizi kategori, sistem, katılımcı profili ve ortama göre filtreleyerek inceleyin."
+      },
+      "programBadge": "Gelişim programı",
+      "cardCta": "Detaylı İncele",
+      "results": "Sonuçlar: {count}",
+      "filters": {
+        "title": "Filtreler",
+        "tur": "Eğitim türü",
+        "kategori": "Kategoriler",
+        "sistem": "Sistemler",
+        "katilimci": "Katılımcılar",
+        "ortam": "Eğitim Ortamları",
+        "yontem": "Eğitim yöntemi",
+        "selectAll": "Tümünü Seç",
+        "close": "Kapat",
+        "clearGroup": "Temizle",
+        "clearAll": "Tüm filtreleri temizle",
+        "selected": "seçili",
+        "noResults": "Seçtiğiniz filtrelere uygun eğitim veya program bulunamadı."
+      },
+      "pagination": {
+        "previous": "Önceki",
+        "next": "Sonraki",
+        "label": "Sayfalama"
+      },
+      "options": {
+        "tekil-egitim": "Tekil eğitim",
+        "gelisim-programi": "Gelişim programı",
+        "kisisel-gelisim": "Kişisel Gelişim",
+        "liderlik": "Liderlik",
+        "sistem": "Sistem",
+        "teknik": "Teknik",
+        "yalin-101": "Yalın 101",
+        "gelistirme-sistemleri": "Geliştirme Sistemleri",
+        "satis-sistemleri": "Satış Sistemleri",
+        "uretim-sistemleri": "Üretim Sistemleri",
+        "yonetim-sistemleri": "Yönetim Sistemleri",
+        "ofis": "Ofis",
+        "operasyon": "Operasyon",
+        "hibrit": "Hibrit",
+        "offline": "Çevrimdışı",
+        "online-canli": "Online — Canlı Yayın",
+        "yuz-yuze": "Yüz Yüze",
+        "calistay": "Çalıştay",
+        "kocluk": "Koçluk",
+        "oyun-simulasyon": "Oyun / Simülasyon",
+        "seminer": "Seminer"
+      },
+      "items": {
+        "yalin-dusunce-felsefesi-egitimi": {
+          "title": "Yalın Düşünce Felsefesi Eğitimi",
+          "description": "Yalın dönüşümün zihniyet temellerini oluşturur; değerler, düşünce yapısı ve kurumsal kültürü tanıtır."
+        },
+        "yalin-sistemler-temel-egitimi": {
+          "title": "Yalın Sistemler Temel Eğitimi",
+          "description": "Yalın üretimin temel bileşenleri ve sistemsel verimlilik yaklaşımlarıyla tanışın."
+        },
+        "puko-surec-yaklasimi-egitimi": {
+          "title": "PUKÖ Süreç Yaklaşımı Eğitimi",
+          "description": "Süreçlerinizi planla-uygula-kontrol et-önde tut döngüsüyle bilimsel ve sistematik yönetin."
+        },
+        "a3-raporlama-teknikleri-egitimi": {
+          "title": "A3 Raporlama Teknikleri Eğitimi",
+          "description": "Problemleri tek sayfada netleştirin; analitik düşüncenizi görünür ve paylaşılabilir hale getirin."
+        },
+        "kaizen-problem-cozme-teknikleri-egitimi": {
+          "title": "Kaizen Problem Çözme Teknikleri Eğitimi",
+          "description": "Küçük adımlarla sürekli iyileştirme kültürünü ekiplerinize taşıyın."
+        },
+        "cnts109-uretim-farkindaligi-egitimi": {
+          "title": "Üretim Bilinci Farkındalık Eğitimi",
+          "description": "Üretim operasyonunu bilinçli yürütmek için farkındalık ve sahiplenme becerileri kazandırır."
+        },
+        "isg-ve-cevre-bilinci-farkindalik-egitimi": {
+          "title": "İSG ve Çevre Bilinci Farkındalık Eğitimi",
+          "description": "İş güvenliği ve çevresel sorumluluk bilincini operasyonel davranışa dönüştürür."
+        },
+        "kalite-bilinci-farkindalik-egitimi": {
+          "title": "Kalite Bilinci Farkındalık Eğitimi",
+          "description": "Kaliteyi bireysel ve ekip düzeyinde sahiplenmeyi güçlendiren farkındalık programı."
+        },
+        "maliyet-bilinci-farkindalik-egitimi": {
+          "title": "Maliyet Bilinci Farkındalık Eğitimi",
+          "description": "Maliyet etkinliği bilincini günlük operasyon kararlarına yansıtır."
+        },
+        "ekipman-bakimi-farkindalik-egitimi": {
+          "title": "Ekipman Bakımı Farkındalık Eğitimi",
+          "description": "Ekipman bakım disiplinini ve önleyici yaklaşımı operasyon ekiplerine yerleştirir."
+        }
+      }
+    },
+    "detail": {
+      "backToPrograms": "Eğitim programlarına dön",
+      "tabsGroupLabel": "Eğitim içeriği, kazanımlar, katılım koşulları ve sertifikasyon sekmeleri",
+      "duration": "{days} Gün",
+      "halfDay": "0,5 Gün",
+      "participants": "{count} Katılımcı",
+      "relatedTitle": "Benzer Eğitimleri Keşfedin",
+      "ctaTitle": "Size özel bir eğitim mi arıyorsunuz?",
+      "ctaDescription": "İhtiyaçlarınıza yönelik özel eğitim programları tasarlamak için bizimle iletişime geçin.",
+      "ctaButton": "Bize Ulaşın",
+      "sections": {
+        "content": "Eğitim İçeriği",
+        "outcomes": "Kazanımlar",
+        "audience": "Katılım Koşulları",
+        "certification": "Sertifikasyon"
+      },
+      "certificates": {
+        "carousel": {
+          "previous": "Önceki sertifika",
+          "next": "Sonraki sertifika",
+          "slide": "Sertifika {number}"
+        },
+        "salutation": "Sayın:",
+        "participantPlaceholder": "[KATILIMCI ADI]",
+        "courseLabel": "Tamamlanan eğitim programı",
+        "certificateNoLabel": "Sertifika No:",
+        "dateLabel": "Tarih",
+        "qrLabel": "Sertifika doğrulama kodu",
+        "founderRole": "Kurucu",
+        "founderName": "Murat ŞEN",
+        "trainerRole": "Eğitmen",
+        "trainerName": "Tayfun YÖRÜ",
+        "participation": {
+          "documentTitle": "KATILIM BELGESİ",
+          "bodyIntro": "Aşağıdaki eğitime katılımından dolayı kendisine verilmiştir:"
+        },
+        "achievement": {
+          "documentTitle": "BAŞARI BELGESİ",
+          "bodyIntro": "Eğitim programını başarıyla tamamladığı için:"
+        },
+        "instructor": {
+          "documentTitle": "EĞİTMEN BELGESİ",
+          "bodyIntro": "Bu eğitim programında eğitmen olarak görev aldığı için:"
+        }
+      },
+      "items": {
+        "yalin-dusunce-felsefesi-egitimi": {
+          "tagline": "Kültürel dönüşümün temellerini atın ve verimliliği bir yaşam biçimi haline getirin.",
+          "intro": "Yalın dönüşüm yolculuğunun zihniyet temellerini hedefleyen bu eğitim; değerler, düşünce yapısı ve kurumsal kültürü tanıtarak dönüşüm için sağlam bir zemin oluşturur.",
+          "content": [
+            "Değer odaklılık ve işletmeler için düşünce yapısının kritik önemi",
+            "Mücadele ruhu, saygı, takım çalışması, Genchi Genbutsu ve Kaizen değerleri",
+            "Çok yönlü araştırma, üretim mantığı ve israf eliminasyonu yaklaşımları"
+          ],
+          "outcomes": [
+            "Yalın değerler ve düşünce felsefesi terminolojisine hakimiyet",
+            "Konuları yalın değerlere bağlı kalarak analiz etme becerisi",
+            "Öğrenilenleri günlük iş rutinine entegre ederek kalıcı alışkanlıklar oluşturma"
+          ],
+          "audience": [
+            "Yönetim, geliştirme, satış ve üretim süreçlerinde çalışan tüm departmanlar",
+            "Ofis ve operasyon çalışanları",
+            "Temel düzeyde farkındalığa sahip katılımcılar"
+          ],
+          "certification": [
+            "Eğitim öncesi ve sonrası değerlendirme testleri ve memnuniyet anketleri",
+            "Derslerin %90'ına devam edenlere katılım sertifikası",
+            "Testte 70 puan ve üzeri başarıya başarı sertifikası"
+          ]
+        },
+        "yalin-sistemler-temel-egitimi": {
+          "tagline": "Sistemsel verimliliği keşfedin: yalın üretimin temel bileşenleri ile tanışın.",
+          "intro": "Yalın üretimin yapı taşlarını ve sistemsel verimlilik yaklaşımlarını uygulamalı örneklerle aktaran temel seviye programdır.",
+          "content": [
+            "Yalın üretim sistemlerinin bileşenleri ve birbirleriyle ilişkisi",
+            "Akış, çekme ve dengeli yükleme kavramları",
+            "Standart iş, görsel yönetim ve temel performans göstergeleri"
+          ],
+          "outcomes": [
+            "Yalın sistemleri bütüncül bir çerçevede okuyabilme",
+            "Süreçlerde verimlilik fırsatlarını tanımlama",
+            "Saha uygulamalarına geçiş için hazırlık"
+          ],
+          "audience": [
+            "Üretim ve operasyon ekipleri",
+            "Süreç iyileştirme ve kalite rolleri",
+            "Yalın dönüşüm programına yeni başlayan kurumlar"
+          ],
+          "certification": [
+            "Katılım ve başarı sertifikası uygulamaları",
+            "Eğitim sonrası değerlendirme testi"
+          ]
+        },
+        "puko-surec-yaklasimi-egitimi": {
+          "tagline": "Süreçlerinizi planla-uygula-kontrol et-önde tut döngüsüyle sistematik yönetin.",
+          "intro": "PUKÖ döngüsünü süreç yönetiminin temel aracı olarak kullanmayı öğreten, bilimsel ve sistematik iyileştirme yaklaşımını benimseten programdır.",
+          "content": [
+            "PUKÖ döngüsünün aşamaları ve uygulama adımları",
+            "Hedef belirleme, ölçme ve standartlaştırma",
+            "Sürekli iyileştirme için veri odaklı karar alma"
+          ],
+          "outcomes": [
+            "Süreçleri PUKÖ ile planlama ve yönetme",
+            "Problemleri yapılandırılmış şekilde çözme",
+            "İyileştirme aksiyonlarını sürdürülebilir kılma"
+          ],
+          "audience": [
+            "Süreç sahipleri ve takım liderleri",
+            "Ofis ve operasyon çalışanları",
+            "Temel yalın kavramlara aşina katılımcılar"
+          ],
+          "certification": [
+            "Katılım sertifikası",
+            "Başarı değerlendirmesi sonrası başarı sertifikası"
+          ]
+        },
+        "a3-raporlama-teknikleri-egitimi": {
+          "tagline": "Problemleri tek sayfada netleştirin; analitik düşüncenizi görünür hale getirin.",
+          "intro": "A3 raporlama formatını problem çözme ve iletişim aracı olarak kullanmayı öğreten, analitik düşünceyi görünür kılan uygulamalı eğitimdir.",
+          "content": [
+            "A3 rapor yapısı ve bölümlerinin anlamı",
+            "Kök neden analizi ve karşı önlem geliştirme",
+            "Paydaşlarla raporlama ve onay süreçleri"
+          ],
+          "outcomes": [
+            "Tek sayfada problem özetleme ve çözüm planı oluşturma",
+            "Veriye dayalı hikâye anlatımı becerisi",
+            "Ekip içi hizalanmayı güçlendirme"
+          ],
+          "audience": [
+            "İyileştirme ve proje ekipleri",
+            "Orta kademe yönetici ve uzmanlar",
+            "A3 formatına yeni başlayan katılımcılar"
+          ],
+          "certification": [
+            "Katılım ve başarı sertifikası",
+            "Örnek A3 çalışması değerlendirmesi"
+          ]
+        },
+        "kaizen-problem-cozme-teknikleri-egitimi": {
+          "tagline": "Küçük adımlarla büyük gelişim: sürekli iyileştirme kültürünü hayata geçirin.",
+          "intro": "Kaizen araçlarını ve problem çözme tekniklerini birleştirerek ekiplerin günlük işinde sürekli iyileştirme uygulamasını yaygınlaştırır.",
+          "content": [
+            "Kaizen etkinlik planlama ve yürütme",
+            "5N1K, balık kılçığı ve önceliklendirme araçları",
+            "Standartlaştırma ve yoksa etme (yokoten)"
+          ],
+          "outcomes": [
+            "Hızlı iyileştirme etkinlikleri tasarlayabilme",
+            "Problemleri ekipçe çözme ve sonuçları ölçme",
+            "Kaizen kültürünü sürdürülebilir kılma"
+          ],
+          "audience": [
+            "Saha ve ofis ekipleri",
+            "Takım liderleri ve süreç sorumluları",
+            "Temel problem çözme deneyimi olan katılımcılar"
+          ],
+          "certification": [
+            "Katılım sertifikası",
+            "Etkinlik sunumu değerlendirmesi ile başarı sertifikası"
+          ]
+        },
+        "cnts109-uretim-farkindaligi-egitimi": {
+          "tagline": "Üretim operasyonunu bilinçli yürütmek için farkındalık ve sahiplenme.",
+          "intro": "Üretim süreçlerinde bilinçli davranış, güvenlik ve verimlilik odağını güçlendiren yarım günlük farkındalık programıdır.",
+          "content": [
+            "Üretim akışı ve istasyon sorumlulukları",
+            "Kalite, maliyet ve teslimat bilinci",
+            "Standartlara uyum ve görsel kontroller"
+          ],
+          "outcomes": [
+            "Operasyonel kararlarda bilinçli tercihler yapma",
+            "İsraf ve riskleri erken fark etme",
+            "Takım içi iletişimi güçlendirme"
+          ],
+          "audience": [
+            "Üretim ve operasyon çalışanları",
+            "Yeni işe başlayan veya rotasyon yapan personel",
+            "Ön koşul gerekmez"
+          ],
+          "certification": [
+            "Katılım sertifikası",
+            "Kısa değerlendirme anketi"
+          ]
+        },
+        "isg-ve-cevre-bilinci-farkindalik-egitimi": {
+          "tagline": "İş güvenliği ve çevresel sorumluluğu günlük davranışa dönüştürün.",
+          "intro": "İSG ve çevre bilincini operasyonel alışkanlıklara taşıyan, risk farkındalığını artıran farkındalık eğitimidir.",
+          "content": [
+            "Temel İSG kuralları ve acil durum prosedürleri",
+            "Çevresel etki ve atık azaltma bilinci",
+            "Kişisel koruyucu donanım ve güvenli çalışma"
+          ],
+          "outcomes": [
+            "Riskleri tanıma ve raporlama",
+            "Çevreye duyarlı davranış sergileme",
+            "İSG kültürüne katkı sağlama"
+          ],
+          "audience": [
+            "Tüm operasyon çalışanları",
+            "Saha süpervizörleri",
+            "Yıllık tazeleme eğitimi alan personel"
+          ],
+          "certification": [
+            "Katılım sertifikası"
+          ]
+        },
+        "kalite-bilinci-farkindalik-egitimi": {
+          "tagline": "Kaliteyi bireysel ve ekip düzeyinde sahiplenin.",
+          "intro": "İlk hata yaklaşımı, müşteri odaklılık ve standartlara uyumu güçlendiren kalite farkındalık programıdır.",
+          "content": [
+            "Kalite tanımı ve müşteri beklentileri",
+            "Hata kaynağı ve önleme yöntemleri",
+            "Kontrol listeleri ve görsel standartlar"
+          ],
+          "outcomes": [
+            "Kalite sapmalarını erken tespit etme",
+            "Doğru ilk seferde üretim bilinci",
+            "Sürekli iyileştirmeye katkı"
+          ],
+          "audience": [
+            "Üretim ve operasyon ekipleri",
+            "Kaliteye temas eden tüm roller"
+          ],
+          "certification": [
+            "Katılım sertifikası"
+          ]
+        },
+        "maliyet-bilinci-farkindalik-egitimi": {
+          "tagline": "Maliyet etkinliğini günlük operasyon kararlarına yansıtın.",
+          "intro": "Maliyet sürücülerini ve israf kaynaklarını fark ettirerek çalışanların kararlarında maliyet bilincini artırır.",
+          "content": [
+            "Maliyet türleri ve gizli maliyetler",
+            "İsraf–maliyet ilişkisi",
+            "Günlük iyileştirme önerileri ve etkisi"
+          ],
+          "outcomes": [
+            "Maliyet odaklı düşünme",
+            "Kayıpsız operasyon hedeflerine uyum",
+            "Öneri ve kaizen katkısı"
+          ],
+          "audience": [
+            "Operasyon ve ofis çalışanları",
+            "Takım bazlı katılım"
+          ],
+          "certification": [
+            "Katılım sertifikası"
+          ]
+        },
+        "ekipman-bakimi-farkindalik-egitimi": {
+          "tagline": "Önleyici bakım disiplinini sahaya yerleştirin.",
+          "intro": "Ekipman bakımı, temizlik ve kontrol standartlarını operatör seviyesinde sahiplenmeyi hedefleyen farkındalık eğitimidir.",
+          "content": [
+            "Temel bakım ve temizlik standartları",
+            "Arıza önleme ve erken uyarı işaretleri",
+            "Güvenli müdahale ve raporlama"
+          ],
+          "outcomes": [
+            "Ekipman sağlığını koruma alışkanlığı",
+            "Plansız duruşları azaltmaya katkı",
+            "Bakım–üretim iş birliği"
+          ],
+          "audience": [
+            "Operatörler ve saha ekipleri",
+            "Bakım ekipleri ile ortak oturumlar"
+          ],
+          "certification": [
+            "Katılım sertifikası"
+          ]
+        }
+      }
+    },
+    "approach": {
+      "eyebrow": "Eğitim yaklaşımı",
+      "title": "Yetkinlikten Performansa Giden Yol",
+      "description": "Sekiz seviyeli yetkinlik çerçevemiz ve DEGER adımlarıyla eğitim yatırımının performans ve karlılığa dönüşümünü inceleyin.",
+      "degerHeading": "DEGER - DEĞERLENDİRME VE GELİŞİM REHBERİ",
+      "levels": {
+        "figureLabel": "Yetkinlik gelişim seviyeleri",
+        "axisPerformance": "Performans",
+        "axisEducation": "Eğitim",
+        "axisProfitability": "Karlılık",
+        "axisInvestment": "Yatırım",
+        "items": {
+          "1": {
+            "badge": "Seviye 1",
+            "description": "Bilgi ve tecrübesi yok"
+          },
+          "2": {
+            "badge": "Seviye 2",
+            "description": "Teorik bilgi sahibi"
+          },
+          "3": {
+            "badge": "Seviye 3",
+            "description": "Bilgi alış-verişi ile derinleşen teorik bilgi sahibi"
+          },
+          "4": {
+            "badge": "Seviye 4",
+            "description": "Vaka çalışması ve eğitimlerde uygulama deneyimi"
+          },
+          "5": {
+            "badge": "Seviye 5",
+            "description": "Öğrenilen teorik ve pratik bilgiyi sahada uygulama"
+          },
+          "6": {
+            "badge": "Seviye 6",
+            "description": "Uygulamaları standartlaştırma ve iyileştirme yeterliliği kazanma"
+          },
+          "7": {
+            "badge": "Seviye 7",
+            "description": "Uygulama liderleri eğitebilme ve program yönetebilme"
+          },
+          "8": {
+            "badge": "Seviye 8",
+            "description": "Geniş kapsamlı organizasyonları yönetebilme"
+          }
+        }
+      },
+      "steps": {
+        "evaluation": {
+          "eyebrow": "Değerlendirme",
+          "title": "Yetkinlik Değerlendirme",
+          "description": "Mevcut yetkinlik seviyesi ve eğitim ihtiyaçları belirlenir."
+        },
+        "development": {
+          "eyebrow": "Gelişim",
+          "title": "Bireysel Gelişim Planlama",
+          "description": "Hedeflere uygun içerik, modüller ve uygulama alanları tasarlanır."
+        },
+        "guidance": {
+          "eyebrow": "Rehberlik",
+          "title": "Rehberlik",
+          "description": "Eğitim sonrası sahada destek ile kazanımlar pekiştirilir."
+        }
+      }
+    },
+    "cta": {
+      "title": "İhtiyaçlarınıza özel gelişim programını birlikte planlayalım",
+      "description": "Eğitim içeriği ve takvimini birlikte oluşturmak için bizimle iletişime geçin.",
+      "contact": "İletişime Geçin"
+    }
+  },
+  "technology": {
+    "metadata": {
+      "title": "CONATUS | Teknoloji",
+      "description": "Conatus Improvement Platform (yazılım) ve Conatus Improvement Products (donanım) — #CIP4CIP ile sürekli iyileştirme."
+    },
+    "slogan": {
+      "tag": "#CIP4CIP",
+      "note": "Conatus Improvement Platform for Commercial Important Person"
+    },
+    "hero": {
+      "eyebrow": "Teknoloji",
+      "title": "Dijital dönüşümle ölçün, bağlayın, sürdürün",
+      "description": "Yazılım tarafında Conatus Improvement Platform (CIP) ile süreçlerinizi dijitalleştirin; donanım tarafında Conatus Improvement Products ile üretim hatlarını, robotik çözümleri ve yalın mekanik sistemleri sahaya taşıyın — Platform ve Products tek ekosistemde.",
+      "cta": "Bize Ulaşın"
+    },
+    "overview": {
+      "eyebrow": "Teknoloji portföyü",
+      "title": "İki tamamlayıcı teknoloji hattı",
+      "description": "Conatus Improvement Platform (yazılım) ve Conatus Improvement Products (donanım) — danışmanlık ve eğitimle birlikte devreye alınır.",
+      "learnMore": "Detaylı İncele",
+      "software": {
+        "title": "Yazılım teknolojileri",
+        "description": "Conatus Improvement Platform (CIP): dijital dönüşümün omurgası; süreçleri modül modül dijitalleştirin, veriyi entegre edin ve SaaS veya on-premise ile yönetin."
+      },
+      "hardware": {
+        "title": "Donanım teknolojileri",
+        "description": "Conatus Improvement Products: seri üretim hatları, robotik çözümler, fikstürler ve karakuri — sahayı Platform ile konuşturan fiziksel ürünler."
+      }
+    },
+    "cip": {
+      "eyebrow": "Yazılım teknolojileri",
+      "title": "Conatus İyileştirme Platformu",
+      "description": "CIP, üretim ve operasyon süreçlerinizi sistem → alt sistem → modül yapısında yönetmenizi sağlar. Yalnızca ihtiyaç duyduğunuz bileşenleri lisanslayın; veriyi platform içinden veya üçüncü parti uygulamalardan esnek biçimde kullanın.",
+      "hashtag": "#CIP4CIP",
+      "hashtagNote": "Conatus Improvement Platform — #CIP4CIP sloganıyla sürekli iyileştirme için tasarlandı.",
+      "videoLabel": "Conatus Improvement Platform arayüzünde tıklama ve onay animasyonu",
+      "hierarchy": {
+        "eyebrow": "Platform Mimarisi",
+        "title": "Modüler platform, kurumsal ölçekte",
+        "description": "CIP; üretim ve operasyon süreçlerinizi modüler biçimde kurmanızı sağlar. Çok kiracılı mimarisiyle holding ve bağlı kuruluşları tek platformda yönetebilirsiniz.",
+        "imageAlt": "CIP modüler ve çok kiracılı kurumsal mimari illüstrasyonu",
+        "features": {
+          "modular": "Modüler yapı: İhtiyaç duyduğunuz bileşenleri adım adım devreye alın, kapsamı büyüdükçe genişletin.",
+          "multiTenant": "Çok kiracılı mimari: Holding ve bağlı kuruluşları tek çatı altında, tutarlı veri modeliyle yönetin.",
+          "independent": "Bağımsız operasyon: Alt şirketler kendi süreçlerinde gerektiğinde bağımsız çalışmaya devam eder."
+        }
+      },
+      "production": {
+        "eyebrow": "Modüler İçerik",
+        "title": "Üretim Sistemleri",
+        "description": "Üretim sistemi; takım, saha, operasyon, üretim, bakım ve kalite yönetimi alt sistemlerinden oluşur. Her alt sistem modüler yapıdadır ve bağımsız veya birlikte lisanslanabilir.",
+        "learnMore": "Detaylı İncele"
+      },
+      "subsystems": {
+        "badgeComingSoon": "Yakında",
+        "badgeLive": "Yayında",
+        "modules": {
+          "suggestion": "Öneri modülü",
+          "talentCareer": "Kariyer ve yetenek yönetim modülü",
+          "fieldData": "Saha veri modülü",
+          "mobileField": "Mobil saha modülü",
+          "operationsPlanning": "Operasyon planlama modülü",
+          "efficiency": "Verimlilik modülü",
+          "vsm": "VSM modülü",
+          "kanban": "Kanban modülü",
+          "lineMonitoring": "Hat İzleme Modülü",
+          "preventiveMaintenance": "Önleyici bakım modülü",
+          "workOrder": "İş emri modülü",
+          "qualityControl": "Kalite kontrol modülü",
+          "nonConformance": "Uygunsuzluk modülü"
+        },
+        "toolManagement": {
+          "title": "Takım yönetimi",
+          "description": "Kesici takım envanteri, ömür takibi ve kullanım optimizasyonu.",
+          "imageAlt": "Takım yönetimi modülü görseli"
+        },
+        "fieldManagement": {
+          "title": "Saha yönetimi",
+          "description": "Saha verilerinin toplanması, görünürlük ve anlık müdahale.",
+          "imageAlt": "Saha yönetimi modülü görseli"
+        },
+        "operationsManagement": {
+          "title": "Operasyon yönetimi",
+          "description": "Günlük operasyon planlama, izleme ve performans yönetimi.",
+          "imageAlt": "Operasyon yönetimi modülü görseli"
+        },
+        "productionManagement": {
+          "title": "Üretim yönetimi",
+          "description": "Üretim emirlerinden sevkiyata kadar tüm akışı tek platformda yönetin. VSM, Kanban ve hat izleme modülleriyle darboğazları görünür kılın; çıktı, WIP ve teslim performansını anlık izleyin.",
+          "imageAlt": "Üretim yönetimi modülü görseli"
+        },
+        "maintenanceManagement": {
+          "title": "Bakım yönetimi",
+          "description": "Önleyici ve plansız bakım, arıza kayıtları ve ekipman güvenilirliği.",
+          "imageAlt": "Bakım yönetimi modülü görseli"
+        },
+        "qualityManagement": {
+          "title": "Kalite yönetimi",
+          "description": "Kalite kontrol, uygunsuzluk yönetimi ve sürekli iyileştirme verisi.",
+          "imageAlt": "Kalite yönetimi modülü görseli"
+        }
+      },
+      "deployment": {
+        "eyebrow": "Dağıtım",
+        "title": "Bulut veya yerinde kurulum",
+        "description": "Hızlı başlangıç için Bulut (Cloud); veri güvenliği hassasiyeti yüksek sektörler için Yerinde Kurulum (On-Premise) seçeneği.",
+        "cloud": {
+          "title": "Bulut (Cloud)",
+          "description": "Hızlı devreye alma, merkezi güncellemeler ve düşük altyapı yükü."
+        },
+        "onPrem": {
+          "title": "Yerinde Kurulum (On-Premise)",
+          "description": "Verileriniz kurum sınırları içinde kalır; kapalı ağ ve savunma sanayi gibi ortamlara uygundur."
+        }
+      },
+      "integration": {
+        "eyebrow": "Entegrasyon",
+        "title": "Esnek veri ekosistemi",
+        "description": "Her modül, ihtiyaç duyduğu veriyi CIP içindeki diğer modüllerden veya farklı marka uygulamalarından alabilir.",
+        "panelHeading": "ENTEGRASYON — ESNEK VERİ EKOSİSTEMİ",
+        "diagram": {
+          "figureLabel": "CIP entegrasyon şeması: üç veri yolu",
+          "caption": "Üç kaynak tek platformda birleşir",
+          "path1Label": "PLATFORM",
+          "path2Label": "3. PARTİ",
+          "path3Label": "ÖZEL",
+          "centerTitle": "CIP",
+          "moduleA": "Kalite",
+          "moduleB": "Üretim",
+          "erp": "ERP",
+          "mes": "MES",
+          "bi": "BI",
+          "legacy": "Mevcut",
+          "bridge": "Köprü"
+        },
+        "items": {
+          "internal": {
+            "eyebrow": "PLATFORM İÇİ",
+            "title": "Paylaşılan veri modeli",
+            "description": "Alt sistemler ve modüller arasında tutarlı veri akışı."
+          },
+          "external": {
+            "eyebrow": "ÜÇÜNCÜ PARTİ",
+            "title": "Kurumsal uygulamalar",
+            "description": "ERP, MES, BI, IoT ve özel API entegrasyonları."
+          },
+          "flexible": {
+            "eyebrow": "YAPILANDIRILABİLİR",
+            "title": "Mevcut yatırımlarınızla uyum",
+            "description": "Var olan sistemlerinizi koruyarak kademeli dijitalleşme."
+          }
+        }
+      },
+      "licensing": {
+        "eyebrow": "Lisanslama",
+        "title": "Modüler lisanslama",
+        "description": "CIP'i sistem, üretim sistemi veya tekil modül düzeyinde lisanslayın. Abonelik veya yaşam boyu kullanım ile birlikte yüzer ya da sabit lisans modelini operasyonunuza göre bir araya getirin.",
+        "groups": {
+          "scope": "Kapsam",
+          "commercial": "Ticari model",
+          "seats": "Kullanım modeli"
+        },
+        "scope": {
+          "system": {
+            "title": "Platform",
+            "description": "Platformun tamamına yakın kapsam; holding ve çok tesisli yapılar için bütüncül lisanslama."
+          },
+          "subsystem": {
+            "title": "Sistem",
+            "description": "Takım, saha, operasyon, üretim, bakım veya kalite gibi üretim sistemlerinden biri veya birkaçı."
+          },
+          "module": {
+            "title": "Modül",
+            "description": "VSM, Kanban, hat izleme gibi tekil modüller; ihtiyaç duydukça genişletin."
+          }
+        },
+        "commercial": {
+          "subscription": {
+            "title": "Abonelik",
+            "description": "Dönemsel kullanım; güncellemeler ve destek paketiyle öngörülebilir operasyonel gider."
+          },
+          "perpetual": {
+            "title": "Yaşam boyu kullanım",
+            "description": "Tek seferlik edinim; uzun vadeli sahiplik ve kapalı ağ veya yerinde kurulum senaryolarına uygun."
+          }
+        },
+        "seats": {
+          "floating": {
+            "title": "Yüzer lisans",
+            "description": "Belirli sayıda eşzamanlı kullanıcı havuzu; vardiya ve paylaşımlı istasyonlarda esnek kullanım."
+          },
+          "fixed": {
+            "title": "Sabit lisans",
+            "description": "Kullanıcı, rol veya cihaza bağlı sabit atama; denetlenebilir ve öngörülebilir erişim."
+          }
+        },
+        "cta": {
+          "title": "Lisans yapınızı birlikte planlayalım",
+          "description": "Kapsam, ticari model ve kullanım modeli kombinasyonu için teklif ve yapılandırma önerisi alın.",
+          "button": "İletişime geçin"
+        }
+      }
+    },
+    "hardware": {
+      "eyebrow": "Donanım teknolojileri",
+      "title": "Sahadan veriye, veriden aksiyona",
+      "description": "Seri üretim hatları, robotik çözümler, fikstürler, raflar ve karakuri tasarlayıp üretiyoruz. Sensör ve otomasyon katmanlarıyla Platform'a bağlanan fiziksel ürünler sunuyoruz.",
+      "hashtag": "#CIP4CIP",
+      "hashtagNote": "Sahada ölçülebilir iyileştirme için üretildi.",
+      "gifLabel": "Seri üretim hattı — robot kolu pick & place animasyonu",
+      "items": {
+        "lines": {
+          "title": "Seri üretim hatları",
+          "description": "Ürün ve hacim ihtiyacınıza göre hat tasarımı ve kurulumu.",
+          "imageAlt": "Seri üretim hattı ve endüstriyel otomasyon panoraması"
+        },
+        "fixtures": {
+          "title": "Fikstürler ve raflar",
+          "description": "Montaj, depolama ve malzeme akışı için özel aparatlar.",
+          "imageAlt": "Üretim sahasında fikstür ve malzeme akışı panoraması"
+        },
+        "karakuri": {
+          "title": "Karakuri ve yardımcı sistemler",
+          "description": "Yalın prensiplere uygun, enerji verimli mekanik çözümler.",
+          "imageAlt": "Karakuri ve yalın mekanik yardımcı sistem görseli"
+        },
+        "custom": {
+          "title": "Özel mühendislik",
+          "description": "Keşif, tasarım, imalat ve devreye alma — DEGER yaklaşımıyla proje yönetimi.",
+          "imageAlt": "Özel mühendislik ve proje tasarımı panoraması"
+        },
+        "learnMore": "Detaylı İncele"
+      }
+    },
+    "ecosystem": {
+      "eyebrow": "Bütüncül yaklaşım",
+      "title": "Danışmanlık ve eğitim hizmetlerimizi keşfedin",
+      "description": "Danışmanlık, eğitim ve teknoloji çözümlerimizi DEGER modeliyle bir arada sunuyoruz. Yazılım ve donanım teknolojisi yatırımlarınızın sürdürülebilir sonuç üretmesi için yanınızdayız.",
+      "consulting": "Danışmanlık",
+      "training": "Eğitim"
+    },
+    "cta": {
+      "title": "Demo, kurulum veya özel mühendislik için görüşelim",
+      "description": "Platform veya Products projeniz için ilk adımı birlikte planlayın; lisanslama seçenekleri için CIP bölümüne bakın.",
+      "contact": "Bize Ulaşın"
+    },
+    "hardwareDetail": {
+      "backToHardware": "Donanım teknolojilerine dön",
+      "hero": {
+        "problemLabel": "Çözdüğü problem",
+        "easeLabel": "İşinizi nasıl kolaylaştırır",
+        "experienceLabel": "Saha tecrübesinin ürünü"
+      },
+      "capabilities": {
+        "eyebrow": "Yetenekler"
+      },
+      "applications": {
+        "eyebrow": "Kullanım alanları"
+      },
+      "platform": {
+        "eyebrow": "Platform entegrasyonu"
+      }
+    },
+    "subsystemDetail": {
+      "backToTechnology": "Teknolojiye dön",
+      "hero": {
+        "problemLabel": "Çözdüğü problem",
+        "easeLabel": "İşinizi nasıl kolaylaştırır",
+        "experienceLabel": "Saha tecrübesinin ürünü"
+      },
+      "showcase": {
+        "eyebrow": "Arayüz ve deneyim",
+        "title": "Yazılımı görün, nasıl çalıştığını hissedin",
+        "description": "Ekran görüntüleri ve canlı demo ile modülün günlük kullanımda nasıl göründüğünü ve iş akışını nasıl desteklediğini keşfedin.",
+        "videoLabel": "{system} — canlı platform demosu",
+        "screenshotCaption": "{system} arayüz önizlemesi",
+        "architectureAlt": "CIP platform mimarisi ve modüler yapı",
+        "secondaryNote": "Modül, Conatus İyileştirme Platformu (CIP) ekosistemi içinde diğer alt sistemlerle birlikte çalışacak şekilde tasarlanmıştır."
+      },
+      "modules": {
+        "eyebrow": "Modüler yapı",
+        "title": "Bu alt sisteme bağlı modüller",
+        "description": "İhtiyacınız olan derinliğe göre modülleri bağımsız veya birlikte lisanslayabilirsiniz."
+      },
+      "features": {
+        "eyebrow": "Yazılım özellikleri",
+        "title": "Kano perspektifinde yetenek seti",
+        "description": "Temel beklentiler, performans unsurları ve fark yaratan premium yetenekler — modülünüzü aşamalı olarak büyütebilirsiniz.",
+        "performanceTitle": "Performans özellikleri",
+        "performanceNote": "Müşterinin açıkça beklediği, güvenilir ve ölçülebilir temel yetenekler.",
+        "premiumTitle": "Premium özellikler",
+        "premiumNote": "Memnuniyeti ve rekabet avantajını yükselten üstün yetenekler.",
+        "basicTitle": "Temel özellikler",
+        "basicNote": "Standart dijital altyapı ve erişilebilirlik.",
+        "tabsGroupLabel": "Temel, performans ve premium özellik sekmeleri",
+        "tabBasic": "Temel",
+        "tabPerformance": "Performans",
+        "tabPremium": "Premium",
+        "diagramCaption": "Kano modelinde premium ve performans katmanları müşteri memnuniyetini en çok etkiler.",
+        "diagramPremiumTag": "Premium",
+        "diagramPremiumSubtitle": "Fark yaratan",
+        "diagramPerformanceTag": "Performans",
+        "diagramPerformanceSubtitle": "Beklenen temel",
+        "diagramBasic": "Temel"
+      },
+      "testimonials": {
+        "eyebrow": "Sahadan sesler",
+        "title": "Sahada kanıtlanmış sonuçlar",
+        "description": "Üretim ve operasyon ekiplerinin günlük kullanımından — karar vermeden önce sahadaki etkiyi görün.",
+        "trustBadge": "Saha kullanıcısı",
+        "trustIndustries": "Otomotiv · beyaz eşya · metal işleme ve tedarik zinciri tesislerinden"
+      }
+    }
+  },
+  "common": {
+    "comingSoon": "Yakında",
+    "language": "Dil",
+    "placeholderBody": "Bu sayfa Faz 1 kapsamında birlikte geliştirilecek.",
+    "carousel": {
+      "previous": "Önceki slayt",
+      "next": "Sonraki slayt",
+      "slide": "Slayt {number}"
+    }
+  }
+}

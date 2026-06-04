@@ -1,0 +1,1651 @@
+{
+  "metadata": {
+    "title": "CONATUS | Consulting, Training and Technology",
+    "description": "We deliver consulting, training and technology solutions as an integrated ecosystem to help your business achieve sustainable success."
+  },
+  "nav": {
+    "home": "Home",
+    "corporate": "About",
+    "consulting": "Consulting",
+    "training": "Training",
+    "technology": "Technology",
+    "contact": "Contact",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "ariaMain": "Main navigation",
+    "ariaMobile": "Mobile navigation",
+    "localeNames": {
+      "tr": "Türkçe",
+      "en": "English"
+    }
+  },
+  "footer": {
+    "privacy": "Privacy & KVKK",
+    "contact": "Contact",
+    "corporate": "Corporate",
+    "rights": "All rights reserved.",
+    "linkedin": "LinkedIn",
+    "youtube": "YouTube",
+    "instagram": "Instagram",
+    "ariaLabel": "Footer navigation"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Conatus",
+      "title": "Transform Your Drive to Endure into Sustainable Success",
+      "description": "Through consulting, training and technology solutions delivered as an integrated ecosystem, we increase your efficiency, strengthen decision-making and guide long-term success.",
+      "ctaPrimary": "Contact Us",
+      "slides": {
+        "matrix": "Effectiveness and efficiency matrix",
+        "consulting": "Consulting — problem, solution and outcome",
+        "training": "Training — lean thinking and shop-floor application",
+        "technology": "Technology — CIP platform and modules"
+      }
+    },
+    "deger": {
+      "title": "The Conatus Working Model",
+      "subtitle": "DEGER — Assessment and Development Guide",
+      "descriptionIntro": "Conatus delivers consulting, training and technology services through ",
+      "descriptionAfterHighlight": ". DEGER aims to understand the current state, clarify targeted development and guide implementation to produce lasting results.",
+      "steps": {
+        "evaluation": {
+          "title": "ASSESSMENT",
+          "heading": "See the Current State",
+          "items": [
+            "We analyze processes and performance holistically.",
+            "We create a data-driven snapshot of the current state.",
+            "We make real problems and improvement areas visible."
+          ],
+          "quote": "Correct problem definition is the foundation of the right solution."
+        },
+        "development": {
+          "title": "DEVELOPMENT",
+          "heading": "Design the Future",
+          "items": [
+            "We set clear and measurable development goals.",
+            "We create a prioritized roadmap.",
+            "We plan short, medium and long-term actions."
+          ],
+          "quote": "Development without a clear target does not produce progress."
+        },
+        "guidance": {
+          "title": "GUIDANCE",
+          "heading": "Guide Implementation",
+          "items": [
+            "We guide planned development in the field.",
+            "We support teams and monitor applications.",
+            "We ensure sustainability of gains."
+          ],
+          "quote": "Real value emerges when it is applied."
+        }
+      }
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "Take Your Business to the Future",
+      "description": "Achieve sustainable success with our holistic solutions in consulting, training and technology.",
+      "consulting": {
+        "title": "Consulting",
+        "description": "We support your growth with strategic roadmaps and data-driven recommendations."
+      },
+      "training": {
+        "title": "Training",
+        "description": "We design custom training programs to enhance your team's competencies."
+      },
+      "technology": {
+        "title": "Technology",
+        "description": "We support your operations end to end with the CIP software platform and custom production hardware."
+      },
+      "learnMore": "Learn More"
+    },
+    "whyUs": {
+      "eyebrow": "Why Conatus",
+      "title": "Work With Us",
+      "subtitle": "We see your success as our own and add value with solutions tailored to your business.",
+      "slides": {
+        "slide1": "Teamwork and collaboration",
+        "slide2": "Organizational development",
+        "slide3": "Strategic planning"
+      },
+      "items": {
+        "holistic": {
+          "title": "Integrated model",
+          "description": "We address consulting, training and technology solutions within an integrated model, designing processes systematically across the entire organization rather than in isolation."
+        },
+        "field": {
+          "title": "Field focus",
+          "description": "We believe success is won on the production floor, not in offices. We design structures that are applicable in the field, aligned with operational reality and deliver results."
+        },
+        "measurable": {
+          "title": "Sustainable outcomes",
+          "description": "We track measurable improvements in every project and ensure transformation becomes a lasting culture."
+        }
+      }
+    },
+    "references": {
+      "eyebrow": "References",
+      "title": "Client References",
+      "description": "Organisations we have worked with on consulting, training and technology projects. The outcomes we delivered together are the reference for Conatus's reliability and expertise.",
+      "empty": "Reference logos will be added to the public/references/ folder."
+    },
+    "cta": {
+      "title": "Would you like to apply our approach in your company?",
+      "description": "Contact us to plan the first assessment step together.",
+      "button": "Contact Us"
+    }
+  },
+  "corporate": {
+    "metadata": {
+      "title": "CONATUS | About",
+      "description": "About Conatus, our mission and vision, values and team."
+    },
+    "about": {
+      "eyebrow": "Corporate",
+      "title": "About Us",
+      "paragraphs": [
+        "Conatus expresses a being's drive to sustain and develop its existence. Inspired by this philosophy, we help the organizations we consult unlock their full potential, strengthen their presence by overcoming challenges and achieve sustainable growth.",
+        "We see the business not as a structure made of separate parts, but as a living whole formed by interacting systems."
+      ],
+      "videoLabel": "Introduction video on lean management"
+    },
+    "vision": {
+      "eyebrow": "Looking ahead",
+      "title": "What Kind of World Do We Envision Tomorrow?",
+      "description": "Discover our mission and vision for the future.",
+      "mission": {
+        "title": "Our Mission",
+        "description": "To unlock the potential of organizations and individuals through a systematic approach centered on lean thinking."
+      },
+      "visionCard": {
+        "title": "Our Vision",
+        "description": "To be the architect of sustainable success in the global market by supporting lean approaches with innovative technologies."
+      }
+    },
+    "values": {
+      "eyebrow": "Values and guiding principles",
+      "title": "Foundations of Our Culture",
+      "description": "The core values and guiding principles that shape our company culture and way of working.",
+      "tabs": {
+        "values": "VALUES",
+        "principles": "GUIDING PRINCIPLES"
+      },
+      "galleryLabel": "Values and principles gallery"
+    },
+    "team": {
+      "eyebrow": "Organization",
+      "title": "Meet Our Team",
+      "description": "The talented professionals behind our success.",
+      "viewProfile": "View profile",
+      "backToCorporate": "Back to About",
+      "members": {
+        "murat": {
+          "name": "Murat ŞEN",
+          "role": "Founder",
+          "bio": [
+            "As founder of Conatus, he delivers consulting and training in lean management and operational excellence.",
+            "He supports organizations on their sustainable development journey with hands-on experience across assessment, development and guidance."
+          ]
+        },
+        "tayfun": {
+          "name": "Tayfun YÖRÜ",
+          "role": "Senior Consultant",
+          "bio": [
+            "As a senior consultant, he provides field-focused guidance to teams on production and process improvement projects.",
+            "He contributes to measurable results through lean tools and data-driven approaches."
+          ]
+        }
+      }
+    },
+    "cta": {
+      "title": "Would you like to apply our approach in your company?",
+      "description": "Contact us to plan the first assessment step together.",
+      "contact": "Contact Us"
+    }
+  },
+  "contact": {
+    "metadata": {
+      "title": "CONATUS | Contact",
+      "description": "Get in touch with Conatus about consulting, training and technology solutions."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "The Future Starts with Questions",
+      "description": "We are here to understand your needs, explore your organization's potential and propose a tailored roadmap. Fill in the form and our team will get back to you shortly."
+    },
+    "visual": {
+      "eyebrow": "Process",
+      "processTitle": "What happens next",
+      "centerLabel": "Flow",
+      "process": {
+        "submit": {
+          "title": "Submit the form",
+          "text": "Submit the form and choose a subject."
+        },
+        "review": {
+          "title": "We review your request",
+          "text": "Our team reviews your request and clarifies your needs."
+        },
+        "followup": {
+          "title": "We get back to you",
+          "text": "We reply by email or phone to schedule a conversation."
+        }
+      }
+    },
+    "info": {
+      "directEyebrow": "Reach us directly",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone"
+    },
+    "form": {
+      "title": "Send your message",
+      "subtitle": "Complete the required fields and confirm your consent under applicable data protection law.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "company": "Company / Organization",
+      "position": "Position",
+      "email": "Email",
+      "emailLocalPlaceholder": "name.surname",
+      "emailDomainPlaceholder": "company.com",
+      "emailHint": "Example: name.surname@company.com — you can paste a full address into the first field.",
+      "phone": "Phone",
+      "phoneCountryLabel": "Country code",
+      "phonePlaceholder": "XXX XXX XXXX",
+      "phoneHint": "Select your country code, then enter your number with or without spaces.",
+      "phoneCountries": {
+        "TR": "Türkey",
+        "US": "US / Canada",
+        "GB": "United Kingdom",
+        "DE": "Germany",
+        "FR": "France",
+        "NL": "Netherlands",
+        "IT": "Italy",
+        "ES": "Spain",
+        "AE": "UAE",
+        "SA": "Saudi Arabia",
+        "QA": "Qatar",
+        "AZ": "Azerbaijan",
+        "RU": "Russia",
+        "CN": "China",
+        "IN": "India"
+      },
+      "subject": "Subject",
+      "subjectPlaceholder": "Select a subject",
+      "message": "Your message",
+      "subjectOptions": {
+        "consulting": "Consulting",
+        "training": "Training",
+        "technology": "Technology",
+        "other": "Other"
+      },
+      "kvkkPrefix": "I agree that my personal data may be processed as described in the",
+      "kvkkLink": "Privacy & KVKK Policy",
+      "kvkkSuffix": "for the purpose of responding to my contact request.",
+      "marketingConsent": "I consent to commercial electronic messages and newsletters (optional).",
+      "requiredNote": "Fields marked * are required.",
+      "validationModalTitle": "Please complete required fields",
+      "validationModalMessage": "Your message was not sent. Check the highlighted required fields, complete any missing information, and accept the privacy notice.",
+      "validationModalClose": "OK, I'll review",
+      "errors": {
+        "firstName": "First name is required.",
+        "lastName": "Last name is required.",
+        "company": "Company / organization is required.",
+        "position": "Position is required.",
+        "email": "Email is required.",
+        "emailInvalid": "Please enter a valid email address.",
+        "phone": "Phone is required.",
+        "phoneInvalid": "Please enter a valid phone number (at least 7 digits).",
+        "kvkk": "You must accept the privacy notice to send your message."
+      },
+      "submit": "Send message",
+      "submitting": "Sending…",
+      "successTitle": "Message received",
+      "success": "Thank you. The Conatus team will review your request and respond as soon as possible.",
+      "error": "Something went wrong. Please try again or email us directly."
+    }
+  },
+  "legal": {
+    "privacy": {
+      "metadata": {
+        "title": "CONATUS | Privacy & KVKK Policy",
+        "description": "How Conatus processes personal data under Turkish Law No. 6698 on the Protection of Personal Data (KVKK)."
+      },
+      "eyebrow": "Legal",
+      "title": "Privacy & KVKK Policy",
+      "lastUpdated": "Last updated: May 2026",
+      "backToContact": "Back to contact",
+      "intro": "At Conatus we take the security of your personal data seriously. This notice explains what data we collect through our website and contact channels, why we process it, and your rights.",
+      "disclaimer": "This text is for information only. For specific situations, contact us at info@conatus.com.tr.",
+      "sections": [
+        {
+          "title": "Data controller",
+          "paragraphs": [
+            "Under Turkish Law No. 6698 (KVKK), the data controller is CONATUS.",
+            "Contact: info@conatus.com.tr"
+          ]
+        },
+        {
+          "title": "Personal data we process",
+          "paragraphs": [
+            "Via the contact form: first name, last name, email, phone, optional company/organization, message content and selected subject.",
+            "If you opt in: record of consent to commercial electronic messages.",
+            "Technical data: IP address, browser information and submission time (for security and logging, kept to a minimum)."
+          ]
+        },
+        {
+          "title": "Purposes and legal bases",
+          "paragraphs": [
+            "To respond to your request, arrange introductory calls and evaluate service inquiries.",
+            "To comply with legal obligations and protect our legitimate interests.",
+            "Marketing activities only where you have given explicit consent."
+          ]
+        },
+        {
+          "title": "Transfers and retention",
+          "paragraphs": [
+            "Data may be shared with service providers required to operate our services (e.g. email infrastructure) and authorities where legally required.",
+            "Contact records are retained for reasonable periods depending on the nature of the request; unnecessary data is deleted or anonymized."
+          ]
+        },
+        {
+          "title": "Your rights",
+          "paragraphs": [
+            "Under KVKK Article 11 you may request information about processing, correction or deletion, learn the purpose of processing and object.",
+            "Send requests to info@conatus.com.tr; we will respond within statutory time limits."
+          ]
+        }
+      ]
+    }
+  },
+  "consulting": {
+    "metadata": {
+      "title": "CONATUS | Consulting",
+      "description": "Profitability and efficiency-focused consulting. Capacity, cost, productivity and culture transformation through problem, solution and outcome."
+    },
+    "hero": {
+      "eyebrow": "Consulting",
+      "title": "Discover our profitability and efficiency-focused consulting solutions",
+      "description": "Through our DEGER working model, we assess your corporate and operational processes, shape your company's future with tailored strategies, and guide you at every step of a productive transformation journey.",
+      "cta": "Contact Us",
+      "banner": {
+        "eyebrow": "DEGER — Assessment and Development Guide",
+        "title": "Don't slow down as you grow",
+        "description": "We remove your organisation's invisible brakes — understanding the current state, clarifying targeted development, and guiding implementation to deliver lasting results."
+      }
+    },
+    "cases": {
+      "eyebrow": "Operational challenges",
+      "title": "Problem → Solution → Outcome",
+      "description": "Across capacity, cost, efficiency and culture transformation, we address your challenges, the Conatus approach and targeted outcomes in one Problem → Solution → Outcome framework.",
+      "navLabel": "Consulting topics",
+      "tabsGroupLabel": "Problem, solution and outcome tabs",
+      "carousel": {
+        "previous": "Previous slide",
+        "next": "Next slide",
+        "slide": "Slide {number}"
+      },
+      "labels": {
+        "problem": "Problem",
+        "solution": "Solution",
+        "outcome": "Outcome"
+      },
+      "items": {
+        "deger": {
+          "nav": "DEGER approach",
+          "title": "Don't slow down as you grow — remove invisible brakes",
+          "lead": "Conatus delivers consulting, training and technology through DEGER — Assessment and Development Guide. We understand the current state, clarify targeted development and guide implementation to deliver lasting results.",
+          "problems": [
+            "Current state is not defined clearly and measurably",
+            "Improvement initiatives are not tied to concrete targets",
+            "Disconnect between strategy and daily operations",
+            "Fragmented projects fail to lift holistic performance",
+            "Implementation does not sustain on the shop floor"
+          ],
+          "solution": {
+            "intro": "We structure assessment, development and guidance as an integrated transformation journey through the DEGER model.",
+            "blocks": [
+              {
+                "title": "Assessment",
+                "items": [
+                  "Holistic analysis of resource efficiency, process effectiveness and impact",
+                  "Data-driven snapshot of the current state",
+                  "Making real problems and development areas visible"
+                ]
+              },
+              {
+                "title": "Development",
+                "items": [
+                  "Clear, measurable development targets",
+                  "Prioritised roadmap",
+                  "Short-, medium- and long-term action plans"
+                ]
+              },
+              {
+                "title": "Guidance",
+                "items": [
+                  "Field support for planned development",
+                  "Team support and reinforcement of standards",
+                  "Ensuring sustainability of gains"
+                ]
+              }
+            ],
+            "quote": "The right problem definition is the foundation of the right solution."
+          },
+          "outcomes": {
+            "items": [
+              "Systematic improvement framework across the organisation",
+              "Clear priorities and measurable KPIs",
+              "Field-focused implementation discipline",
+              "In-house capability that reduces consultant dependency",
+              "Foundations of a lasting lean culture"
+            ],
+            "quote": "Real value emerges when it is applied."
+          }
+        },
+        "capacity": {
+          "nav": "Capacity & delivery",
+          "title": "Delivery times not improving despite capacity investments?",
+          "lead": "Conatus addresses the problem through a value stream lens, not a single metric. We reveal hidden capacity and clarify where investments will have impact.",
+          "problems": [
+            "Delivery times not shortening despite capacity investments",
+            "Headcount increases contribute little to output",
+            "WIP and intermediate stock levels rising",
+            "Coordination load and complexity increasing",
+            "Cost growth pressuring profitability"
+          ],
+          "solution": {
+            "intro": "We make bottlenecks visible through value stream and constraint analysis and set investment priorities on data.",
+            "blocks": [
+              {
+                "title": "VSM (Value Stream Mapping)",
+                "items": [
+                  "Takt time and cycle times",
+                  "WIP / stock levels",
+                  "Information flow and process capability",
+                  "Resource and workforce distribution"
+                ]
+              },
+              {
+                "title": "TOC (Theory of Constraints)",
+                "items": [
+                  "Current and potential bottleneck identification",
+                  "Capacity loss breakdown",
+                  "Data foundation for investment scenarios"
+                ]
+              }
+            ],
+            "quote": "Development without clear goals produces no progress."
+          },
+          "outcomes": {
+            "items": [
+              "Bottleneck processes identified against takt time and customer demand",
+              "Future potential bottlenecks forecast",
+              "Total capacity loss analysed in production hours",
+              "WIP levels analysed with improvement priorities",
+              "ROI and payback models for planned investments"
+            ],
+            "quote": "Real value emerges when it is applied."
+          }
+        },
+        "cph": {
+          "nav": "Hourly production cost",
+          "title": "Turn hourly production cost into your improvement compass",
+          "lead": "Hourly production cost is not just accounting data. Conatus treats CPH increases as signals from the operational system — making losses visible and separating root causes.",
+          "problems": [
+            "Rising defects, rework and customer complaints",
+            "Overtime and temporary labour becoming normal",
+            "Stock, spare parts and material waste becoming invisible",
+            "Air freight, demurrage and emergency logistics costs",
+            "Loss of control over energy, utilities and transport costs"
+          ],
+          "solution": {
+            "intro": "All losses are categorised by department and type, quantified with their financial equivalents.",
+            "blocks": [
+              {
+                "title": "Historical data analysis",
+                "items": [
+                  "Defect, downtime, overtime, energy and logistics data",
+                  "Department and process breakdown"
+                ]
+              },
+              {
+                "title": "Focused field studies",
+                "items": [
+                  "On-site identification of loss points",
+                  "Separation of in-process waste types"
+                ]
+              },
+              {
+                "title": "Design of Experiments (DoE)",
+                "items": [
+                  "Testing variables that affect losses",
+                  "Identifying highest-impact factors"
+                ]
+              }
+            ]
+          },
+          "outcomes": {
+            "blocks": [
+              {
+                "title": "Operational outcomes",
+                "items": [
+                  "Clear definition of loss sources",
+                  "Defects, waste and downtime made visible",
+                  "Understanding of cross-process chain effects",
+                  "Balance and control in resource use"
+                ]
+              },
+              {
+                "title": "Financial outcomes",
+                "items": [
+                  "Real cost burdens calculated by department",
+                  "Financial equivalent of preventable losses clarified",
+                  "Potential capacity and cost savings surfaced",
+                  "Investment and improvement priorities set correctly"
+                ]
+              },
+              {
+                "title": "Management outcomes",
+                "items": [
+                  "Cost increases tracked with cause-and-effect",
+                  "Budget variances detected early",
+                  "Objective comparison across departments",
+                  "12-month CPH and profitability projections"
+                ]
+              }
+            ],
+            "footer": "Result: pressure on CPH eases and profitability is restored. Management moves from reporting cost to managing it."
+          }
+        },
+        "eph": {
+          "nav": "Productivity per person",
+          "title": "Why is earnings per headcount declining?",
+          "lead": "In mature organisations, post-growth profitability often falls because productivity per person drops. Workforce structure is addressed through systematic analysis, not intuition.",
+          "problems": [
+            "Rising overhead in processes",
+            "Lack of standardisation and rationalisation in work practices",
+            "Insufficient multiskilling and job rotation",
+            "Missing protocols and criteria in hiring",
+            "Limited output growth despite more labour",
+            "Inefficient workforce structure creating pressure in tough periods"
+          ],
+          "solution": {
+            "intro": "Work elements are broken down to determine optimal headcount on a data basis.",
+            "blocks": [
+              {
+                "title": "Work study and line balancing",
+                "items": [
+                  "Work elements and time breakdown per role",
+                  "Repetitive, periodic, idle and variation times identified"
+                ]
+              },
+              {
+                "title": "Norm staffing and standardisation",
+                "items": [
+                  "Comprehensive norm staffing for direct and indirect staff",
+                  "Standardised job definitions",
+                  "Historical data analysis and statistical modelling",
+                  "Multiskilling and rotation recommendations"
+                ]
+              }
+            ]
+          },
+          "outcomes": {
+            "items": [
+              "Department-level analysis of current vs required workforce",
+              "Productivity gains through work standardisation",
+              "Roadmap to optimal workforce structure",
+              "Measurable improvement in EPH and profitability"
+            ]
+          }
+        },
+        "culture": {
+          "nav": "Cultural stagnation",
+          "title": "Cultural stagnation weakens competitiveness",
+          "lead": "When organisational culture is not consciously defined, processes depend on individuals and performance loses sustainability. Conatus treats cultural stagnation as a systemic problem.",
+          "problems": [
+            "Different work habits and methods across departments",
+            "Person-dependent processes and decision mechanisms",
+            "Pockets of excellence but declining holistic performance",
+            "Mismatch between leadership behaviour and company values",
+            "Internal politics and power imbalances",
+            "Disconnect between vision and daily operations"
+          ],
+          "solution": {
+            "intro": "We measure cultural and process maturity and design an operating system unique to your organisation.",
+            "blocks": [
+              {
+                "title": "Assessment",
+                "items": [
+                  "Lean maturity index evaluation",
+                  "Cultural and process maturity analysis",
+                  "Leadership behaviour and management system review",
+                  "Performance and reward system evaluation"
+                ]
+              },
+              {
+                "title": "Design and roadmap",
+                "items": [
+                  "Organisation-specific XOS (Company Operation System) design",
+                  "Action plan and transformation roadmap"
+                ]
+              }
+            ]
+          },
+          "outcomes": {
+            "items": [
+              "Shared operational language and standard work culture",
+              "Increased process discipline",
+              "Fewer person-dependent practices",
+              "Sustainable improvement mechanism",
+              "Organisation structure aligned with strategic goals"
+            ]
+          }
+        }
+      }
+    },
+    "cta": {
+      "title": "Would you like to apply our approach in your company?",
+      "description": "Contact us to plan the first assessment step together.",
+      "contact": "Contact Us"
+    }
+  },
+  "training": {
+    "metadata": {
+      "title": "CONATUS | Training",
+      "description": "Corporate training programs focused on lean management, quality and operational excellence. Measurable growth through the DEGER model."
+    },
+    "hero": {
+      "eyebrow": "Training",
+      "title": "Turn knowledge into performance on the shop floor",
+      "description": "Programs that bring lean thinking and systems thinking from operations to the office — from fundamentals to expertise, from open courses to corporate development paths. Every step translates into daily decisions and measurable impact.",
+      "cta": "Contact Us"
+    },
+    "developmentPrograms": {
+      "eyebrow": "Development programs",
+      "title": "Corporate Development Programs",
+      "description": "Ten curated learning paths for office and operations teams, each combining multiple individual courses.",
+      "courseCount": "{count} courses",
+      "results": "Results: {count}",
+      "filters": {
+        "audience": "Participants",
+        "category": "Program category",
+        "selectAll": "Select all",
+        "close": "Close",
+        "clearGroup": "Clear",
+        "clearAll": "Clear all filters",
+        "noResults": "No development programs match the selected filters."
+      },
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "label": "Pagination"
+      },
+      "audiences": {
+        "ofis": "For office teams",
+        "operasyon": "For operations teams"
+      },
+      "categories": {
+        "yalin-101": "Lean 101",
+        "sistem": "Systems",
+        "teknik": "Technical expertise",
+        "liderlik": "Leadership",
+        "kisisel-gelisim": "Personal development"
+      },
+      "items": {
+        "ofis-yalin-101": {
+          "title": "Office — Lean 101 Development Program",
+          "description": "Foundational lean transformation path for office teams covering mindset, systems, PDCA, A3 and kaizen."
+        },
+        "operasyon-yalin-101": {
+          "title": "Operations — Lean 101 Development Program",
+          "description": "Entry path for shop-floor teams built from HSE, quality, cost and maintenance awareness modules."
+        },
+        "ofis-sistem": {
+          "title": "Office — Systems Development Program",
+          "description": "Holistic systems thinking, process management and continuous improvement for office processes."
+        },
+        "operasyon-sistem": {
+          "title": "Operations — Systems Development Program",
+          "description": "Strengthens systemic efficiency, ownership and flow on the production floor."
+        },
+        "ofis-teknik": {
+          "title": "Office — Technical Expertise Program",
+          "description": "Deepens analytical reporting, process management and structured problem solving."
+        },
+        "operasyon-teknik": {
+          "title": "Operations — Technical Expertise Program",
+          "description": "Combines technical awareness, safety and equipment discipline for operations."
+        },
+        "ofis-liderlik": {
+          "title": "Office — Leadership Development Program",
+          "description": "Lean-aligned leadership and team problem solving for office leaders."
+        },
+        "operasyon-liderlik": {
+          "title": "Operations — Leadership Development Program",
+          "description": "Production awareness and shop-floor leadership for operations supervisors."
+        },
+        "ofis-kisisel-gelisim": {
+          "title": "Office — Personal Development Program",
+          "description": "Supports individual effectiveness and analytical thinking in office roles."
+        },
+        "operasyon-kisisel-gelisim": {
+          "title": "Operations — Personal Development Program",
+          "description": "Builds self-awareness and operational responsibility on the shop floor."
+        }
+      },
+      "detail": {
+        "backToTraining": "Back to training",
+        "outcomesTitle": "Program outcomes",
+        "structureTitle": "Program structure",
+        "includedCoursesTitle": "Courses in this program",
+        "includedCoursesDescription": "This development program is built from the individual modules below. Click a card for full course details.",
+        "relatedProgramsTitle": "{audience} — other programs",
+        "ctaTitle": "Tailor this program to your organisation",
+        "ctaDescription": "We will align module selection and scheduling with your teams and goals.",
+        "ctaButton": "Contact Us",
+        "items": {
+          "ofis-yalin-101": {
+            "tagline": "A complete lean foundation path for office teams.",
+            "intro": "The Lean 101 program guides office staff through mindset, systems, PDCA, A3 and kaizen in a coherent sequence.",
+            "outcomes": [
+              "Shared lean language and values",
+              "Ability to run processes with PDCA and A3",
+              "Launch pad for continuous improvement culture"
+            ],
+            "structure": [
+              "Modules can be sequenced to workload",
+              "Balance of theory and application",
+              "Roadmap workshop at program close"
+            ]
+          },
+          "operasyon-yalin-101": {
+            "tagline": "Core lean and operational awareness for shop-floor teams.",
+            "intro": "Structured for operations staff, this program targets conscious behaviour through HSE, quality, cost and maintenance modules.",
+            "outcomes": [
+              "Operational awareness and ownership",
+              "Early recognition of waste and risk",
+              "Safe, standards-based habits"
+            ],
+            "structure": [
+              "Flexible half-day modules",
+              "Shop-floor examples and drills",
+              "Team-based feedback"
+            ]
+          },
+          "ofis-sistem": {
+            "tagline": "Systems thinking and improvement for office processes.",
+            "intro": "Connects lean systems and process tools so office teams drive end-to-end efficiency.",
+            "outcomes": [
+              "Read processes systemically",
+              "Structure improvement initiatives",
+              "Track performance with KPIs"
+            ],
+            "structure": [
+              "Cross-module linkage emphasised",
+              "Desk and case-based exercises",
+              "Contribution to enterprise system map"
+            ]
+          },
+          "operasyon-sistem": {
+            "tagline": "Systemic efficiency and ownership on the line.",
+            "intro": "Combines production awareness, quality and cost modules toward operational excellence.",
+            "outcomes": [
+              "Line and station accountability",
+              "Alignment with loss-free targets",
+              "Cross-functional collaboration"
+            ],
+            "structure": [
+              "Shop-floor module sequence",
+              "Visual management linkage",
+              "Measurable line targets"
+            ]
+          },
+          "ofis-teknik": {
+            "tagline": "Analytical and technical depth for office roles.",
+            "intro": "Deepens A3, PDCA and kaizen tool skills for structured problem solving.",
+            "outcomes": [
+              "Structured problem solving",
+              "Data-driven reporting",
+              "Tool proficiency"
+            ],
+            "structure": [
+              "Tool-by-tool progression",
+              "Real business problems",
+              "Mentoring sessions"
+            ]
+          },
+          "operasyon-teknik": {
+            "tagline": "Technical discipline on the shop floor.",
+            "intro": "Links safety, equipment and quality modules to field requirements.",
+            "outcomes": [
+              "Compliance with technical standards",
+              "Preventive maintenance mindset",
+              "Early quality intervention"
+            ],
+            "structure": [
+              "Short intensive field modules",
+              "Practical checklists",
+              "Team leader review"
+            ]
+          },
+          "ofis-liderlik": {
+            "tagline": "Lean leadership for office managers.",
+            "intro": "Supports lean-aligned leadership behaviours and team improvement practice.",
+            "outcomes": [
+              "Leadership aligned with lean values",
+              "Team motivation and accountability",
+              "Coaching and feedback skills"
+            ],
+            "structure": [
+              "Leadership workshops",
+              "Individual development plans",
+              "Optional 360° feedback"
+            ]
+          },
+          "operasyon-liderlik": {
+            "tagline": "Shop-floor leadership and production awareness.",
+            "intro": "Focuses on line and shift leaders building production awareness and field leadership.",
+            "outcomes": [
+              "Lead by example on the floor",
+              "Performance tracking and coaching",
+              "Safe, efficient team management"
+            ],
+            "structure": [
+              "Gemba observation exercises",
+              "Short coaching cycles",
+              "Leadership action plan"
+            ]
+          },
+          "ofis-kisisel-gelisim": {
+            "tagline": "Personal effectiveness for office contributors.",
+            "intro": "Strengthens individual contribution through mindset and analytical modules.",
+            "outcomes": [
+              "Self-awareness and accountability",
+              "Effective collaboration",
+              "Continuous learning habits"
+            ],
+            "structure": [
+              "Individual and group activities",
+              "Self-assessment tools",
+              "Development goal tracking"
+            ]
+          },
+          "operasyon-kisisel-gelisim": {
+            "tagline": "Personal and operational awareness for operators.",
+            "intro": "Uses HSE and cost awareness modules to support responsible daily decisions.",
+            "outcomes": [
+              "Operational self-awareness",
+              "Safe, cost-conscious behaviour",
+              "Trust and teamwork"
+            ],
+            "structure": [
+              "Short awareness modules",
+              "Team sharing sessions",
+              "Behaviour commitments"
+            ]
+          }
+        }
+      }
+    },
+    "catalog": {
+      "section": {
+        "eyebrow": "Individual Courses and Development Programs",
+        "title": "Our Training Programs",
+        "description": "Browse all courses and filter by category, system, audience profile and delivery format."
+      },
+      "programBadge": "Development program",
+      "cardCta": "Learn More",
+      "results": "Results: {count}",
+      "filters": {
+        "title": "Filters",
+        "tur": "Training type",
+        "kategori": "Categories",
+        "sistem": "Systems",
+        "katilimci": "Participants",
+        "ortam": "Delivery environments",
+        "yontem": "Training method",
+        "selectAll": "Select all",
+        "close": "Close",
+        "clearGroup": "Clear",
+        "clearAll": "Clear all filters",
+        "selected": "selected",
+        "noResults": "No items match the selected filters."
+      },
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "label": "Pagination"
+      },
+      "options": {
+        "tekil-egitim": "Individual course",
+        "gelisim-programi": "Development program",
+        "kisisel-gelisim": "Personal development",
+        "liderlik": "Leadership",
+        "sistem": "System",
+        "teknik": "Technical",
+        "yalin-101": "Lean 101",
+        "gelistirme-sistemleri": "Development systems",
+        "satis-sistemleri": "Sales systems",
+        "uretim-sistemleri": "Production systems",
+        "yonetim-sistemleri": "Management systems",
+        "ofis": "Office",
+        "operasyon": "Operations",
+        "hibrit": "Hybrid",
+        "offline": "Offline",
+        "online-canli": "Online — live",
+        "yuz-yuze": "In person",
+        "calistay": "Workshop",
+        "kocluk": "Coaching",
+        "oyun-simulasyon": "Game / simulation",
+        "seminer": "Seminar"
+      },
+      "items": {
+        "yalin-dusunce-felsefesi-egitimi": {
+          "title": "Lean Thinking Philosophy",
+          "description": "Build the mindset for lean transformation: values, thinking patterns and cultural foundations."
+        },
+        "yalin-sistemler-temel-egitimi": {
+          "title": "Lean Systems Essentials",
+          "description": "Explore core lean production building blocks and systemic efficiency."
+        },
+        "puko-surec-yaklasimi-egitimi": {
+          "title": "PDCA Process Approach",
+          "description": "Manage and improve processes systematically with plan-do-check-act."
+        },
+        "a3-raporlama-teknikleri-egitimi": {
+          "title": "A3 Reporting Techniques",
+          "description": "Clarify problems on one page and make analytical thinking visible."
+        },
+        "kaizen-problem-cozme-teknikleri-egitimi": {
+          "title": "Kaizen Problem-Solving Techniques",
+          "description": "Bring continuous improvement culture to your teams step by step."
+        },
+        "cnts109-uretim-farkindaligi-egitimi": {
+          "title": "Production Awareness Training",
+          "description": "Strengthen awareness and ownership for conscious production operations."
+        },
+        "isg-ve-cevre-bilinci-farkindalik-egitimi": {
+          "title": "HSE and Environmental Awareness",
+          "description": "Turn safety and environmental responsibility into daily operational behaviour."
+        },
+        "kalite-bilinci-farkindalik-egitimi": {
+          "title": "Quality Awareness Training",
+          "description": "Embed quality ownership at individual and team level."
+        },
+        "maliyet-bilinci-farkindalik-egitimi": {
+          "title": "Cost Awareness Training",
+          "description": "Apply cost-conscious decision-making in everyday operations."
+        },
+        "ekipman-bakimi-farkindalik-egitimi": {
+          "title": "Equipment Maintenance Awareness",
+          "description": "Establish preventive maintenance discipline on the shop floor."
+        }
+      }
+    },
+    "detail": {
+      "backToPrograms": "Back to training programs",
+      "tabsGroupLabel": "Training content, outcomes, participation requirements and certification tabs",
+      "duration": "{days} day(s)",
+      "halfDay": "Half day",
+      "participants": "{count} participants",
+      "relatedTitle": "Explore related courses",
+      "ctaTitle": "Looking for a tailored program?",
+      "ctaDescription": "Contact us to design training aligned with your organisation's needs.",
+      "ctaButton": "Contact Us",
+      "sections": {
+        "content": "Program content",
+        "outcomes": "Learning outcomes",
+        "audience": "Who should attend",
+        "certification": "Certification"
+      },
+      "certificates": {
+        "carousel": {
+          "previous": "Previous certificate",
+          "next": "Next certificate",
+          "slide": "Certificate {number}"
+        },
+        "salutation": "Dear:",
+        "participantPlaceholder": "[PARTICIPANT NAME]",
+        "courseLabel": "Completed training programme",
+        "certificateNoLabel": "Certificate No:",
+        "dateLabel": "Date",
+        "qrLabel": "Certificate verification code",
+        "founderRole": "Founder",
+        "founderName": "Murat ŞEN",
+        "trainerRole": "Trainer",
+        "trainerName": "Tayfun YÖRÜ",
+        "participation": {
+          "documentTitle": "CERTIFICATE OF PARTICIPATION",
+          "bodyIntro": "This certificate is awarded for participation in the following programme:"
+        },
+        "achievement": {
+          "documentTitle": "CERTIFICATE OF ACHIEVEMENT",
+          "bodyIntro": "For successfully completing the training programme:"
+        },
+        "instructor": {
+          "documentTitle": "INSTRUCTOR CERTIFICATE",
+          "bodyIntro": "For serving as instructor on the following training programme:"
+        }
+      },
+      "items": {
+        "yalin-dusunce-felsefesi-egitimi": {
+          "tagline": "Lay the cultural foundations of lean and make efficiency a way of working.",
+          "intro": "This program targets the mindset shift required for lean transformation, introducing values, thinking patterns and culture that enable sustainable change.",
+          "content": [
+            "Value focus and why mindset matters in operations",
+            "Lean values: respect, teamwork, genchi genbutsu and kaizen",
+            "Multi-faceted analysis, production logic and waste elimination"
+          ],
+          "outcomes": [
+            "Confidence with lean terminology and philosophy",
+            "Structured problem framing aligned with lean values",
+            "Embedding learning in daily routines"
+          ],
+          "audience": [
+            "Staff across management, development, sales and production",
+            "Office and shop-floor roles",
+            "Participants with basic awareness of lean concepts"
+          ],
+          "certification": [
+            "Pre- and post-training assessments and satisfaction surveys",
+            "Attendance certificate for 90% participation",
+            "Achievement certificate for scores of 70 and above"
+          ]
+        },
+        "yalin-sistemler-temel-egitimi": {
+          "tagline": "Discover systemic efficiency through lean production building blocks.",
+          "intro": "A foundational program covering lean production components and how they connect in a systemic efficiency model.",
+          "content": [
+            "Components of lean production systems",
+            "Flow, pull and load levelling concepts",
+            "Standard work, visual management and basic KPIs"
+          ],
+          "outcomes": [
+            "Read lean systems holistically",
+            "Identify efficiency opportunities in processes",
+            "Prepare for shop-floor application"
+          ],
+          "audience": [
+            "Production and operations teams",
+            "Process improvement and quality roles",
+            "Organisations starting lean transformation"
+          ],
+          "certification": [
+            "Attendance and achievement certificates",
+            "Post-training assessment"
+          ]
+        },
+        "puko-surec-yaklasimi-egitimi": {
+          "tagline": "Manage processes systematically with plan-do-check-act.",
+          "intro": "Teaches PDCA as the core engine of scientific, systematic process management and improvement.",
+          "content": [
+            "PDCA stages and practical application steps",
+            "Goal setting, measurement and standardisation",
+            "Data-informed decisions for continuous improvement"
+          ],
+          "outcomes": [
+            "Plan and manage processes with PDCA",
+            "Solve problems in a structured way",
+            "Sustain improvement actions"
+          ],
+          "audience": [
+            "Process owners and team leaders",
+            "Office and operations staff",
+            "Participants familiar with basic lean concepts"
+          ],
+          "certification": [
+            "Attendance certificate",
+            "Achievement certificate based on assessment"
+          ]
+        },
+        "a3-raporlama-teknikleri-egitimi": {
+          "tagline": "Clarify problems on one page and make analytical thinking visible.",
+          "intro": "Hands-on training on A3 reporting as a problem-solving and communication tool.",
+          "content": [
+            "A3 structure and meaning of each section",
+            "Root cause analysis and countermeasures",
+            "Stakeholder reporting and approval"
+          ],
+          "outcomes": [
+            "Summarise problems and plans on a single page",
+            "Data-driven storytelling",
+            "Stronger team alignment"
+          ],
+          "audience": [
+            "Improvement and project teams",
+            "Supervisors and specialists",
+            "Participants new to A3 format"
+          ],
+          "certification": [
+            "Attendance and achievement certificates",
+            "Sample A3 assignment review"
+          ]
+        },
+        "kaizen-problem-cozme-teknikleri-egitimi": {
+          "tagline": "Small steps, big impact: embed continuous improvement in daily work.",
+          "intro": "Combines kaizen tools and problem-solving techniques to spread continuous improvement in teams.",
+          "content": [
+            "Planning and running kaizen events",
+            "5 Whys, fishbone and prioritisation tools",
+            "Standardisation and yokoten"
+          ],
+          "outcomes": [
+            "Design rapid improvement events",
+            "Solve problems collaboratively with metrics",
+            "Sustain a kaizen culture"
+          ],
+          "audience": [
+            "Shop-floor and office teams",
+            "Team leaders and process owners",
+            "Participants with basic problem-solving experience"
+          ],
+          "certification": [
+            "Attendance certificate",
+            "Achievement certificate based on event presentation"
+          ]
+        },
+        "cnts109-uretim-farkindaligi-egitimi": {
+          "tagline": "Build awareness and ownership for conscious production operations.",
+          "intro": "A half-day awareness program strengthening mindful behaviour, safety and efficiency on the production floor.",
+          "content": [
+            "Production flow and station responsibilities",
+            "Quality, cost and delivery awareness",
+            "Standards compliance and visual checks"
+          ],
+          "outcomes": [
+            "Conscious operational decisions",
+            "Early recognition of waste and risk",
+            "Stronger team communication"
+          ],
+          "audience": [
+            "Production and operations staff",
+            "New hires or rotated personnel",
+            "No prerequisites"
+          ],
+          "certification": [
+            "Attendance certificate",
+            "Short evaluation survey"
+          ]
+        },
+        "isg-ve-cevre-bilinci-farkindalik-egitimi": {
+          "tagline": "Turn safety and environmental responsibility into daily habits.",
+          "intro": "Raises HSE and environmental awareness and translates it into operational behaviour.",
+          "content": [
+            "Core HSE rules and emergency procedures",
+            "Environmental impact and waste reduction",
+            "PPE and safe working practices"
+          ],
+          "outcomes": [
+            "Recognise and report risks",
+            "Environmentally responsible behaviour",
+            "Contribute to safety culture"
+          ],
+          "audience": [
+            "All operations staff",
+            "Supervisors",
+            "Personnel in refresher training"
+          ],
+          "certification": [
+            "Attendance certificate"
+          ]
+        },
+        "kalite-bilinci-farkindalik-egitimi": {
+          "tagline": "Own quality at individual and team level.",
+          "intro": "Strengthens first-time-right mindset, customer focus and adherence to standards.",
+          "content": [
+            "Definition of quality and customer expectations",
+            "Error sources and prevention",
+            "Checklists and visual standards"
+          ],
+          "outcomes": [
+            "Early detection of quality deviations",
+            "Right-first-time mindset",
+            "Contribution to continuous improvement"
+          ],
+          "audience": [
+            "Production and operations teams",
+            "Any role touching quality outcomes"
+          ],
+          "certification": [
+            "Attendance certificate"
+          ]
+        },
+        "maliyet-bilinci-farkindalik-egitimi": {
+          "tagline": "Reflect cost effectiveness in everyday operational decisions.",
+          "intro": "Builds awareness of cost drivers and waste so employees factor cost into decisions.",
+          "content": [
+            "Cost types and hidden costs",
+            "Waste–cost relationship",
+            "Daily suggestions and improvement impact"
+          ],
+          "outcomes": [
+            "Cost-conscious thinking",
+            "Alignment with loss-free operation goals",
+            "Kaizen and suggestion contribution"
+          ],
+          "audience": [
+            "Operations and office staff",
+            "Team-based participation"
+          ],
+          "certification": [
+            "Attendance certificate"
+          ]
+        },
+        "ekipman-bakimi-farkindalik-egitimi": {
+          "tagline": "Embed preventive maintenance discipline on the shop floor.",
+          "intro": "Targets operator-level ownership of equipment care, cleaning and inspection standards.",
+          "content": [
+            "Basic maintenance and cleaning standards",
+            "Failure prevention and early warning signs",
+            "Safe intervention and reporting"
+          ],
+          "outcomes": [
+            "Habits that protect equipment health",
+            "Contribution to reducing unplanned downtime",
+            "Maintenance–production collaboration"
+          ],
+          "audience": [
+            "Operators and shop-floor teams",
+            "Joint sessions with maintenance teams"
+          ],
+          "certification": [
+            "Attendance certificate"
+          ]
+        }
+      }
+    },
+    "approach": {
+      "eyebrow": "Training approach",
+      "title": "From Competency to Performance",
+      "description": "Explore how training investment translates into performance and profitability through our eight-level competency framework and DEGER steps.",
+      "degerHeading": "DEGER - ASSESSMENT AND DEVELOPMENT GUIDE",
+      "levels": {
+        "figureLabel": "Competency development levels",
+        "axisPerformance": "Performance",
+        "axisEducation": "Education",
+        "axisProfitability": "Profitability",
+        "axisInvestment": "Investment",
+        "items": {
+          "1": {
+            "badge": "Level 1",
+            "description": "No knowledge or experience"
+          },
+          "2": {
+            "badge": "Level 2",
+            "description": "Theoretical knowledge"
+          },
+          "3": {
+            "badge": "Level 3",
+            "description": "Theoretical knowledge deepened through exchange"
+          },
+          "4": {
+            "badge": "Level 4",
+            "description": "Application experience in case studies and training"
+          },
+          "5": {
+            "badge": "Level 5",
+            "description": "Applying learned theory and practice in the field"
+          },
+          "6": {
+            "badge": "Level 6",
+            "description": "Competence to standardise and improve applications"
+          },
+          "7": {
+            "badge": "Level 7",
+            "description": "Training implementation leaders and managing programmes"
+          },
+          "8": {
+            "badge": "Level 8",
+            "description": "Managing large-scale organisations"
+          }
+        }
+      },
+      "steps": {
+        "evaluation": {
+          "eyebrow": "Assessment",
+          "title": "Competency Assessment",
+          "description": "Current skill levels and training needs are identified."
+        },
+        "development": {
+          "eyebrow": "Development",
+          "title": "Individual Development Planning",
+          "description": "Content, modules and application areas are designed to match goals."
+        },
+        "guidance": {
+          "eyebrow": "Guidance",
+          "title": "Guidance",
+          "description": "Post-training field support reinforces what was learned."
+        }
+      }
+    },
+    "cta": {
+      "title": "Let's plan a tailored development program for your needs together",
+      "description": "Contact us to design the right training content and schedule together.",
+      "contact": "Get in Touch"
+    }
+  },
+  "technology": {
+    "metadata": {
+      "title": "CONATUS | Technology",
+      "description": "Conatus Improvement Platform (software) and Conatus Improvement Products (hardware) — continuous improvement with #CIP4CIP."
+    },
+    "slogan": {
+      "tag": "#CIP4CIP",
+      "note": "Conatus Improvement Platform for Commercial Important Person"
+    },
+    "hero": {
+      "eyebrow": "Technology",
+      "title": "Measure, connect and sustain through digital transformation",
+      "description": "On the software side, digitise with the Conatus Improvement Platform (CIP); on the hardware side, bring production lines, robotics and lean mechanical systems to the shop floor with Conatus Improvement Products — Platform and Products in one ecosystem.",
+      "cta": "Contact Us"
+    },
+    "overview": {
+      "eyebrow": "Technology portfolio",
+      "title": "Two complementary technology lines",
+      "description": "Conatus Improvement Platform (software) and Conatus Improvement Products (hardware) — deployed with consulting and training.",
+      "learnMore": "Learn More",
+      "software": {
+        "title": "Software technologies",
+        "description": "Conatus Improvement Platform (CIP): the backbone of digital transformation — digitise module by module, integrate data and scale with SaaS or on-premise."
+      },
+      "hardware": {
+        "title": "Hardware technologies",
+        "description": "Conatus Improvement Products: serial production lines, robotics, fixtures and karakuri — physical products that connect the shop floor to the Platform."
+      }
+    },
+    "cip": {
+      "eyebrow": "Software technologies",
+      "title": "Conatus Improvement Platform",
+      "description": "CIP lets you manage production and operations through system → sub-system → module structure. License only what you need; consume data from within the platform or from third-party applications flexibly.",
+      "hashtag": "#CIP4CIP",
+      "hashtagNote": "Conatus Improvement Platform — built for continuous improvement under the #CIP4CIP slogan.",
+      "videoLabel": "Conatus Improvement Platform click and confirmation animation",
+      "hierarchy": {
+        "eyebrow": "Architecture",
+        "title": "A modular platform at enterprise scale",
+        "description": "CIP lets you structure production and operations processes in a modular way. With multi-tenant architecture, you can govern your group and affiliates from one platform.",
+        "imageAlt": "Illustration of CIP modular, multi-tenant enterprise architecture",
+        "features": {
+          "modular": "Modular structure: Roll out the components you need step by step and expand scope as you grow.",
+          "multiTenant": "Multi-tenant architecture: Manage your group and affiliates under one roof with a consistent data model.",
+          "independent": "Independent operation: Subsidiaries can continue to run their own processes independently when required."
+        }
+      },
+      "production": {
+        "eyebrow": "Production system",
+        "title": "Sub-systems",
+        "description": "The production system comprises tool, field, operations, production, maintenance and quality management sub-systems. Each is modular and can be licensed independently or together.",
+        "learnMore": "Learn more"
+      },
+      "subsystems": {
+        "badgeComingSoon": "Coming soon",
+        "badgeLive": "Live",
+        "modules": {
+          "suggestion": "Suggestion module",
+          "talentCareer": "Career and talent management module",
+          "fieldData": "Field data module",
+          "mobileField": "Mobile field module",
+          "operationsPlanning": "Operations planning module",
+          "efficiency": "Efficiency module",
+          "vsm": "VSM module",
+          "kanban": "Kanban module",
+          "lineMonitoring": "Line Monitoring Module",
+          "preventiveMaintenance": "Preventive maintenance module",
+          "workOrder": "Work order module",
+          "qualityControl": "Quality control module",
+          "nonConformance": "Non-conformance module"
+        },
+        "toolManagement": {
+          "title": "Tool management",
+          "description": "Cutting tool inventory, life tracking and usage optimisation.",
+          "imageAlt": "Tool management module illustration"
+        },
+        "fieldManagement": {
+          "title": "Field management",
+          "description": "Shop-floor data capture, visibility and real-time response.",
+          "imageAlt": "Field management module illustration"
+        },
+        "operationsManagement": {
+          "title": "Operations management",
+          "description": "Daily operations planning, monitoring and performance management.",
+          "imageAlt": "Operations management module illustration"
+        },
+        "productionManagement": {
+          "title": "Production management",
+          "description": "Manage the full flow from production orders through to dispatch on one platform. Expose bottlenecks with VSM, Kanban and line monitoring modules; track output, WIP and delivery performance in real time.",
+          "imageAlt": "Production management module illustration"
+        },
+        "maintenanceManagement": {
+          "title": "Maintenance management",
+          "description": "Preventive and reactive maintenance, fault logs and equipment reliability.",
+          "imageAlt": "Maintenance management module illustration"
+        },
+        "qualityManagement": {
+          "title": "Quality management",
+          "description": "Quality control, non-conformance management and improvement data.",
+          "imageAlt": "Quality management module illustration"
+        }
+      },
+      "deployment": {
+        "eyebrow": "Deployment",
+        "title": "Cloud or on-premises deployment",
+        "description": "Cloud for a fast start; on-premises deployment for sectors with high data-security requirements.",
+        "cloud": {
+          "title": "Cloud",
+          "description": "Fast go-live, central updates and lower infrastructure overhead."
+        },
+        "onPrem": {
+          "title": "On-Premises Deployment",
+          "description": "Data stays within your organisation; suitable for closed networks and defence-industry environments."
+        }
+      },
+      "integration": {
+        "eyebrow": "Integration",
+        "title": "A flexible data ecosystem",
+        "description": "Each module can source the data it needs from other CIP modules or from third-party applications.",
+        "panelHeading": "INTEGRATION — FLEXIBLE DATA ECOSYSTEM",
+        "diagram": {
+          "figureLabel": "CIP integration diagram: three data paths",
+          "caption": "Three sources converge in one platform",
+          "path1Label": "PLATFORM",
+          "path2Label": "3RD PARTY",
+          "path3Label": "CUSTOM",
+          "centerTitle": "CIP",
+          "moduleA": "Quality",
+          "moduleB": "Production",
+          "erp": "ERP",
+          "mes": "MES",
+          "bi": "BI",
+          "legacy": "Legacy",
+          "bridge": "Bridge"
+        },
+        "items": {
+          "internal": {
+            "eyebrow": "WITHIN PLATFORM",
+            "title": "Shared data model",
+            "description": "Consistent data flow across sub-systems and modules."
+          },
+          "external": {
+            "eyebrow": "THIRD-PARTY",
+            "title": "Enterprise applications",
+            "description": "ERP, MES, BI, IoT and custom API integrations."
+          },
+          "flexible": {
+            "eyebrow": "CONFIGURABLE",
+            "title": "Works with your existing stack",
+            "description": "Gradual digitisation while protecting current investments."
+          }
+        }
+      },
+      "licensing": {
+        "eyebrow": "Licensing",
+        "title": "Modular licensing",
+        "description": "License CIP at system, production system or individual module level. Combine subscription or lifetime usage with floating or fixed license models to match how your operation works.",
+        "groups": {
+          "scope": "Scope",
+          "commercial": "Commercial model",
+          "seats": "Usage model"
+        },
+        "scope": {
+          "system": {
+            "title": "Platform",
+            "description": "Near full-platform scope; holistic licensing for groups and multi-site organisations."
+          },
+          "subsystem": {
+            "title": "System",
+            "description": "One or more production systems — tool, field, operations, production, maintenance or quality."
+          },
+          "module": {
+            "title": "Module",
+            "description": "Individual modules such as VSM, Kanban or line monitoring; expand as needs grow."
+          }
+        },
+        "commercial": {
+          "subscription": {
+            "title": "Subscription",
+            "description": "Term-based usage with updates and support for predictable operational spend."
+          },
+          "perpetual": {
+            "title": "Lifetime usage",
+            "description": "One-time acquisition suited to long-term ownership and closed-network or on-premise deployments."
+          }
+        },
+        "seats": {
+          "floating": {
+            "title": "Floating license",
+            "description": "A pool of concurrent users shared across shifts and stations for flexible access."
+          },
+          "fixed": {
+            "title": "Fixed license",
+            "description": "Assignment tied to a user, role or device for auditable, predictable access."
+          }
+        },
+        "cta": {
+          "title": "Let's plan your license structure together",
+          "description": "Get a quote and configuration proposal for your scope, commercial and usage model combination.",
+          "button": "Contact us"
+        }
+      }
+    },
+    "hardware": {
+      "eyebrow": "Hardware technologies",
+      "title": "From shop floor to data, from data to action",
+      "description": "We design and build serial production lines, robotics, fixtures, racks and karakuri — physical products that connect to the Platform through sensor and automation layers.",
+      "hashtag": "#CIP4CIP",
+      "hashtagNote": "Built for measurable improvement on the shop floor.",
+      "gifLabel": "Production line — robot arm pick and place animation",
+      "items": {
+        "lines": {
+          "title": "Serial production lines",
+          "description": "Line design and installation aligned with product and volume needs.",
+          "imageAlt": "Panoramic view of a serial production line and industrial automation"
+        },
+        "fixtures": {
+          "title": "Fixtures and racks",
+          "description": "Custom apparatus for assembly, storage and material flow.",
+          "imageAlt": "Panoramic view of fixtures and material flow on the shop floor"
+        },
+        "karakuri": {
+          "title": "Karakuri and auxiliary systems",
+          "description": "Lean, energy-efficient mechanical solutions.",
+          "imageAlt": "Karakuri and lean mechanical auxiliary systems"
+        },
+        "custom": {
+          "title": "Custom engineering",
+          "description": "Discovery, design, build and commissioning — project delivery through DEGER.",
+          "imageAlt": "Panoramic view of custom engineering and project design"
+        },
+        "learnMore": "Learn More"
+      }
+    },
+    "ecosystem": {
+      "eyebrow": "Holistic approach",
+      "title": "Discover our consulting and training services",
+      "description": "We deliver consulting, training and technology through the DEGER model. We help ensure your software and hardware technology investments deliver sustainable results.",
+      "consulting": "Consulting",
+      "training": "Training"
+    },
+    "cta": {
+      "title": "Let's talk demo, deployment or custom engineering",
+      "description": "Plan the first step for your Platform or Products project; see the CIP section for licensing options.",
+      "contact": "Contact Us"
+    },
+    "hardwareDetail": {
+      "backToHardware": "Back to hardware technologies",
+      "hero": {
+        "problemLabel": "Problem it solves",
+        "easeLabel": "How it makes your job easier",
+        "experienceLabel": "Born from field experience"
+      },
+      "capabilities": {
+        "eyebrow": "Capabilities"
+      },
+      "applications": {
+        "eyebrow": "Use cases"
+      },
+      "platform": {
+        "eyebrow": "Platform integration"
+      }
+    },
+    "subsystemDetail": {
+      "backToTechnology": "Back to technology",
+      "hero": {
+        "problemLabel": "Problem it solves",
+        "easeLabel": "How it makes your job easier",
+        "experienceLabel": "Born from field experience"
+      },
+      "showcase": {
+        "eyebrow": "Interface and experience",
+        "title": "See the software, feel how it works",
+        "description": "Explore screenshots and live demo to understand how the module looks in daily use and supports your workflow.",
+        "videoLabel": "{system} — live platform demo",
+        "screenshotCaption": "{system} interface preview",
+        "architectureAlt": "CIP platform architecture and modular design",
+        "secondaryNote": "The module is designed to work within the Conatus Improvement Platform (CIP) ecosystem alongside other sub-systems."
+      },
+      "modules": {
+        "eyebrow": "Modular structure",
+        "title": "Modules in this sub-system",
+        "description": "License modules independently or together, depending on the depth you need."
+      },
+      "features": {
+        "eyebrow": "Software capabilities",
+        "title": "Capability set in Kano terms",
+        "description": "Must-haves, performance drivers and delighters — grow your module footprint step by step.",
+        "performanceTitle": "Performance features",
+        "performanceNote": "Explicit expectations — reliable, measurable core capabilities.",
+        "premiumTitle": "Premium features",
+        "premiumNote": "Capabilities that raise satisfaction and competitive advantage.",
+        "basicTitle": "Basic features",
+        "basicNote": "Standard digital foundation and accessibility.",
+        "tabsGroupLabel": "Basic, performance and premium feature tabs",
+        "tabBasic": "Basic",
+        "tabPerformance": "Performance",
+        "tabPremium": "Premium",
+        "diagramCaption": "In the Kano model, premium and performance layers drive satisfaction most.",
+        "diagramPremiumTag": "Premium",
+        "diagramPremiumSubtitle": "Differentiating",
+        "diagramPerformanceTag": "Performance",
+        "diagramPerformanceSubtitle": "Expected essentials",
+        "diagramBasic": "Basic"
+      },
+      "testimonials": {
+        "eyebrow": "Voices from the floor",
+        "title": "Proven on the shop floor",
+        "description": "From day-to-day use by production and operations teams — see real impact before you decide.",
+        "trustBadge": "Shop-floor user",
+        "trustIndustries": "Automotive · appliances · metalworking and supply-chain plants"
+      }
+    }
+  },
+  "common": {
+    "comingSoon": "Coming soon",
+    "language": "Language",
+    "placeholderBody": "This page will be developed together in Phase 1.",
+    "carousel": {
+      "previous": "Previous slide",
+      "next": "Next slide",
+      "slide": "Slide {number}"
+    }
+  }
+}
