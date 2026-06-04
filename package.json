@@ -13,6 +13,7 @@
     "generate:hardware-gif": "node scripts/generate-hardware-robot-gif.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.107.0",
     "next": "^15.3.3",
     "next-intl": "^4.1.0",
     "react": "^19.1.0",

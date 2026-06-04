@@ -54,6 +54,17 @@ Proje **Conatus** takımında yayında:
 
 Anahtar güncelleme: `./scripts/add-resend-key.sh re_YOUR_KEY`
 
+## İletişim formu — Supabase
+
+1. [supabase.com](https://supabase.com) → proje oluşturun (region: EU önerilir)
+2. **SQL Editor** → `supabase/migrations/001_contact_submissions.sql` içeriğini çalıştırın
+3. **Settings → API** → Vercel env:
+   - `SUPABASE_URL`
+   - `SUPABASE_SERVICE_ROLE_KEY` (service_role; `anon` değil)
+4. Redeploy
+
+Kayıtlar: Supabase → **Table Editor** → `contact_submissions`
+
 **GitHub otomatik deploy:** `main` branch’e her push Vercel’de production deploy tetikler (GitHub ↔ Vercel bağlı).
 
 Yerel deploy: `npx vercel deploy --prod --scope conatuscomtr`
