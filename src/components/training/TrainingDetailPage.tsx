@@ -104,7 +104,7 @@ export async function TrainingDetailPage({ courseId }: TrainingDetailPageProps) 
       ) : null}
 
       <PageCtaSection
-        variant="dark"
+        variant="heroMatch"
         title={t("ctaTitle")}
         description={t("ctaDescription")}
         buttonLabel={t("ctaButton")}

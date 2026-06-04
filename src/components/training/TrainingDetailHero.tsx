@@ -1,5 +1,6 @@
 import { Link } from "@/i18n/navigation";
 import { TrainingIllustration } from "@/components/training/TrainingIllustration";
+import { trainingDetailHeroSectionClass } from "@/lib/training-detail-surface";
 import type { TrainingCourse } from "@/lib/training-catalog";
 
 type TrainingDetailHeroProps = {
@@ -22,7 +23,7 @@ export function TrainingDetailHero({
   participantsLabel,
 }: TrainingDetailHeroProps) {
   return (
-    <section className="border-b border-border/80 bg-gradient-to-b from-brand-50/40 via-surface to-surface">
+    <section className={trainingDetailHeroSectionClass}>
       <div className="container-wide pt-6 sm:pt-8">
         <Link
           href="/egitim"
