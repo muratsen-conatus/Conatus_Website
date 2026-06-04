@@ -47,11 +47,31 @@ const tabOffsets: Record<ConsultingTabKind, number> = {
   outcome: 4,
 };
 
+/** Vaka / sekme / slayt için özel görseller */
+const customTabImages: Partial<
+  Record<
+    Exclude<ConsultingCaseKey, "deger">,
+    Partial<Record<ConsultingTabKind, Partial<Record<number, string>>>>
+  >
+> = {
+  capacity: {
+    solution: {
+      0: "/consulting/tabs/value-stream-mapping.png",
+    },
+  },
+};
+
 export function getConsultingTabImage(
   caseKey: string,
   tab: ConsultingTabKind,
   slideIndex: number,
 ): string {
+  const custom =
+    customTabImages[caseKey as Exclude<ConsultingCaseKey, "deger">]?.[tab]?.[
+      slideIndex
+    ];
+  if (custom) return custom;
+
   const pool = caseImagePools[caseKey as keyof typeof caseImagePools];
   if (!pool?.length) {
     return "/consulting/tabs/capacity-1.jpg";

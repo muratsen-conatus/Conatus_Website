@@ -142,12 +142,14 @@ function attachTabImage(
   caseKey: ConsultingCaseKey,
   tab: ConsultingTabKind,
   index: number,
-  slide: Omit<ConsultingTabSlide, "imageSrc" | "imageAlt">,
+  slide: Omit<ConsultingTabSlide, "imageSrc" | "imageAlt" | "imageContain">,
 ): ConsultingTabSlide {
+  const imageSrc = getConsultingTabImage(caseKey, tab, index);
   return {
     ...slide,
-    imageSrc: getConsultingTabImage(caseKey, tab, index),
+    imageSrc,
     imageAlt: slide.title,
+    imageContain: imageSrc.includes("value-stream-mapping"),
   };
 }
 

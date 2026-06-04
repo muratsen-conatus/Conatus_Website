@@ -12,6 +12,7 @@ export type ConsultingTabSlide = {
   description?: string;
   imageSrc?: string;
   imageAlt?: string;
+  imageContain?: boolean;
 };
 
 type ConsultingTabCarouselProps = {
@@ -70,7 +71,10 @@ export function ConsultingTabCarousel({
         className={cn(
           "relative flex flex-1 flex-col overflow-hidden rounded-xl border border-brand-200/60 shadow-sm",
           hasImage
-            ? "bg-surface-muted"
+            ? cn(
+                "bg-surface-muted",
+                slide.imageContain && "bg-[#0a1628]",
+              )
             : "bg-gradient-to-br from-brand-50/90 via-surface to-brand-100/40 p-6 sm:p-8",
         )}
       >
@@ -81,11 +85,16 @@ export function ConsultingTabCarousel({
               src={slide.imageSrc!}
               alt={slide.imageAlt ?? slide.title}
               fill
-              className="object-cover"
+              className={cn(
+                slide.imageContain ? "object-contain" : "object-cover",
+              )}
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
             <div
-              className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-black/10"
+              className={cn(
+                "absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-black/10",
+                slide.imageContain && "from-black/50 via-transparent to-transparent",
+              )}
               aria-hidden
             />
             <div
