@@ -10,6 +10,7 @@ references/
   roketsan.png
   Toyota.png
   ToyotaBoshoku.jpg
+  Yazaki.png
   yeni-musteri.png   ← eklediğinizde otomatik listelenir
 ```
 
