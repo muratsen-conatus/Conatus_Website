@@ -71,17 +71,14 @@ export const corporateAssets = {
     {
       photo: "/corporate/team/murat-sen.png",
       memberKey: "murat" as const,
-      slug: "murat-sen",
+      linkedin: "https://www.linkedin.com/in/muratsen94/",
     },
     {
       photo: "/corporate/team/tayfun-yoru.png",
       memberKey: "tayfun" as const,
-      slug: "tayfun-yoru",
+      linkedin:
+        "https://www.linkedin.com/in/tayfun-y%C3%B6r%C3%BC-1a8847131/",
     },
   ],
 } as const;
-
-export const teamMemberSlugs = corporateAssets.team.map((m) => m.slug);
-
-export type TeamMemberSlug = (typeof teamMemberSlugs)[number];
 

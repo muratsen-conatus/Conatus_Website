@@ -60,7 +60,6 @@ export function LanguageSwitcher({ className }: { className?: string }) {
     }
 
     if (
-      pathname === "/kurumsal/ekip/[slug]" ||
       pathname === "/egitim/[slug]" ||
       pathname === "/egitim/program/[slug]" ||
       pathname === "/teknoloji/[slug]"
@@ -74,9 +73,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
         router.replace(
           pathname.startsWith("/egitim")
             ? "/egitim"
-            : pathname.startsWith("/teknoloji")
-              ? "/teknoloji"
-              : "/kurumsal",
+            : "/teknoloji",
           { locale: loc },
         );
       }

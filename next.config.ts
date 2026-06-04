@@ -9,7 +9,7 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
  */
 const legacyEnPathRedirects = [
   { source: "/en/about", destination: "/en/kurumsal" },
-  { source: "/en/about/team/:slug", destination: "/en/kurumsal/ekip/:slug" },
+  { source: "/en/about/team/:slug", destination: "/en/kurumsal" },
   { source: "/en/consulting", destination: "/en/danismanlik" },
   { source: "/en/training", destination: "/en/egitim" },
   { source: "/en/training/program/:slug", destination: "/en/egitim/program/:slug" },
@@ -20,13 +20,25 @@ const legacyEnPathRedirects = [
   { source: "/en/privacy", destination: "/en/gizlilik-kvkk" },
 ] as const;
 
+const removedTeamProfileRedirects = [
+  { source: "/tr/kurumsal/ekip/:slug", destination: "/tr/kurumsal" },
+  { source: "/en/kurumsal/ekip/:slug", destination: "/en/kurumsal" },
+] as const;
+
 const nextConfig: NextConfig = {
   async redirects() {
-    return legacyEnPathRedirects.map(({ source, destination }) => ({
-      source,
-      destination,
-      permanent: false,
-    }));
+    return [
+      ...legacyEnPathRedirects.map(({ source, destination }) => ({
+        source,
+        destination,
+        permanent: false,
+      })),
+      ...removedTeamProfileRedirects.map(({ source, destination }) => ({
+        source,
+        destination,
+        permanent: true,
+      })),
+    ];
   },
 };
 
