@@ -10,7 +10,9 @@ type PageCtaSectionProps = {
   description: string;
   buttonLabel: string;
   href?: ComponentProps<typeof Link>["href"];
-  variant?: "light" | "dark" | "inset" | "heroMatch";
+  variant?: "light" | "dark" | "inset";
+  /** Koyu CTA düzeni; arka plan hero gradient (eğitim detay) */
+  heroSurface?: boolean;
   className?: string;
 };
 
@@ -20,17 +22,18 @@ export function PageCtaSection({
   buttonLabel,
   href = "/iletisim",
   variant = "light",
+  heroSurface = false,
   className,
 }: PageCtaSectionProps) {
   const isDark = variant === "dark";
   const isInset = variant === "inset";
-  const isHeroMatch = variant === "heroMatch";
+  const useHeroSurface = heroSurface && isDark;
 
   return (
     <section
       className={cn(
         "relative overflow-hidden text-center",
-        isHeroMatch
+        useHeroSurface
           ? cn("section-padding", trainingDetailCtaSectionClass)
           : isInset
             ? "rounded-2xl border border-brand-200/60 px-6 py-8 sm:px-10 sm:py-10"
@@ -40,26 +43,20 @@ export function PageCtaSection({
         className,
       )}
     >
-      {!isHeroMatch ? (
+      {!useHeroSurface ? (
         <CtaSectionBackdrop variant={isDark ? "dark" : "light"} />
       ) : null}
 
       <div className={cn("relative z-10", !isInset && "container-wide")}>
-        {isHeroMatch ? (
-          <div
-            className="mx-auto mb-6 h-1 w-16 rounded-full bg-accent"
-            aria-hidden
-          />
-        ) : null}
         <h2
           className={cn(
             "font-bold tracking-tight",
-            isDark
+            isDark && !useHeroSurface
               ? "text-2xl text-white sm:text-3xl"
-              : isInset
-                ? "text-xl text-foreground sm:text-2xl"
-                : isHeroMatch
-                  ? "text-2xl text-foreground sm:text-3xl"
+              : isDark && useHeroSurface
+                ? "text-2xl text-foreground sm:text-3xl"
+                : isInset
+                  ? "text-xl text-foreground sm:text-2xl"
                   : "text-3xl text-foreground sm:text-4xl",
           )}
         >
@@ -68,12 +65,12 @@ export function PageCtaSection({
         <p
           className={cn(
             "mx-auto mt-4 leading-relaxed",
-            isDark
+            isDark && !useHeroSurface
               ? "max-w-xl text-base text-white/80"
-              : isInset
-                ? "max-w-2xl text-sm text-foreground-muted sm:text-base"
-                : isHeroMatch
-                  ? "max-w-2xl text-base text-foreground-muted sm:text-lg"
+              : isDark && useHeroSurface
+                ? "max-w-xl text-base text-foreground-muted sm:text-lg"
+                : isInset
+                  ? "max-w-2xl text-sm text-foreground-muted sm:text-base"
                   : "max-w-2xl text-lg text-foreground-muted",
           )}
         >

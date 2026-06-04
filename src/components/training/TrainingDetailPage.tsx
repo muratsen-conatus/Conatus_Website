@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
-import { PageCtaSection } from "@/components/ui/PageCtaSection";
 import { TrainingCard } from "@/components/training/TrainingCard";
+import { TrainingCtaSection } from "@/components/training/TrainingCtaSection";
 import { TrainingDetailHero } from "@/components/training/TrainingDetailHero";
 import {
   TrainingDetailTabPanels,
@@ -103,12 +103,7 @@ export async function TrainingDetailPage({ courseId }: TrainingDetailPageProps) 
         </section>
       ) : null}
 
-      <PageCtaSection
-        variant="heroMatch"
-        title={t("ctaTitle")}
-        description={t("ctaDescription")}
-        buttonLabel={t("ctaButton")}
-      />
+      <TrainingCtaSection />
     </>
   );
 }
