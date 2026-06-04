@@ -16,14 +16,15 @@ if ! "$GH" auth status &>/dev/null; then
   "$GH" auth login -h github.com -p ssh -s repo,read:org -w
 fi
 
-git remote set-url origin git@github.com:senmuratsen/Conatus_Website.git
+git remote set-url origin https://github.com/muratsen-conatus/Conatus_Website.git
+"$GH" auth setup-git 2>/dev/null || true
 
 if git ls-remote origin &>/dev/null 2>&1; then
-  echo "Remote mevcut, push ediliyor..."
+  echo "Push ediliyor..."
   git push -u origin main
 else
   echo "Repo oluşturuluyor ve push ediliyor..."
   "$GH" repo create Conatus_Website --private --source=. --remote=origin --push
 fi
 
-echo "Tamam: https://github.com/senmuratsen/Conatus_Website"
+echo "Tamam: https://github.com/muratsen-conatus/Conatus_Website"

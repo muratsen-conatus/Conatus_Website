@@ -35,21 +35,33 @@ git remote set-url origin git@github.com:senmuratsen/Conatus_Website.git
 git push -u origin main
 ```
 
-## 3. Vercel deploy
+## 3. Vercel deploy ✅
 
-1. [vercel.com](https://vercel.com) → GitHub ile giriş
-2. **Add New Project** → `Conatus_Website`
-3. Framework: Next.js (otomatik)
-4. **Environment Variables** (`.env.example` dosyasına bakın):
-   - `RESEND_API_KEY`
-   - `CONTACT_TO_EMAIL` (opsiyonel)
-   - `RESEND_FROM_EMAIL` (opsiyonel)
-5. **Deploy**
+Proje **Conatus** takımında yayında:
 
-## 4. Domain
+- **Canlı site:** https://conatus-website-omega.vercel.app
+- **Panel:** https://vercel.com/conatuscomtr/conatus-website
 
-Vercel → **Domains** → `conatus.com.tr` ve `www.conatus.com.tr`  
-DNS kayıtlarını domain sağlayıcınızda Vercel’in verdiği değerlerle güncelleyin.
+**Environment Variables** (Vercel → Settings → Environment Variables, `.env.example`):
+
+- `RESEND_API_KEY` — iletişim formu için (henüz eklenmediyse form çalışmaz)
+- `CONTACT_TO_EMAIL` (opsiyonel)
+- `RESEND_FROM_EMAIL` (opsiyonel)
+
+Yerel deploy: `npx vercel deploy --prod --scope conatuscomtr`
+
+## 4. Domain (DNS — Guzel Hosting)
+
+Domainler Vercel projesine eklendi. **Guzel Hosting** DNS panelinde:
+
+| Kayıt | Ad | Değer |
+|--------|-----|--------|
+| A | `@` (conatus.com.tr) | `76.76.21.21` |
+| A | `www` | `76.76.21.21` |
+
+Alternatif: nameserver’ları `ns1.vercel-dns.com` ve `ns2.vercel-dns.com` yapın (tüm DNS Vercel’de yönetilir).
+
+DNS yayıldıktan sonra site `https://www.conatus.com.tr` üzerinden açılır.
 
 ## 5. Canlı kontrol
 
