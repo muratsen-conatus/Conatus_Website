@@ -48,6 +48,8 @@ Proje **Conatus** takımında yayında:
 - `CONTACT_TO_EMAIL` (opsiyonel)
 - `RESEND_FROM_EMAIL` (opsiyonel)
 
+**GitHub otomatik deploy:** `main` branch’e her push Vercel’de production deploy tetikler (GitHub ↔ Vercel bağlı).
+
 Yerel deploy: `npx vercel deploy --prod --scope conatuscomtr`
 
 ## 4. Domain (DNS — Guzel Hosting)
