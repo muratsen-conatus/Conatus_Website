@@ -16,7 +16,7 @@ export const siteConfig = {
 export const socialLinks = [
   {
     id: "linkedin" as const,
-    href: "https://www.linkedin.com/company/conatus",
+    href: "https://www.linkedin.com/company/conatussolutions/?viewAsMember=true",
     labelKey: "linkedin" as const,
   },
   {
