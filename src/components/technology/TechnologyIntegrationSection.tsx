@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { TechnologyIntegrationDiagram } from "@/components/technology/TechnologyIntegrationDiagram";
+import { TechnologyIntegrationHubVisual } from "@/components/technology/TechnologyIntegrationHubVisual";
+import { TechnologyVisualFrame } from "@/components/technology/TechnologyVisualFrame";
 
 const integrationKeys = ["internal", "external", "flexible"] as const;
 
@@ -17,9 +18,9 @@ export function TechnologyIntegrationSection() {
         />
 
         <div className="mt-12 grid w-full items-center gap-8 lg:grid-cols-[3fr_2fr] lg:gap-12">
-          <div className="min-w-0 overflow-hidden rounded-2xl border border-border/80 bg-surface-muted p-5 shadow-sm sm:p-8">
-            <TechnologyIntegrationDiagram className="w-full max-w-lg" />
-          </div>
+          <TechnologyVisualFrame className="aspect-square w-full min-h-[300px] lg:min-h-0">
+            <TechnologyIntegrationHubVisual className="max-w-md lg:max-w-lg" />
+          </TechnologyVisualFrame>
 
           <div className="min-w-0">
             <div className="w-full overflow-hidden rounded-3xl border border-brand-200/50 bg-gradient-to-br from-brand-50/80 via-brand-100/50 to-brand-50 shadow-sm">

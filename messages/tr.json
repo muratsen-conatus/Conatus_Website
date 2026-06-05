@@ -1444,20 +1444,10 @@
         "title": "Esnek veri ekosistemi",
         "description": "Her modül, ihtiyaç duyduğu veriyi CIP içindeki diğer modüllerden veya farklı marka uygulamalarından alabilir.",
         "panelHeading": "ENTEGRASYON — ESNEK VERİ EKOSİSTEMİ",
-        "diagram": {
-          "figureLabel": "CIP entegrasyon şeması: üç veri yolu",
-          "caption": "Üç kaynak tek platformda birleşir",
-          "path1Label": "PLATFORM",
-          "path2Label": "3. PARTİ",
-          "path3Label": "ÖZEL",
-          "centerTitle": "CIP",
-          "moduleA": "Kalite",
-          "moduleB": "Üretim",
-          "erp": "ERP",
-          "mes": "MES",
-          "bi": "BI",
-          "legacy": "Mevcut",
-          "bridge": "Köprü"
+        "hub": {
+          "figureLabel": "CIP entegrasyon hub: üç veri kaynağı platform merkezinde birleşir",
+          "caption": "Veri akışı CIP merkezinde toplanır",
+          "centerTitle": "CIP"
         },
         "items": {
           "internal": {

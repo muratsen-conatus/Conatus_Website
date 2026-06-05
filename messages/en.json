@@ -1444,20 +1444,10 @@
         "title": "A flexible data ecosystem",
         "description": "Each module can source the data it needs from other CIP modules or from third-party applications.",
         "panelHeading": "INTEGRATION — FLEXIBLE DATA ECOSYSTEM",
-        "diagram": {
-          "figureLabel": "CIP integration diagram: three data paths",
-          "caption": "Three sources converge in one platform",
-          "path1Label": "PLATFORM",
-          "path2Label": "3RD PARTY",
-          "path3Label": "CUSTOM",
-          "centerTitle": "CIP",
-          "moduleA": "Quality",
-          "moduleB": "Production",
-          "erp": "ERP",
-          "mes": "MES",
-          "bi": "BI",
-          "legacy": "Legacy",
-          "bridge": "Bridge"
+        "hub": {
+          "figureLabel": "CIP integration hub: three data sources converge at the platform core",
+          "caption": "Data flows converge at the CIP core",
+          "centerTitle": "CIP"
         },
         "items": {
           "internal": {

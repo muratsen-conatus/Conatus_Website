@@ -251,6 +251,22 @@
   }
 }
 
+@keyframes integration-hub-center-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 0 rgb(0 102 204 / 0.15),
+      0 8px 24px rgb(0 102 204 / 0.12);
+    border-color: rgb(0 102 204 / 0.45);
+  }
+  50% {
+    box-shadow:
+      0 0 0 10px rgb(0 102 204 / 0.06),
+      0 12px 32px rgb(0 102 204 / 0.2);
+    border-color: rgb(0 102 204 / 0.65);
+  }
+}
+
 @keyframes contact-grid-shift {
   0% {
     background-position: 0 0;
@@ -357,6 +373,64 @@
   .contact-visual-node-3 {
     animation: contact-node-pulse 5s ease-in-out infinite;
     animation-delay: -2s;
+  }
+
+  /* Teknoloji — entegrasyon hub görseli */
+  .integration-hub-grid {
+    background-image: radial-gradient(
+        circle at 1px 1px,
+        rgb(0 102 204 / 0.1) 1px,
+        transparent 0
+      ),
+      linear-gradient(rgb(0 102 204 / 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgb(0 102 204 / 0.035) 1px, transparent 1px);
+    background-size: 20px 20px, 40px 40px, 40px 40px;
+    animation: contact-grid-shift 28s linear infinite;
+  }
+
+  .integration-hub-orb-a {
+    animation: contact-orb-drift 16s ease-in-out infinite;
+  }
+
+  .integration-hub-orb-b {
+    animation: contact-orb-drift 20s ease-in-out infinite reverse;
+  }
+
+  .integration-hub-orbit-ring {
+    animation: contact-ring-spin 56s linear infinite;
+  }
+
+  .integration-hub-path {
+    stroke-dasharray: 90 420;
+    animation: contact-path-pulse 7s ease-in-out infinite;
+  }
+
+  .integration-hub-path-delay-2 {
+    animation-delay: -2.3s;
+  }
+
+  .integration-hub-path-delay-3 {
+    animation-delay: -4.6s;
+  }
+
+  .integration-hub-node {
+    animation: contact-chip-float 5.5s ease-in-out infinite;
+  }
+
+  .integration-hub-node-1 {
+    animation-delay: 0s;
+  }
+
+  .integration-hub-node-2 {
+    animation-delay: -1.8s;
+  }
+
+  .integration-hub-node-3 {
+    animation-delay: -3.6s;
+  }
+
+  .integration-hub-center {
+    animation: integration-hub-center-pulse 4.5s ease-in-out infinite;
   }
 
   /* Eğitim kartı görsel alanı */
@@ -732,6 +806,20 @@
     .contact-visual-root .contact-process-step-card,
     .contact-visual-root .contact-visual-grid {
       animation: none !important;
+    }
+
+    .integration-hub-root .integration-hub-orb,
+    .integration-hub-root .integration-hub-orbit-ring,
+    .integration-hub-root .integration-hub-path,
+    .integration-hub-root .integration-hub-node,
+    .integration-hub-root .integration-hub-center,
+    .integration-hub-root .integration-hub-grid,
+    .integration-hub-root .integration-hub-flow {
+      animation: none !important;
+    }
+
+    .integration-hub-root .integration-hub-flow {
+      opacity: 0;
     }
   }
 }
