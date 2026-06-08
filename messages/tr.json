@@ -109,22 +109,22 @@
       },
       "items": {
         "holistic": {
-          "title": "Bütüncül model",
-          "description": "Danışmanlık, eğitim ve teknoloji çözümlerini bütüncül bir model içerisinde ele alırız. Süreçleri parçalı değil, kurumun tamamını kapsayan sistematik bir yapı içinde kurgularız."
+          "title": "Otantik Toyota Deneyimi",
+          "description": "Metodolojimiz, Yalın felsefenin doğduğu Toyota kültürünün doğrudan bir yansımasıdır."
         },
         "field": {
-          "title": "Saha odaklılık",
-          "description": "Başarının ofislerde değil üretimin kalbinde kazanıldığına inanıyoruz. Sahada uygulanabilir, operasyonel gerçekliğe uyumlu ve sonuç üreten yapılar tasarlarız."
+          "title": "Sahada Birebir Uygulama",
+          "description": "Gerçek dönüşümün ancak sahada, birlikte mümkün olduğuna inanırız."
         },
         "measurable": {
-          "title": "Sürdürülebilir sonuç",
-          "description": "Her projede ölçülebilir iyileştirmeleri takip ediyor, dönüşümün kalıcı bir kültüre dönüşmesini sağlıyoruz."
+          "title": "Ölçülebilir Sonuçlar",
+          "description": "İyileştirmelerin etkisini somut rakamlarla ortaya koyar, başarıyı kanıtlarız."
         }
       }
     },
     "references": {
       "eyebrow": "Referanslar",
-      "title": "Referans Müşterilerimiz",
+      "title": "Referanslarımız",
       "description": "Danışmanlık, eğitim ve teknoloji projelerinde birlikte çalıştığımız kurumlar. Sahada ürettiğimiz sonuçlar, Conatus'un güvenilirliğinin ve uzmanlığının referansıdır.",
       "empty": "Referans logoları public/references/ klasörüne eklenecek."
     },
