@@ -9,7 +9,7 @@ function DetailBulletList({ items }: { items: string[] }) {
           className="flex gap-3 text-sm leading-relaxed text-foreground-muted sm:text-base"
         >
           <span
-            className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"
+            className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0066cc]"
             aria-hidden
           />
           <span>{item}</span>

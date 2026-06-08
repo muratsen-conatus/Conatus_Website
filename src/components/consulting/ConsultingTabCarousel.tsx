@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { useCallback, useEffect } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
 export type ConsultingTabSlide = {
@@ -17,30 +17,37 @@ export type ConsultingTabSlide = {
 
 type ConsultingTabCarouselProps = {
   slides: ConsultingTabSlide[];
-  activeIndex: number;
-  onActiveIndexChange: (index: number) => void;
   intervalMs?: number;
   className?: string;
 };
 
 export function ConsultingTabCarousel({
   slides,
-  activeIndex,
-  onActiveIndexChange,
   intervalMs = 6000,
   className,
 }: ConsultingTabCarouselProps) {
   const t = useTranslations("consulting.cases.carousel");
+  const [activeIndex, setActiveIndex] = useState(0);
   const count = slides.length;
   const safeIndex = count > 0 ? activeIndex % count : 0;
   const slide = slides[safeIndex];
 
+  useEffect(() => {
+    setActiveIndex(0);
+  }, [slides]);
+
+  useEffect(() => {
+    if (activeIndex >= count && count > 0) {
+      setActiveIndex(0);
+    }
+  }, [activeIndex, count]);
+
   const goTo = useCallback(
     (index: number) => {
       if (count === 0) return;
-      onActiveIndexChange((index + count) % count);
+      setActiveIndex((index + count) % count);
     },
-    [count, onActiveIndexChange],
+    [count],
   );
 
   const next = useCallback(() => goTo(safeIndex + 1), [goTo, safeIndex]);

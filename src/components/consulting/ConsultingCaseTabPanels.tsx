@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { BrandQuote } from "@/components/ui/BrandQuote";
 import {
   ConsultingTabCarousel,
@@ -24,29 +24,16 @@ export type ConsultingCaseTabId = (typeof TAB_IDS)[number];
 
 const PANEL_HEIGHT_CLASS = "h-[28rem] min-h-[28rem] max-h-[28rem]";
 
-function BulletList({
-  items,
-  activeIndex,
-}: {
-  items: string[];
-  activeIndex?: number;
-}) {
+function BulletList({ items }: { items: string[] }) {
   return (
     <ul className="space-y-2.5">
-      {items.map((item, index) => (
+      {items.map((item) => (
         <li
           key={item.slice(0, 56)}
-          className={cn(
-            "flex gap-2.5 rounded-lg px-2 py-1.5 text-sm leading-relaxed text-foreground-muted transition-colors",
-            activeIndex === index &&
-              "bg-brand-50/80 ring-1 ring-brand-200/70 text-foreground",
-          )}
+          className="flex gap-2.5 rounded-lg px-2 py-1.5 text-sm leading-relaxed text-foreground-muted"
         >
           <span
-            className={cn(
-              "mt-2 h-1.5 w-1.5 shrink-0 rounded-full",
-              activeIndex === index ? "bg-accent" : "bg-accent/70",
-            )}
+            className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0066cc]"
             aria-hidden
           />
           {item}
@@ -56,34 +43,25 @@ function BulletList({
   );
 }
 
-function SolutionPanel({
-  solution,
-  activeBlockIndex,
-}: {
-  solution: ConsultingCaseData["solution"];
-  activeBlockIndex?: number;
-}) {
+function SolutionPanel({ solution }: { solution: ConsultingCaseData["solution"] }) {
   return (
     <div className="space-y-4">
       <p className="text-sm leading-relaxed text-foreground-muted">
         {solution.intro}
       </p>
-      {solution.blocks?.map((block: ConsultingSolutionBlock, index) => (
-        <div
-          key={block.title}
-          className={cn(
-            "rounded-lg px-2 py-1 transition-colors",
-            activeBlockIndex === index &&
-              "bg-brand-50/80 ring-1 ring-brand-200/70",
-          )}
-        >
+      {solution.blocks?.map((block: ConsultingSolutionBlock) => (
+        <div key={block.title} className="rounded-lg px-2 py-1">
           <h4 className="text-sm font-bold text-foreground">{block.title}</h4>
           <ul className="mt-2 space-y-1.5">
             {block.items.map((entry) => (
               <li
                 key={entry.slice(0, 48)}
-                className="text-sm leading-relaxed text-foreground-muted"
+                className="flex gap-2.5 text-sm leading-relaxed text-foreground-muted"
               >
+                <span
+                  className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0066cc]"
+                  aria-hidden
+                />
                 {entry}
               </li>
             ))}
@@ -97,13 +75,7 @@ function SolutionPanel({
   );
 }
 
-function OutcomePanel({
-  outcomes,
-  activeItemIndex,
-}: {
-  outcomes: ConsultingCaseData["outcomes"];
-  activeItemIndex?: number;
-}) {
+function OutcomePanel({ outcomes }: { outcomes: ConsultingCaseData["outcomes"] }) {
   return (
     <div className="space-y-4">
       {outcomes.intro ? (
@@ -111,19 +83,9 @@ function OutcomePanel({
           {outcomes.intro}
         </p>
       ) : null}
-      {outcomes.items ? (
-        <BulletList items={outcomes.items} activeIndex={activeItemIndex} />
-      ) : null}
-      {outcomes.blocks?.map((block: ConsultingOutcomeBlock, index) => (
-        <div
-          key={block.title}
-          className={cn(
-            "rounded-lg px-2 py-1 transition-colors",
-            activeItemIndex === index &&
-              outcomes.items == null &&
-              "bg-brand-50/80 ring-1 ring-brand-200/70",
-          )}
-        >
+      {outcomes.items ? <BulletList items={outcomes.items} /> : null}
+      {outcomes.blocks?.map((block: ConsultingOutcomeBlock) => (
+        <div key={block.title} className="rounded-lg px-2 py-1">
           <h4 className="text-sm font-bold text-foreground">{block.title}</h4>
           <BulletList items={block.items} />
         </div>
@@ -246,7 +208,6 @@ export function ConsultingCaseTabPanels({
   const baseId = `consulting-case-${caseKey}`;
 
   const [activeTab, setActiveTab] = useState<ConsultingCaseTabId>("problem");
-  const [slideIndex, setSlideIndex] = useState(0);
 
   const slidesByTab = useMemo(
     () => ({
@@ -258,16 +219,6 @@ export function ConsultingCaseTabPanels({
   );
 
   const activeSlides = slidesByTab[activeTab];
-
-  useEffect(() => {
-    setSlideIndex(0);
-  }, [activeTab]);
-
-  useEffect(() => {
-    if (slideIndex >= activeSlides.length) {
-      setSlideIndex(0);
-    }
-  }, [activeSlides.length, slideIndex]);
 
   const focusTab = useCallback(
     (id: ConsultingCaseTabId) => {
@@ -308,11 +259,9 @@ export function ConsultingCaseTabPanels({
   };
 
   const rightContent: Record<ConsultingCaseTabId, React.ReactNode> = {
-    problem: <BulletList items={problems} activeIndex={slideIndex} />,
-    solution: (
-      <SolutionPanel solution={solution} activeBlockIndex={slideIndex} />
-    ),
-    outcome: <OutcomePanel outcomes={outcomes} activeItemIndex={slideIndex} />,
+    problem: <BulletList items={problems} />,
+    solution: <SolutionPanel solution={solution} />,
+    outcome: <OutcomePanel outcomes={outcomes} />,
   };
 
   return (
@@ -366,9 +315,8 @@ export function ConsultingCaseTabPanels({
         >
           <div className="flex min-h-0 flex-col border-b border-border/60 p-5 sm:p-6 lg:border-b-0 lg:border-r lg:py-6 lg:pr-5">
             <ConsultingTabCarousel
+              key={activeTab}
               slides={activeSlides}
-              activeIndex={slideIndex}
-              onActiveIndexChange={setSlideIndex}
               className="h-full"
             />
           </div>

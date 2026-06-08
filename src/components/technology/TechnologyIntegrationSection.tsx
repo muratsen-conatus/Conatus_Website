@@ -17,13 +17,13 @@ export function TechnologyIntegrationSection() {
           description={t("description")}
         />
 
-        <div className="mt-12 grid w-full items-center gap-8 lg:grid-cols-[3fr_2fr] lg:gap-12">
-          <TechnologyVisualFrame className="aspect-square w-full min-h-[300px] lg:min-h-0">
-            <TechnologyIntegrationHubVisual className="max-w-md lg:max-w-lg" />
+        <div className="mt-12 grid w-full items-stretch gap-8 lg:grid-cols-[3fr_2fr] lg:gap-12">
+          <TechnologyVisualFrame className="aspect-auto h-full w-full min-h-[300px] items-stretch justify-center">
+            <TechnologyIntegrationHubVisual className="h-full w-full" />
           </TechnologyVisualFrame>
 
-          <div className="min-w-0">
-            <div className="w-full overflow-hidden rounded-3xl border border-brand-200/50 bg-gradient-to-br from-brand-50/80 via-brand-100/50 to-brand-50 shadow-sm">
+          <div className="flex min-w-0 flex-col">
+            <div className="flex h-full w-full flex-col overflow-hidden rounded-3xl border border-brand-200/50 bg-gradient-to-br from-brand-50/80 via-brand-100/50 to-brand-50 shadow-sm">
               <div className="p-6 sm:p-8 lg:p-9">
                 <p className="text-xs font-semibold uppercase tracking-widest text-accent sm:text-sm">
                   {t("panelHeading")}

@@ -2,43 +2,29 @@ import type { ConsultingCaseKey } from "@/components/consulting/consulting-case-
 
 export type ConsultingTabKind = "problem" | "solution" | "outcome";
 
-/** Vaka başına döngüsel stock görseller (public/consulting/tabs) */
+/** Vaka başına döngüsel görsel havuzları (üretim/operasyon temalı) */
+const productionImagePool = [
+  // Üretim ekipmanı / hat görseli
+  "/technology/karakuri-conatus.jpg",
+  // Operasyon ve üretim süreçleri (diyagram/illustration)
+  "/technology/subsystems/production-management.png",
+  "/technology/subsystems/operations-management.png",
+  // Saha & uygulama odaklı görsel
+  "/technology/subsystems/field-management.png",
+  // Kalite & kart görseli (metin içermeyen varyant)
+  "/technology/subsystems/quality-card.png",
+  // Takım / yönetim panosu (üretimle ilgili görsel)
+  "/technology/subsystems/tool-management.png",
+] as const;
+
 const caseImagePools: Record<
   Exclude<ConsultingCaseKey, "deger">,
   readonly string[]
 > = {
-  capacity: [
-    "/consulting/tabs/capacity-1.jpg",
-    "/consulting/tabs/capacity-2.jpg",
-    "/consulting/tabs/capacity-3.jpg",
-    "/consulting/tabs/capacity-4.jpg",
-    "/consulting/tabs/capacity-5.jpg",
-    "/consulting/tabs/capacity-6.jpg",
-  ],
-  cph: [
-    "/consulting/tabs/cph-1.jpg",
-    "/consulting/tabs/cph-2.jpg",
-    "/consulting/tabs/cph-3.jpg",
-    "/consulting/tabs/cph-4.jpg",
-    "/consulting/tabs/cph-5.jpg",
-    "/consulting/tabs/cph-6.jpg",
-  ],
-  eph: [
-    "/consulting/tabs/eph-1.jpg",
-    "/consulting/tabs/eph-2.jpg",
-    "/consulting/tabs/eph-3.jpg",
-    "/consulting/tabs/eph-4.jpg",
-    "/consulting/tabs/eph-5.jpg",
-    "/consulting/tabs/eph-6.jpg",
-  ],
-  culture: [
-    "/consulting/tabs/culture-1.jpg",
-    "/consulting/tabs/culture-2.jpg",
-    "/consulting/tabs/culture-3.jpg",
-    "/consulting/tabs/culture-4.jpg",
-    "/consulting/tabs/culture-5.jpg",
-    "/consulting/tabs/culture-6.jpg",
-  ],
+  capacity: productionImagePool,
+  cph: productionImagePool,
+  eph: productionImagePool,
+  culture: productionImagePool,
 };
 
 const tabOffsets: Record<ConsultingTabKind, number> = {
@@ -74,7 +60,7 @@ export function getConsultingTabImage(
 
   const pool = caseImagePools[caseKey as keyof typeof caseImagePools];
   if (!pool?.length) {
-    return "/consulting/tabs/capacity-1.jpg";
+    return productionImagePool[0];
   }
   const index = (slideIndex + tabOffsets[tab]) % pool.length;
   return pool[index] ?? pool[0];

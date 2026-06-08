@@ -1,7 +1,7 @@
 "use client";
 
 import type { ComponentType } from "react";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import {
   ConsultingTabCarousel,
   type ConsultingTabSlide,
@@ -26,29 +26,16 @@ const tabIcons: Record<FeatureTabId, ComponentType<{ className?: string }>> = {
   premium: PremiumFeatureIcon,
 };
 
-function BulletList({
-  items,
-  activeIndex,
-}: {
-  items: string[];
-  activeIndex?: number;
-}) {
+function BulletList({ items }: { items: string[] }) {
   return (
     <ul className="space-y-2.5">
-      {items.map((item, index) => (
+      {items.map((item) => (
         <li
           key={item.slice(0, 56)}
-          className={cn(
-            "flex gap-2.5 rounded-lg px-2 py-1.5 text-sm leading-relaxed text-foreground-muted transition-colors",
-            activeIndex === index &&
-              "bg-brand-50/80 ring-1 ring-brand-200/70 text-foreground",
-          )}
+          className="flex gap-2.5 rounded-lg px-2 py-1.5 text-sm leading-relaxed text-foreground-muted"
         >
           <span
-            className={cn(
-              "mt-2 h-1.5 w-1.5 shrink-0 rounded-full",
-              activeIndex === index ? "bg-accent" : "bg-accent/70",
-            )}
+            className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0066cc]"
             aria-hidden
           />
           {item}
@@ -88,7 +75,6 @@ export function TechnologySubsystemFeatureTabPanels({
   const baseId = `tech-features-${subsystemId}`;
 
   const [activeTab, setActiveTab] = useState<FeatureTabId>("basic");
-  const [slideIndex, setSlideIndex] = useState(0);
 
   const slidesByTab = useMemo(
     () => ({
@@ -102,16 +88,6 @@ export function TechnologySubsystemFeatureTabPanels({
   const activeSlides = slidesByTab[activeTab];
   const activeItems = features[activeTab];
   const ActiveIcon = tabIcons[activeTab];
-
-  useEffect(() => {
-    setSlideIndex(0);
-  }, [activeTab]);
-
-  useEffect(() => {
-    if (slideIndex >= activeSlides.length) {
-      setSlideIndex(0);
-    }
-  }, [activeSlides.length, slideIndex]);
 
   const focusTab = useCallback(
     (id: FeatureTabId) => {
@@ -204,9 +180,8 @@ export function TechnologySubsystemFeatureTabPanels({
         >
           <div className="flex min-h-0 flex-col border-b border-border/60 p-5 sm:p-6 lg:border-b-0 lg:border-r lg:py-6 lg:pr-5">
             <ConsultingTabCarousel
+              key={activeTab}
               slides={activeSlides}
-              activeIndex={slideIndex}
-              onActiveIndexChange={setSlideIndex}
               className="h-full"
             />
           </div>
@@ -225,7 +200,7 @@ export function TechnologySubsystemFeatureTabPanels({
                 </p>
               </div>
             </div>
-            <BulletList items={activeItems} activeIndex={slideIndex} />
+            <BulletList items={activeItems} />
           </div>
         </div>
       </div>
