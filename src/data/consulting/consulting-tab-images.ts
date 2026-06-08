@@ -2,29 +2,36 @@ import type { ConsultingCaseKey } from "@/components/consulting/consulting-case-
 
 export type ConsultingTabKind = "problem" | "solution" | "outcome";
 
-/** Vaka başına döngüsel görsel havuzları (üretim/operasyon temalı) */
-const productionImagePool = [
-  // Üretim ekipmanı / hat görseli
+/** Danışmanlık sayfası — üretim ve saha odaklı görsel havuzu */
+export const consultingProductionImages = [
+  "/hero/slide-consulting.jpg",
   "/technology/karakuri-conatus.jpg",
-  // Operasyon ve üretim süreçleri (diyagram/illustration)
-  "/technology/subsystems/production-management.png",
-  "/technology/subsystems/operations-management.png",
-  // Saha & uygulama odaklı görsel
-  "/technology/subsystems/field-management.png",
-  // Kalite & kart görseli (metin içermeyen varyant)
-  "/technology/subsystems/quality-card.png",
-  // Takım / yönetim panosu (üretimle ilgili görsel)
-  "/technology/subsystems/tool-management.png",
+  "/technology/products/lines.jpg",
+  "/technology/products/fixtures.jpg",
+  "/technology/products/fixtures-v2.jpg",
+  "/technology/products/karakuri.jpg",
+  "/technology/products/custom.jpg",
+  "/why-us/slide-1.jpg",
+  "/why-us/slide-2.jpg",
+  "/why-us/slide-3.jpg",
+] as const;
+
+/** Kahraman bölümü carousel — öne çıkan üretim görselleri */
+export const consultingHeroSlideSources = [
+  "/hero/slide-consulting.jpg",
+  "/technology/karakuri-conatus.jpg",
+  "/technology/products/lines.jpg",
+  "/technology/products/fixtures-v2.jpg",
 ] as const;
 
 const caseImagePools: Record<
   Exclude<ConsultingCaseKey, "deger">,
   readonly string[]
 > = {
-  capacity: productionImagePool,
-  cph: productionImagePool,
-  eph: productionImagePool,
-  culture: productionImagePool,
+  capacity: consultingProductionImages,
+  cph: consultingProductionImages,
+  eph: consultingProductionImages,
+  culture: consultingProductionImages,
 };
 
 const tabOffsets: Record<ConsultingTabKind, number> = {
@@ -60,7 +67,7 @@ export function getConsultingTabImage(
 
   const pool = caseImagePools[caseKey as keyof typeof caseImagePools];
   if (!pool?.length) {
-    return productionImagePool[0];
+    return consultingProductionImages[0];
   }
   const index = (slideIndex + tabOffsets[tab]) % pool.length;
   return pool[index] ?? pool[0];

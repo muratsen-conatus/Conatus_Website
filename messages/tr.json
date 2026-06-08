@@ -366,6 +366,12 @@
       "title": "Karlılık ve verimlilik odaklı danışmanlık çözümlerimizle tanışın",
       "description": "Conatus çalışma modeli DEGER ile kurumsal ve operasyonel süreçlerinizi değerlendiriyor, size özel stratejilerle şirketinizin geleceğini şekillendiriyor ve dönüşüm yolculuğunun her anında rehberlik ediyoruz.",
       "cta": "Bize Ulaşın",
+      "slides": {
+        "consulting": "Danışmanlık — üretim sahası ve operasyonel iyileştirme",
+        "karakuri": "Karakuri üretim ekipmanı",
+        "lines": "Seri üretim hattı",
+        "fixtures": "Üretim fikstürleri ve hat düzenlemesi"
+      },
       "banner": {
         "eyebrow": "DEGER — Değerlendirme ve Gelişim Rehberi",
         "title": "Büyürken yavaşlamayın",

@@ -366,6 +366,12 @@
       "title": "Discover our profitability and efficiency-focused consulting solutions",
       "description": "Through our DEGER working model, we assess your corporate and operational processes, shape your company's future with tailored strategies, and guide you at every step of a productive transformation journey.",
       "cta": "Contact Us",
+      "slides": {
+        "consulting": "Consulting — shop floor and operational improvement",
+        "karakuri": "Karakuri production equipment",
+        "lines": "Serial production line",
+        "fixtures": "Production fixtures and line layout"
+      },
       "banner": {
         "eyebrow": "DEGER — Assessment and Development Guide",
         "title": "Don't slow down as you grow",
