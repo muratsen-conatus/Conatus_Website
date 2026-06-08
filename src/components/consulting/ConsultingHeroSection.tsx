@@ -1,29 +1,25 @@
 import { useTranslations } from "next-intl";
-import { HeroCarousel } from "@/components/home/HeroCarousel";
+import { ConsultingIcon } from "@/components/icons/ServiceIcons";
 import { HeroCtaButton } from "@/components/ui/HeroCtaButton";
 import { PageHero } from "@/components/ui/PageHero";
-import { consultingHeroSlideSources } from "@/data/consulting/consulting-tab-images";
-import { framedCarouselProps } from "@/lib/constants";
-
-const heroSlideAltKeys = ["consulting", "karakuri", "lines", "fixtures"] as const;
 
 export function ConsultingHeroSection() {
   const t = useTranslations("consulting.hero");
-  const tSlides = useTranslations("consulting.hero.slides");
-
-  const slides = consultingHeroSlideSources.map((src, index) => ({
-    src,
-    alt: tSlides(heroSlideAltKeys[index]),
-  }));
 
   return (
     <PageHero
-      asideAlign="start"
       eyebrow={t("eyebrow")}
       title={t("title")}
       description={t("description")}
       actions={<HeroCtaButton label={t("cta")} />}
-      aside={<HeroCarousel slides={slides} {...framedCarouselProps} className="w-full" />}
+      aside={
+        <div
+          className="flex h-40 w-40 items-center justify-center rounded-3xl border border-brand-200/60 bg-gradient-to-br from-brand-50 via-brand-100/50 to-brand-50 text-accent shadow-lg shadow-brand-600/10 sm:h-48 sm:w-48"
+          aria-hidden
+        >
+          <ConsultingIcon className="h-20 w-20 sm:h-24 sm:w-24" />
+        </div>
+      }
     />
   );
 }

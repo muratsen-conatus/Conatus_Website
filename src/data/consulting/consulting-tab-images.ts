@@ -16,14 +16,6 @@ export const consultingProductionImages = [
   "/why-us/slide-3.jpg",
 ] as const;
 
-/** Kahraman bölümü carousel — öne çıkan üretim görselleri */
-export const consultingHeroSlideSources = [
-  "/hero/slide-consulting.jpg",
-  "/technology/karakuri-conatus.jpg",
-  "/technology/products/lines.jpg",
-  "/technology/products/fixtures-v2.jpg",
-] as const;
-
 const caseImagePools: Record<
   Exclude<ConsultingCaseKey, "deger">,
   readonly string[]
